@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compensation &amp; Growth — Focus Handbook</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+</head>
+<body>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="layout">
+    <nav class="sidebar">
+      <div class="sidebar-header">
+        <a href="../index.html" class="sidebar-logo">
+          <div class="logo-icon">F</div>
+          <span>Focus Handbook</span>
+        </a>
+      </div>
+      <div class="sidebar-search">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" placeholder="Search... ( / )">
+      </div>
+      <div class="sidebar-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="employee">Employees</button>
+        <button class="filter-btn" data-filter="contractor">Contractors</button>
+      </div>
+      <div class="sidebar-nav">
+        <div class="nav-group">
+          <div class="nav-group-title">Getting Started</div>
+          <a class="nav-link" href="welcome.html" data-audience="all">Welcome</a>
+          <a class="nav-link" href="onboarding.html" data-audience="all">Onboarding</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">How We Work</div>
+          <a class="nav-link" href="how-we-work.html" data-audience="all">Communication &amp; Availability</a>
+          <a class="nav-link" href="management.html" data-audience="all">Management &amp; Mentorship</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Employment</div>
+          <a class="nav-link" href="employment.html" data-audience="employee">Categories &amp; Policies</a>
+          <a class="nav-link" href="performance.html" data-audience="all">Performance &amp; Expectations</a>
+          <a class="nav-link" href="compensation.html" data-audience="employee">Compensation &amp; Growth</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Benefits &amp; Time Off</div>
+          <a class="nav-link" href="benefits.html" data-audience="employee">Benefits</a>
+          <a class="nav-link" href="time-off.html" data-audience="employee">Time Off &amp; Leave</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Workplace Policies</div>
+          <a class="nav-link" href="workplace.html" data-audience="all">Conduct &amp; Ethics</a>
+          <a class="nav-link" href="technology.html" data-audience="all">Technology &amp; Remote Work</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Contractors</div>
+          <a class="nav-link" href="contractors.html" data-audience="contractor">Contractor Policies</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">State &amp; Local Policies</div>
+          <a class="nav-link nav-toggle" href="#">State Policies <span class="chevron">&#9656;</span></a>
+          <div class="nav-submenu">
+            <a class="nav-link" href="states/arizona.html" data-audience="employee">Arizona</a>
+            <a class="nav-link" href="states/california.html" data-audience="employee">California</a>
+            <a class="nav-link" href="states/dc.html" data-audience="employee">District of Columbia</a>
+            <a class="nav-link" href="states/delaware.html" data-audience="employee">Delaware</a>
+            <a class="nav-link" href="states/florida.html" data-audience="employee">Florida</a>
+            <a class="nav-link" href="states/maryland.html" data-audience="employee">Maryland</a>
+            <a class="nav-link" href="states/new-jersey.html" data-audience="employee">New Jersey</a>
+            <a class="nav-link" href="states/new-york.html" data-audience="employee">New York</a>
+            <a class="nav-link" href="states/vermont.html" data-audience="employee">Vermont</a>
+            <a class="nav-link" href="states/virginia.html" data-audience="employee">Virginia</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <a class="nav-link" href="acknowledgment.html" data-audience="all">Acknowledgment</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="content">
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a>
+          <span class="sep">/</span>
+          <span>Compensation &amp; Growth</span>
+        </div>
+
+        <div class="page-header">
+          <span class="badge badge-employee">Employees</span>
+          <h1>Compensation &amp; Growth</h1>
+          <p class="subtitle">How Focus approaches bonuses, raises, promotions, and career development.</p>
+        </div>
+
+        <div class="toc">
+          <div class="toc-title">On This Page</div>
+          <ul>
+            <li><a href="#payroll">Payroll</a></li>
+            <li><a href="#bonus">Discretionary Bonus Policy</a></li>
+            <li><a href="#raises">Raises</a></li>
+            <li><a href="#promotions">Promotions</a></li>
+            <li><a href="#referral">Referral Bonus</a></li>
+            <li><a href="#reimbursement">Business Expense Reimbursement</a></li>
+          </ul>
+        </div>
+
+        <h2 id="payroll">Payroll</h2>
+        <p>All employees receive monthly compensation. The company deducts Social Security, federal income tax, and other taxes as required by law. Focus encourages all employees to enroll in direct deposit for salary distribution.</p>
+        <p>Non-exempt employees who work beyond their regular schedule will receive overtime compensation per applicable state and federal laws.</p>
+
+        <h2 id="bonus">Discretionary Bonus Policy</h2>
+        <p>Focus offers discretionary bonuses based on measurable outcomes that directly contribute to the company's growth and success. Bonuses are not capped at a fixed percentage of base salary — they are determined by the impact of your contributions.</p>
+
+        <h3>Eligibility</h3>
+        <ul>
+          <li>W2 employees who have been at Focus for at least 4 months by December 31 of the performance year</li>
+          <li>Bonuses are discretionary and subject to yearly leadership review</li>
+        </ul>
+
+        <h3>Bonus Pool</h3>
+        <p>The bonus pool is determined annually based on company revenues and profitability. Payouts are made in January following the performance year.</p>
+
+        <h3>Outcome Categories</h3>
+        <p>Bonuses are awarded based on demonstrated outcomes in the following areas:</p>
+
+        <h4>Business Development Contributions</h4>
+        <p>Direct contributions to winning new work, including market research, proposal writing, capture management, presentations, and client relationship building that leads to new contracts.</p>
+
+        <h4>Organic Growth Through Delivery Excellence</h4>
+        <p>When your delivery work leads to expanded scopes, follow-on contracts, or new opportunities with existing clients. This includes stakeholder recognition of your contributions and client satisfaction that leads to organic business growth.</p>
+
+        <h4>Contributions to Hiring and Recruiting</h4>
+        <p>Sourcing candidates, participating in interviews, supporting onboarding, and helping build the team. This goes beyond the referral bonus and recognizes sustained effort in growing Focus's talent base.</p>
+
+        <h3>Company-Level Outcomes</h3>
+        <p>Leadership also evaluates contributions against three company-level outcomes:</p>
+        <table>
+          <thead>
+            <tr><th>Outcome</th><th>What It Means</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Builds Our Brand</strong></td>
+              <td>Stakeholders recognize and value your contributions. At the highest level, clients trust you and are likely to recommend Focus based on your work.</td>
+            </tr>
+            <tr>
+              <td><strong>Wins New Business</strong></td>
+              <td>Your contributions to business development lead to competitive wins. At the highest level, work you contributed to is actually awarded.</td>
+            </tr>
+            <tr>
+              <td><strong>Helps Us Scale</strong></td>
+              <td>You mentor, onboard, or manage colleagues in ways that reduce leadership overhead. At the highest level, your contributions create efficiency improvements across the organization.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 id="raises">Raises</h2>
+        <p>Focus conducts annual compensation reviews throughout the year.</p>
+
+        <h3>How Compensation Is Determined</h3>
+        <ul>
+          <li><strong>Years of experience (YOE)</strong> in the specific role you were hired for guides compensation discussions — this is distinct from total career experience across all roles</li>
+          <li><strong>Raise eligibility</strong> is reviewed for employees who have been at Focus for 18 or more months</li>
+          <li><strong>Adjustments</strong> are contingent on role and labor category (LCAT) availability on your current contract, as well as your performance calibration against the career ladder</li>
+        </ul>
+
+        <div class="info-box">
+          <div class="info-box-title">Note on Contract-Based Roles</div>
+          Because Focus operates primarily through government contracts, compensation adjustments may depend on the availability of an appropriate labor category on your current contract or another project within the company. If a higher-level LCAT is not currently available, a raise or promotion may be deferred until one becomes available.
+        </div>
+
+        <h2 id="promotions">Promotions</h2>
+        <p>Promotions at Focus are tied to two factors:</p>
+        <ol>
+          <li><strong>Performance calibration</strong> against the career ladder — demonstrated readiness for the next level based on delivery quality, colleague feedback, and project artifacts</li>
+          <li><strong>Role availability</strong> — an appropriate LCAT must be available on your current contract or elsewhere in the company</li>
+        </ol>
+
+        <h3>Career Levels</h3>
+        <table>
+          <thead>
+            <tr><th>Level</th><th>Description</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Mid-Level</td><td>Solid contributor with developing expertise in their discipline. Executes well with guidance.</td></tr>
+            <tr><td>Senior</td><td>Independent contributor with deep expertise. Leads workstreams and mentors others.</td></tr>
+            <tr><td>Staff</td><td>Cross-team impact. Drives technical or strategic direction across projects.</td></tr>
+            <tr><td>Principal</td><td>Company-wide influence. Shapes practices, wins business, and sets standards.</td></tr>
+            <tr><td>Director</td><td>Organizational leadership. Owns portfolio-level outcomes and team health.</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Evaluation Criteria</h3>
+        <p>Promotion decisions consider:</p>
+        <ul>
+          <li>Colleague feedback and peer evaluations</li>
+          <li>Async check-in performance over time</li>
+          <li>Project artifacts and delivery outcomes</li>
+          <li>Contributions to company-level outcomes (brand building, business development, scaling)</li>
+        </ul>
+
+        <h2 id="referral">Referral Bonus</h2>
+        <p>Focus values employee referrals as a key hiring channel. The referral bonus is structured as follows:</p>
+        <ul>
+          <li><strong>$1,500</strong> awarded upon the referred candidate's successful hire and start date</li>
+          <li><strong>$1,500</strong> additional bonus after the referred employee completes 6 months of employment</li>
+        </ul>
+        <p>Total potential referral bonus: <strong>$3,000</strong> per successful referral.</p>
+
+        <h2 id="reimbursement">Business Expense Reimbursement</h2>
+        <p>Reasonable business expenses that are pre-approved by your manager are eligible for reimbursement. All expenses must be documented and submitted with receipts.</p>
+        <p>Professional development expenses up to <strong>$1,000 per year</strong> are available for continuing education, certifications, conferences, and other upskilling activities.</p>
+
+        <div class="page-footer">
+          <span>Last updated: April 2026</span>
+          <span>&copy; Focus Consulting LLC</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>

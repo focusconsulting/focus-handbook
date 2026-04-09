@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Consulting — Employee Handbook</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/nav.js" defer></script>
+</head>
+<body>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+
+  <div class="layout">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="sidebar-header">
+        <a href="index.html" class="sidebar-logo">
+          <div class="logo-icon">F</div>
+          <span>Focus Handbook</span>
+        </a>
+      </div>
+
+      <div class="sidebar-search">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" placeholder="Search... ( / )">
+      </div>
+
+      <div class="sidebar-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="employee">Employees</button>
+        <button class="filter-btn" data-filter="contractor">Contractors</button>
+      </div>
+
+      <div class="sidebar-nav">
+        <div class="nav-group">
+          <div class="nav-group-title">Getting Started</div>
+          <a class="nav-link" href="pages/welcome.html" data-audience="all">Welcome</a>
+          <a class="nav-link" href="pages/onboarding.html" data-audience="all">Onboarding</a>
+        </div>
+
+        <div class="nav-group">
+          <div class="nav-group-title">How We Work</div>
+          <a class="nav-link" href="pages/how-we-work.html" data-audience="all">Communication &amp; Availability</a>
+          <a class="nav-link" href="pages/management.html" data-audience="all">Management &amp; Mentorship</a>
+        </div>
+
+        <div class="nav-group">
+          <div class="nav-group-title">Employment</div>
+          <a class="nav-link" href="pages/employment.html" data-audience="employee">Categories &amp; Policies</a>
+          <a class="nav-link" href="pages/performance.html" data-audience="all">Performance &amp; Expectations</a>
+          <a class="nav-link" href="pages/compensation.html" data-audience="employee">Compensation &amp; Growth</a>
+        </div>
+
+        <div class="nav-group">
+          <div class="nav-group-title">Benefits &amp; Time Off</div>
+          <a class="nav-link" href="pages/benefits.html" data-audience="employee">Benefits</a>
+          <a class="nav-link" href="pages/time-off.html" data-audience="employee">Time Off &amp; Leave</a>
+        </div>
+
+        <div class="nav-group">
+          <div class="nav-group-title">Workplace Policies</div>
+          <a class="nav-link" href="pages/workplace.html" data-audience="all">Conduct &amp; Ethics</a>
+          <a class="nav-link" href="pages/technology.html" data-audience="all">Technology &amp; Remote Work</a>
+        </div>
+
+        <div class="nav-group">
+          <div class="nav-group-title">Contractors</div>
+          <a class="nav-link" href="pages/contractors.html" data-audience="contractor">Contractor Policies</a>
+        </div>
+
+        <div class="nav-group">
+          <div class="nav-group-title">State &amp; Local Policies</div>
+          <a class="nav-link nav-toggle" href="#">
+            State Policies
+            <span class="chevron">&#9656;</span>
+          </a>
+          <div class="nav-submenu">
+            <a class="nav-link" href="pages/states/arizona.html" data-audience="employee">Arizona</a>
+            <a class="nav-link" href="pages/states/california.html" data-audience="employee">California</a>
+            <a class="nav-link" href="pages/states/dc.html" data-audience="employee">District of Columbia</a>
+            <a class="nav-link" href="pages/states/delaware.html" data-audience="employee">Delaware</a>
+            <a class="nav-link" href="pages/states/florida.html" data-audience="employee">Florida</a>
+            <a class="nav-link" href="pages/states/maryland.html" data-audience="employee">Maryland</a>
+            <a class="nav-link" href="pages/states/new-jersey.html" data-audience="employee">New Jersey</a>
+            <a class="nav-link" href="pages/states/new-york.html" data-audience="employee">New York</a>
+            <a class="nav-link" href="pages/states/vermont.html" data-audience="employee">Vermont</a>
+            <a class="nav-link" href="pages/states/virginia.html" data-audience="employee">Virginia</a>
+          </div>
+        </div>
+
+        <div class="nav-group">
+          <a class="nav-link" href="pages/acknowledgment.html" data-audience="all">Acknowledgment</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+      <div class="content">
+        <div class="hero">
+          <h1>Focus Consulting Handbook</h1>
+          <p class="subtitle">Your guide to policies, benefits, and how we work together to deliver impactful digital services.</p>
+          <div class="hero-search">
+            <span class="search-icon">&#128269;</span>
+            <input type="text" placeholder="Search the handbook...">
+            <span class="shortcut-hint">/</span>
+          </div>
+        </div>
+
+        <div class="cards-grid">
+          <a class="card" href="pages/welcome.html">
+            <span class="badge badge-all">All Staff</span>
+            <div class="card-title">Welcome to Focus</div>
+            <div class="card-desc">Our mission, values, leadership team, and what makes Focus different.</div>
+          </a>
+
+          <a class="card" href="pages/onboarding.html">
+            <span class="badge badge-all">All Staff</span>
+            <div class="card-title">Onboarding</div>
+            <div class="card-desc">Your first 90 days — what to expect, who to meet, and how to get set up.</div>
+          </a>
+
+          <a class="card" href="pages/how-we-work.html">
+            <span class="badge badge-all">All Staff</span>
+            <div class="card-title">How We Work</div>
+            <div class="card-desc">Communication norms, availability expectations, meetings, and our delivery approach.</div>
+          </a>
+
+          <a class="card" href="pages/benefits.html">
+            <span class="badge badge-employee">Employees</span>
+            <div class="card-title">Benefits</div>
+            <div class="card-desc">Health, dental, vision, 401(k), FSA, life insurance, and professional development.</div>
+          </a>
+
+          <a class="card" href="pages/compensation.html">
+            <span class="badge badge-employee">Employees</span>
+            <div class="card-title">Compensation &amp; Growth</div>
+            <div class="card-desc">Bonus policy, raises, promotions, and career development at Focus.</div>
+          </a>
+
+          <a class="card" href="pages/time-off.html">
+            <span class="badge badge-employee">Employees</span>
+            <div class="card-title">Time Off &amp; Leave</div>
+            <div class="card-desc">PTO, sick leave, holidays, FMLA, and other leave policies.</div>
+          </a>
+
+          <a class="card" href="pages/workplace.html">
+            <span class="badge badge-all">All Staff</span>
+            <div class="card-title">Workplace Policies</div>
+            <div class="card-desc">Professional conduct, ethics, harassment prevention, and workplace safety.</div>
+          </a>
+
+          <a class="card" href="pages/contractors.html">
+            <span class="badge badge-contractor">Contractors</span>
+            <div class="card-title">Contractor Policies</div>
+            <div class="card-desc">Billing, invoicing, external work, and contractor-specific expectations.</div>
+          </a>
+        </div>
+
+        <div class="page-footer">
+          <span>&copy; Focus Consulting LLC 2025. All rights reserved.</span>
+          <span>1015 15th St NW, Suite 600, Washington, DC 20005</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>

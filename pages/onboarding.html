@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onboarding — Focus Handbook</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+</head>
+<body>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="layout">
+    <nav class="sidebar">
+      <div class="sidebar-header"><a href="../index.html" class="sidebar-logo"><div class="logo-icon">F</div><span>Focus Handbook</span></a></div>
+      <div class="sidebar-search"><span class="search-icon">&#128269;</span><input type="text" placeholder="Search... ( / )"></div>
+      <div class="sidebar-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="employee">Employees</button>
+        <button class="filter-btn" data-filter="contractor">Contractors</button>
+      </div>
+      <div class="sidebar-nav">
+        <div class="nav-group"><div class="nav-group-title">Getting Started</div><a class="nav-link" href="welcome.html" data-audience="all">Welcome</a><a class="nav-link" href="onboarding.html" data-audience="all">Onboarding</a></div>
+        <div class="nav-group"><div class="nav-group-title">How We Work</div><a class="nav-link" href="how-we-work.html" data-audience="all">Communication &amp; Availability</a><a class="nav-link" href="management.html" data-audience="all">Management &amp; Mentorship</a></div>
+        <div class="nav-group"><div class="nav-group-title">Employment</div><a class="nav-link" href="employment.html" data-audience="employee">Categories &amp; Policies</a><a class="nav-link" href="performance.html" data-audience="all">Performance &amp; Expectations</a><a class="nav-link" href="compensation.html" data-audience="employee">Compensation &amp; Growth</a></div>
+        <div class="nav-group"><div class="nav-group-title">Benefits &amp; Time Off</div><a class="nav-link" href="benefits.html" data-audience="employee">Benefits</a><a class="nav-link" href="time-off.html" data-audience="employee">Time Off &amp; Leave</a></div>
+        <div class="nav-group"><div class="nav-group-title">Workplace Policies</div><a class="nav-link" href="workplace.html" data-audience="all">Conduct &amp; Ethics</a><a class="nav-link" href="technology.html" data-audience="all">Technology &amp; Remote Work</a></div>
+        <div class="nav-group"><div class="nav-group-title">Contractors</div><a class="nav-link" href="contractors.html" data-audience="contractor">Contractor Policies</a></div>
+        <div class="nav-group"><div class="nav-group-title">State &amp; Local Policies</div><a class="nav-link nav-toggle" href="#">State Policies <span class="chevron">&#9656;</span></a><div class="nav-submenu"><a class="nav-link" href="states/arizona.html" data-audience="employee">Arizona</a><a class="nav-link" href="states/california.html" data-audience="employee">California</a><a class="nav-link" href="states/dc.html" data-audience="employee">District of Columbia</a><a class="nav-link" href="states/delaware.html" data-audience="employee">Delaware</a><a class="nav-link" href="states/florida.html" data-audience="employee">Florida</a><a class="nav-link" href="states/maryland.html" data-audience="employee">Maryland</a><a class="nav-link" href="states/new-jersey.html" data-audience="employee">New Jersey</a><a class="nav-link" href="states/new-york.html" data-audience="employee">New York</a><a class="nav-link" href="states/vermont.html" data-audience="employee">Vermont</a><a class="nav-link" href="states/virginia.html" data-audience="employee">Virginia</a></div></div>
+        <div class="nav-group"><a class="nav-link" href="acknowledgment.html" data-audience="all">Acknowledgment</a></div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="content">
+        <div class="breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><span>Onboarding</span></div>
+
+        <div class="page-header">
+          <span class="badge badge-all">All Staff</span>
+          <h1>Onboarding</h1>
+          <p class="subtitle">Your first months at Focus — what to expect, who to connect with, and how to get up to speed.</p>
+        </div>
+
+        <div class="toc">
+          <div class="toc-title">On This Page</div>
+          <ul>
+            <li><a href="#overview">Onboarding Overview</a></li>
+            <li><a href="#first-week">Your First Week</a></li>
+            <li><a href="#first-month">First 30 Days</a></li>
+            <li><a href="#90-days">30–90 Days</a></li>
+            <li><a href="#records">Employment Records</a></li>
+          </ul>
+        </div>
+
+        <h2 id="overview">Onboarding Overview</h2>
+        <p>Focus uses a structured 2–3 month onboarding plan for all new staff. The goal is to give you the context, relationships, and tools you need to contribute effectively. Earlier-career employees may receive extended ramp-up time with additional mentorship and guidance.</p>
+
+        <div class="info-box">
+          <div class="info-box-title">Onboarding Owner</div>
+          The onboarding program is managed by the Chief Delivery Officer. Your project lead and assigned mentor will guide you through day-to-day onboarding on your specific project.
+        </div>
+
+        <h2 id="first-week">Your First Week</h2>
+        <p>During your first week, expect to:</p>
+        <ul>
+          <li>Meet with People Operations to complete paperwork, benefits enrollment, and system access</li>
+          <li>Get introduced to your project team, mentor, and key stakeholders</li>
+          <li>Receive access to all necessary tools and platforms (Slack, email, project management tools, repositories)</li>
+          <li>Review this handbook and acknowledge receipt</li>
+          <li>Attend an orientation session covering Focus's mission, values, and delivery approach</li>
+          <li>Set up your development environment (if applicable)</li>
+        </ul>
+
+        <h2 id="first-month">First 30 Days</h2>
+        <p>During the first month, you should focus on:</p>
+        <ul>
+          <li>Understanding the project context — who the client is, what the system does, and where the team is in the delivery lifecycle</li>
+          <li>Building relationships with your immediate team and cross-functional partners</li>
+          <li>Getting comfortable with the team's communication norms and meeting cadence</li>
+          <li>Starting to contribute to your first tasks with guidance from your mentor or tech lead</li>
+          <li>Completing any required training or compliance certifications</li>
+        </ul>
+
+        <h2 id="90-days">30–90 Days</h2>
+        <p>By the end of your first 90 days, the expectation is that you are:</p>
+        <ul>
+          <li>Contributing independently to project work with decreasing guidance</li>
+          <li>Familiar with Focus's delivery approach and communication norms</li>
+          <li>Integrated into team rituals (standups, retros, demos, planning)</li>
+          <li>Building productive working relationships with clients and stakeholders</li>
+          <li>Comfortable raising blockers and asking for help proactively</li>
+        </ul>
+
+        <div class="info-box">
+          <div class="info-box-title">Introductory Period</div>
+          New W2 employees have a 90-day introductory period to demonstrate performance suitability. The company may extend this period if needed. Contractors begin their engagement with a similar 90-day contract-to-hire period before potential conversion to full-time.
+        </div>
+
+        <h2 id="records">Employment Records</h2>
+        <p>All employees must provide personal information including legal name, address, and contact details during onboarding. Changes to personal information must be reported promptly to People Operations, as they affect tax withholding and benefits eligibility.</p>
+        <p>The company maintains personnel and payroll records, including your name, address, phone number, insurance information, tax details, and emergency contacts. It is your responsibility to keep this information current.</p>
+
+        <div class="page-footer">
+          <span>Last updated: April 2026</span>
+          <span>&copy; Focus Consulting LLC</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benefits — Focus Handbook</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+</head>
+<body>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="layout">
+    <nav class="sidebar">
+      <div class="sidebar-header"><a href="../index.html" class="sidebar-logo"><div class="logo-icon">F</div><span>Focus Handbook</span></a></div>
+      <div class="sidebar-search"><span class="search-icon">&#128269;</span><input type="text" placeholder="Search... ( / )"></div>
+      <div class="sidebar-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="employee">Employees</button><button class="filter-btn" data-filter="contractor">Contractors</button></div>
+      <div class="sidebar-nav">
+        <div class="nav-group"><div class="nav-group-title">Getting Started</div><a class="nav-link" href="welcome.html" data-audience="all">Welcome</a><a class="nav-link" href="onboarding.html" data-audience="all">Onboarding</a></div>
+        <div class="nav-group"><div class="nav-group-title">How We Work</div><a class="nav-link" href="how-we-work.html" data-audience="all">Communication &amp; Availability</a><a class="nav-link" href="management.html" data-audience="all">Management &amp; Mentorship</a></div>
+        <div class="nav-group"><div class="nav-group-title">Employment</div><a class="nav-link" href="employment.html" data-audience="employee">Categories &amp; Policies</a><a class="nav-link" href="performance.html" data-audience="all">Performance &amp; Expectations</a><a class="nav-link" href="compensation.html" data-audience="employee">Compensation &amp; Growth</a></div>
+        <div class="nav-group"><div class="nav-group-title">Benefits &amp; Time Off</div><a class="nav-link" href="benefits.html" data-audience="employee">Benefits</a><a class="nav-link" href="time-off.html" data-audience="employee">Time Off &amp; Leave</a></div>
+        <div class="nav-group"><div class="nav-group-title">Workplace Policies</div><a class="nav-link" href="workplace.html" data-audience="all">Conduct &amp; Ethics</a><a class="nav-link" href="technology.html" data-audience="all">Technology &amp; Remote Work</a></div>
+        <div class="nav-group"><div class="nav-group-title">Contractors</div><a class="nav-link" href="contractors.html" data-audience="contractor">Contractor Policies</a></div>
+        <div class="nav-group"><div class="nav-group-title">State &amp; Local Policies</div><a class="nav-link nav-toggle" href="#">State Policies <span class="chevron">&#9656;</span></a><div class="nav-submenu"><a class="nav-link" href="states/arizona.html" data-audience="employee">Arizona</a><a class="nav-link" href="states/california.html" data-audience="employee">California</a><a class="nav-link" href="states/dc.html" data-audience="employee">District of Columbia</a><a class="nav-link" href="states/delaware.html" data-audience="employee">Delaware</a><a class="nav-link" href="states/florida.html" data-audience="employee">Florida</a><a class="nav-link" href="states/maryland.html" data-audience="employee">Maryland</a><a class="nav-link" href="states/new-jersey.html" data-audience="employee">New Jersey</a><a class="nav-link" href="states/new-york.html" data-audience="employee">New York</a><a class="nav-link" href="states/vermont.html" data-audience="employee">Vermont</a><a class="nav-link" href="states/virginia.html" data-audience="employee">Virginia</a></div></div>
+        <div class="nav-group"><a class="nav-link" href="acknowledgment.html" data-audience="all">Acknowledgment</a></div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="content">
+        <div class="breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><span>Benefits</span></div>
+
+        <div class="page-header">
+          <span class="badge badge-employee">Employees</span>
+          <h1>Benefits</h1>
+          <p class="subtitle">Health insurance, retirement, professional development, and other benefits available to full-time employees.</p>
+        </div>
+
+        <div class="toc">
+          <div class="toc-title">On This Page</div>
+          <ul>
+            <li><a href="#eligibility">Eligibility</a></li>
+            <li><a href="#health">Health Insurance</a></li>
+            <li><a href="#dental">Dental Insurance</a></li>
+            <li><a href="#vision">Vision Insurance</a></li>
+            <li><a href="#life">Life &amp; Disability Insurance</a></li>
+            <li><a href="#retirement">Retirement Plan (401k)</a></li>
+            <li><a href="#fsa">Flexible Spending Accounts</a></li>
+            <li><a href="#upskilling">Professional Development</a></li>
+          </ul>
+        </div>
+
+        <div class="info-box">
+          <div class="info-box-title">Note</div>
+          This section provides a summary of Focus's benefits. Formal plan documents govern in cases of inconsistency between this summary and plan terms. Contact People Operations for detailed plan information.
+        </div>
+
+        <h2 id="eligibility">Eligibility</h2>
+        <p>Full-time W2 employees become eligible for benefits on the first of the month following their hire date. Contractors are not eligible for company benefits.</p>
+
+        <h2 id="health">Health Insurance</h2>
+        <p>Focus provides health insurance through <strong>CareFirst via DC Health Link</strong>.</p>
+        <ul>
+          <li><strong>59 plans</strong> available for employees in the MD/DC/Northern VA area</li>
+          <li><strong>23 plans</strong> available for employees outside the local area (national plans)</li>
+          <li>Coverage begins the 1st of the month following your hire date</li>
+        </ul>
+        <p>Contact People Operations for the full list of available plans based on your location.</p>
+
+        <h2 id="dental">Dental Insurance</h2>
+        <p>Dental coverage is provided through <strong>Beam Dental</strong>.</p>
+        <table>
+          <thead><tr><th>Coverage Tier</th><th>Employee Cost (after Focus contribution)</th></tr></thead>
+          <tbody>
+            <tr><td>Employee Only</td><td>$21.26/month</td></tr>
+            <tr><td>Employee + Family</td><td>Up to $60.67/month</td></tr>
+          </tbody>
+        </table>
+        <p>Plan highlights:</p>
+        <ul>
+          <li>$0 deductible for preventive services</li>
+          <li>$50 individual deductible for other care</li>
+          <li>PPO plan with in-network and out-of-network coverage</li>
+        </ul>
+
+        <h2 id="vision">Vision Insurance</h2>
+        <p>Vision coverage is provided through <strong>Beam Vision</strong>.</p>
+        <table>
+          <thead><tr><th>Coverage Tier</th><th>Employee Cost</th></tr></thead>
+          <tbody>
+            <tr><td>Employee Only</td><td>$4.28/month</td></tr>
+            <tr><td>Employee + Family</td><td>Up to $14.41/month</td></tr>
+          </tbody>
+        </table>
+        <p>Plan highlights:</p>
+        <ul>
+          <li>$10 copay for eye exams</li>
+          <li>$10 copay for materials (lenses and frames)</li>
+        </ul>
+
+        <h2 id="life">Life &amp; Disability Insurance</h2>
+        <p>Focus provides the following coverage at <strong>no cost to employees</strong>, through Principal:</p>
+        <table>
+          <thead><tr><th>Benefit</th><th>Coverage</th></tr></thead>
+          <tbody>
+            <tr><td>Life Insurance / AD&amp;D</td><td>$200,000 benefit</td></tr>
+            <tr><td>Short-Term Disability</td><td>60% of pre-disability earnings</td></tr>
+            <tr><td>Long-Term Disability</td><td>60% of pre-disability earnings</td></tr>
+          </tbody>
+        </table>
+
+        <h2 id="retirement">Retirement Plan (401k)</h2>
+        <ul>
+          <li>Auto-enrollment at <strong>3% of salary</strong> (you may adjust or opt out)</li>
+          <li>Both pre-tax and post-tax (Roth) contribution options available</li>
+          <li>No employer match at this time</li>
+          <li>Eligible after 90 days of employment</li>
+        </ul>
+
+        <h2 id="fsa">Flexible Spending Accounts</h2>
+        <h3>Healthcare FSA</h3>
+        <ul>
+          <li>Contribute up to <strong>$3,200 per year</strong> (pre-tax)</li>
+          <li>Up to <strong>$640</strong> rolls over to the next benefit year</li>
+          <li>Use for eligible medical, dental, and vision expenses</li>
+        </ul>
+
+        <h3>Dependent Care Assistance Program (DCAP)</h3>
+        <ul>
+          <li>Contribute up to <strong>$5,000 per year</strong> (pre-tax)</li>
+          <li>Use for eligible dependent care expenses (daycare, after-school care, elder care)</li>
+        </ul>
+
+        <h2 id="upskilling">Professional Development</h2>
+        <p>Focus invests in your growth with a <strong>$1,000 per year</strong> professional development stipend. This can be used for:</p>
+        <ul>
+          <li>Continuing education courses</li>
+          <li>Professional certifications</li>
+          <li>Conference attendance</li>
+          <li>Books, online courses, and learning platforms</li>
+          <li>Other upskilling activities approved by your manager</li>
+        </ul>
+
+        <div class="page-footer">
+          <span>Last updated: April 2026</span>
+          <span>&copy; Focus Consulting LLC</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>
