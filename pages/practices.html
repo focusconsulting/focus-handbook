@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practices — Focus Handbook</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .practice-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 40px;
+    }
+
+    .practice-header {
+      padding: 28px 32px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .practice-header-left {}
+
+    .practice-name {
+      font-size: 26px;
+      font-weight: 700;
+      font-family: var(--font-display);
+      color: var(--navy);
+      margin-bottom: 6px;
+      letter-spacing: -0.3px;
+    }
+
+    .practice-tagline {
+      font-size: 15px;
+      color: var(--text-light);
+      line-height: 1.5;
+    }
+
+    .practice-lead-block {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 18px;
+      min-width: 200px;
+      text-align: right;
+    }
+
+    .practice-lead-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--teal);
+      margin-bottom: 4px;
+    }
+
+    .practice-lead-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--navy);
+    }
+
+    .practice-body {
+      padding: 28px 32px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+
+    @media (max-width: 680px) {
+      .practice-body { grid-template-columns: 1fr; }
+      .practice-header { flex-direction: column; }
+      .practice-lead-block { text-align: left; width: 100%; }
+    }
+
+    .practice-section-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--teal);
+      margin-bottom: 12px;
+    }
+
+    .discipline-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .discipline-list li {
+      font-size: 14px;
+      color: var(--text);
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .discipline-list li:last-child { border-bottom: none; }
+
+    .discipline-list li::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--teal);
+      flex-shrink: 0;
+    }
+
+    .practice-desc {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .practice-desc p + p { margin-top: 10px; }
+
+    .engineering-accent { --practice-color: #2A3D66; }
+    .delivery-accent    { --practice-color: #2E7D9B; }
+    .design-accent      { --practice-color: #2D8A56; }
+
+    .practice-card.engineering-accent .practice-name { color: #1B2A4A; }
+    .practice-card.delivery-accent .practice-name    { color: #1B2A4A; }
+    .practice-card.design-accent .practice-name      { color: #1B2A4A; }
+
+    .practice-stripe {
+      height: 4px;
+    }
+
+    .engineering-accent .practice-stripe { background: linear-gradient(90deg, #1B2A4A, #2A3D66); }
+    .delivery-accent    .practice-stripe { background: linear-gradient(90deg, #2E7D9B, #3A9BC1); }
+    .design-accent      .practice-stripe { background: linear-gradient(90deg, #2D8A56, #3AAD6D); }
+
+    .practice-full-width {
+      grid-column: 1 / -1;
+    }
+  </style>
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+</head>
+<body>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="layout">
+    <nav class="sidebar">
+      <div class="sidebar-header"><a href="../index.html" class="sidebar-logo"><div class="logo-icon">F</div><span>Focus Handbook</span></a></div>
+      <div class="sidebar-search"><span class="search-icon">&#128269;</span><input type="text" placeholder="Search... ( / )"></div>
+      <div class="sidebar-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="employee">Employees</button><button class="filter-btn" data-filter="contractor">Contractors</button></div>
+      <div class="sidebar-nav">
+        <div class="nav-group"><div class="nav-group-title">Getting Started</div><a class="nav-link" href="welcome.html" data-audience="all">Welcome</a><a class="nav-link" href="onboarding.html" data-audience="all">Onboarding</a><a class="nav-link" href="our-work.html" data-audience="all">Our Work</a></div>
+        <div class="nav-group"><div class="nav-group-title">How We Work</div><a class="nav-link" href="how-we-work.html" data-audience="all">Communication &amp; Availability</a><a class="nav-link" href="management.html" data-audience="all">Management &amp; Mentorship</a><a class="nav-link" href="practices.html" data-audience="all">Practices</a></div>
+        <div class="nav-group"><div class="nav-group-title">Employment</div><a class="nav-link" href="employment.html" data-audience="employee">Categories &amp; Policies</a><a class="nav-link" href="performance.html" data-audience="all">Performance &amp; Expectations</a><a class="nav-link" href="compensation.html" data-audience="employee">Compensation &amp; Growth</a></div>
+        <div class="nav-group"><div class="nav-group-title">Benefits &amp; Time Off</div><a class="nav-link" href="benefits.html" data-audience="employee">Benefits</a><a class="nav-link" href="time-off.html" data-audience="employee">Time Off &amp; Leave</a></div>
+        <div class="nav-group"><div class="nav-group-title">Workplace Policies</div><a class="nav-link" href="workplace.html" data-audience="all">Conduct &amp; Ethics</a><a class="nav-link" href="technology.html" data-audience="all">Technology &amp; Remote Work</a></div>
+        <div class="nav-group"><div class="nav-group-title">Contractors</div><a class="nav-link" href="contractors.html" data-audience="contractor">Contractor Policies</a></div>
+        <div class="nav-group"><div class="nav-group-title">State &amp; Local Policies</div><a class="nav-link nav-toggle" href="#">State Policies <span class="chevron">&#9656;</span></a><div class="nav-submenu"><a class="nav-link" href="states/arizona.html" data-audience="employee">Arizona</a><a class="nav-link" href="states/california.html" data-audience="employee">California</a><a class="nav-link" href="states/dc.html" data-audience="employee">District of Columbia</a><a class="nav-link" href="states/delaware.html" data-audience="employee">Delaware</a><a class="nav-link" href="states/florida.html" data-audience="employee">Florida</a><a class="nav-link" href="states/maryland.html" data-audience="employee">Maryland</a><a class="nav-link" href="states/new-jersey.html" data-audience="employee">New Jersey</a><a class="nav-link" href="states/new-york.html" data-audience="employee">New York</a><a class="nav-link" href="states/vermont.html" data-audience="employee">Vermont</a><a class="nav-link" href="states/virginia.html" data-audience="employee">Virginia</a></div></div>
+        <div class="nav-group"><a class="nav-link" href="acknowledgment.html" data-audience="all">Acknowledgment</a></div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="content">
+        <div class="breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><span>Practices</span></div>
+
+        <div class="page-header">
+          <span class="badge badge-all">All Staff</span>
+          <h1>Practices</h1>
+          <p class="subtitle">Focus is organized into three practice areas — Engineering, Delivery, and Design. Each practice has a dedicated lead who serves as your career manager, owns discipline standards, and supports your professional growth.</p>
+        </div>
+
+        <div class="toc">
+          <div class="toc-title">On This Page</div>
+          <ul>
+            <li><a href="#how-practices-work">How Practices Work</a></li>
+            <li><a href="#engineering">Engineering Practice</a></li>
+            <li><a href="#delivery">Delivery Practice</a></li>
+            <li><a href="#design">Design Practice</a></li>
+          </ul>
+        </div>
+
+        <h2 id="how-practices-work">How Practices Work</h2>
+        <p>Focus uses a hybrid matrix structure. Your <strong>practice lead</strong> is your direct career manager — they own your performance reviews, professional development, and career growth within your discipline. Your <strong>project or portfolio lead</strong> manages your day-to-day project work, delivery outcomes, and P&amp;L.</p>
+
+        <table>
+          <thead>
+            <tr><th>Practice Lead</th><th>Project / Portfolio Lead</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Career manager and mentor</td><td>Day-to-day project manager</td></tr>
+            <tr><td>Performance reviews and calibration</td><td>Delivery outcomes and client relationships</td></tr>
+            <tr><td>Discipline standards and frameworks</td><td>Scope, timelines, and project P&amp;L</td></tr>
+            <tr><td>Hiring and onboarding within practice</td><td>Staffing requests and team coordination</td></tr>
+            <tr><td>Career development and growth planning</td><td>Day-to-day availability and utilization</td></tr>
+          </tbody>
+        </table>
+
+        <p>Practice check-ins happen on a less frequent cadence than project standups — they are dedicated time to discuss your career trajectory, professional development goals, and how you're growing within your discipline.</p>
+
+        <div class="info-box">
+          <div class="info-box-title">Practice Communities</div>
+          Each practice runs a regular community of practice — a forum for sharing learnings, building standards, discussing craft, and connecting across projects. Look for your practice channel in Slack and watch for community of practice meeting invites.
+        </div>
+
+        <!-- Engineering -->
+        <h2 id="engineering" style="border-top: none; padding-top: 0; margin-top: 40px;">Engineering Practice</h2>
+
+        <div class="practice-card engineering-accent">
+          <div class="practice-stripe"></div>
+          <div class="practice-header">
+            <div class="practice-header-left">
+              <div class="practice-name">Engineering</div>
+              <div class="practice-tagline">Building modern, secure, accessible systems that government agencies can sustain and own.</div>
+            </div>
+            <div class="practice-lead-block">
+              <div class="practice-lead-label">Practice Lead</div>
+              <div class="practice-lead-name">Lowell Wood</div>
+            </div>
+          </div>
+          <div class="practice-body">
+            <div>
+              <div class="practice-section-title">What We Do</div>
+              <div class="practice-desc">
+                <p>The Engineering practice builds and operates the digital systems at the core of Focus's delivery work. Engineers at Focus work across the full stack — from cloud infrastructure and DevSecOps to frontend applications and APIs — always with an eye toward security, accessibility, and long-term agency ownership.</p>
+                <p>We favor modern, open-source, standards-based approaches. Our work must be maintainable by agency teams after we're gone — that's a core part of what it means to deliver well.</p>
+              </div>
+            </div>
+            <div>
+              <div class="practice-section-title">Disciplines</div>
+              <ul class="discipline-list">
+                <li>Software Engineering (Frontend &amp; Backend)</li>
+                <li>Cloud Infrastructure &amp; DevOps</li>
+                <li>DevSecOps &amp; Security Engineering</li>
+                <li>Site Reliability Engineering (SRE)</li>
+                <li>Technical Leadership</li>
+                <li>Data Engineering</li>
+              </ul>
+            </div>
+            <div>
+              <div class="practice-section-title">How We Work</div>
+              <div class="practice-desc">
+                <p>Engineers are organized into project teams with an engineering manager (typically 4–8 reports) and a Technical Lead (TL) who owns architecture decisions and technical quality. The TL is a senior role responsible for defining patterns, reviewing code, and serving as the technical escalation point for the team.</p>
+                <p>The Engineering practice holds regular Engineering Huddles — cross-project forums for sharing technical learnings, reviewing standards, and connecting engineers across the portfolio.</p>
+              </div>
+            </div>
+            <div>
+              <div class="practice-section-title">Standards &amp; Expectations</div>
+              <ul class="discipline-list">
+                <li>Follow established coding standards and quality benchmarks</li>
+                <li>Participate in code reviews and technical design reviews</li>
+                <li>Contribute to and maintain technical documentation</li>
+                <li>Engage in the Engineering Huddle and practice-wide initiatives</li>
+                <li>Work with your TL on technical debt and refactoring priorities</li>
+                <li>Proactively surface blockers and risks to your TL or manager</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Delivery -->
+        <h2 id="delivery">Delivery Practice</h2>
+
+        <div class="practice-card delivery-accent">
+          <div class="practice-stripe"></div>
+          <div class="practice-header">
+            <div class="practice-header-left">
+              <div class="practice-name">Delivery</div>
+              <div class="practice-tagline">Coordinating people, process, and product to ship services that work for the people who need them most.</div>
+            </div>
+            <div class="practice-lead-block">
+              <div class="practice-lead-label">Practice Lead</div>
+              <div class="practice-lead-name">Phedra Arthur Iruke</div>
+            </div>
+          </div>
+          <div class="practice-body">
+            <div>
+              <div class="practice-section-title">What We Do</div>
+              <div class="practice-desc">
+                <p>The Delivery practice is at the center of how Focus operates. It spans the roles that define, manage, and sustain great government digital services — from product strategy and roadmapping to day-to-day project coordination, requirements, and documentation.</p>
+                <p>As Focus scales, how we define and grow these disciplines directly shapes how we hire, how we deliver for our government partners, and how we build trust through consistent excellence.</p>
+              </div>
+            </div>
+            <div>
+              <div class="practice-section-title">Disciplines</div>
+              <ul class="discipline-list">
+                <li>Product Management</li>
+                <li>Delivery Management</li>
+                <li>Project Management</li>
+                <li>Business Analysis</li>
+                <li>Technical Writing</li>
+                <li>Program Management</li>
+              </ul>
+            </div>
+            <div>
+              <div class="practice-section-title">How We Work</div>
+              <div class="practice-desc">
+                <p>Delivery practitioners work closely with engineering and design counterparts to align scope, manage stakeholders, and keep teams moving. Product Managers own the product vision and backlog; Delivery and Project Managers own timelines, risk, and coordination across workstreams.</p>
+                <p>The Delivery Community of Practice is an active forum for sharing learnings, building standards, and developing our collective craft. It's a key place to connect with practitioners across the portfolio and ask questions as you grow.</p>
+              </div>
+            </div>
+            <div>
+              <div class="practice-section-title">Standards &amp; Expectations</div>
+              <ul class="discipline-list">
+                <li>Maintain meaningful, accurate status updates — not just activity, but progress</li>
+                <li>Proactively surface risks, blockers, and trade-offs to stakeholders</li>
+                <li>Document decisions and keep project artifacts current</li>
+                <li>Participate in the Delivery Community of Practice</li>
+                <li>Coordinate effectively across engineering, design, and client stakeholders</li>
+                <li>Support a culture of continuous improvement on your project</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design -->
+        <h2 id="design">Design Practice</h2>
+
+        <div class="practice-card design-accent">
+          <div class="practice-stripe"></div>
+          <div class="practice-header">
+            <div class="practice-header-left">
+              <div class="practice-name">Design</div>
+              <div class="practice-tagline">Staying curious, showing up for each other, and being intentional about every design decision.</div>
+            </div>
+            <div class="practice-lead-block">
+              <div class="practice-lead-label">Practice Lead</div>
+              <div class="practice-lead-name">Ant Addis</div>
+            </div>
+          </div>
+          <div class="practice-body">
+            <div>
+              <div class="practice-section-title">What We Do</div>
+              <div class="practice-desc">
+                <p>The Design practice at Focus is a small, intentional team of designers who bring rigor and empathy to government services. We conduct user research, design service experiences end-to-end, and make sure what gets built is accessible, usable, and genuinely serves the people who depend on it.</p>
+                <p>Design at Focus is embedded in delivery — we're not a separate studio. We work shoulder-to-shoulder with engineers and product managers throughout the project lifecycle, from discovery through launch.</p>
+              </div>
+            </div>
+            <div>
+              <div class="practice-section-title">Disciplines</div>
+              <ul class="discipline-list">
+                <li>User Research</li>
+                <li>Service Design</li>
+                <li>Interaction Design &amp; UX</li>
+                <li>Accessibility &amp; Inclusive Design</li>
+                <li>Content Strategy</li>
+                <li>Visual &amp; UI Design</li>
+              </ul>
+            </div>
+            <div>
+              <div class="practice-section-title">How We Work</div>
+              <div class="practice-desc">
+                <p>Design practice syncs bring the team together regularly to discuss craft, review work, and build shared standards. Research is treated as a continuous practice — not a phase — and is embedded into every sprint cycle where possible.</p>
+                <p>The design practice ethos is grounded in Focus's mission: every design decision should reduce friction, improve access, and respect the people we're designing for. We hold ourselves to high standards of accessibility — WCAG compliance is a baseline, not an aspiration.</p>
+              </div>
+            </div>
+            <div>
+              <div class="practice-section-title">Standards &amp; Expectations</div>
+              <ul class="discipline-list">
+                <li>Ground every design in research — validate assumptions early</li>
+                <li>Design for accessibility from the start, not as an afterthought</li>
+                <li>Follow USWDS guidelines and government design standards where applicable</li>
+                <li>Document design decisions and maintain design system contributions</li>
+                <li>Participate in Design Practice Syncs and share learnings across the team</li>
+                <li>Collaborate closely with engineering to ensure faithful implementation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="page-footer">
+          <span>Last updated: April 2026</span>
+          <span>&copy; Focus Consulting LLC</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>
