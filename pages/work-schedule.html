@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work Schedule &amp; Overtime — Focus Handbook</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+</head>
+<body>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="layout">
+    <nav class="sidebar">
+      <div class="sidebar-header"><a href="../index.html" class="sidebar-logo"><div class="logo-icon">F</div><span>Focus Handbook</span></a></div>
+      <div class="sidebar-search"><span class="search-icon">&#128269;</span><input type="text" placeholder="Search... ( / )"></div>
+      <div class="sidebar-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="employee">Employees</button><button class="filter-btn" data-filter="contractor">Contractors</button></div>
+      <div class="sidebar-nav">
+        <div class="nav-group"><div class="nav-group-title">Getting Started</div><a class="nav-link" href="welcome.html" data-audience="all">Welcome</a><a class="nav-link" href="onboarding.html" data-audience="all">Onboarding</a><a class="nav-link" href="our-work.html" data-audience="all">Our Work</a></div>
+        <div class="nav-group"><div class="nav-group-title">How We Work</div><a class="nav-link" href="how-we-work.html" data-audience="all">Communication &amp; Availability</a><a class="nav-link" href="management.html" data-audience="all">Management &amp; Mentorship</a><a class="nav-link" href="practices.html" data-audience="all">Practices</a></div>
+        <div class="nav-group"><div class="nav-group-title">Employment</div><a class="nav-link" href="employment.html" data-audience="employee">Categories &amp; Policies</a><a class="nav-link" href="work-schedule.html" data-audience="all">Work Schedule &amp; Overtime</a><a class="nav-link" href="performance.html" data-audience="all">Performance &amp; Expectations</a><a class="nav-link" href="compensation.html" data-audience="employee">Compensation &amp; Growth</a></div>
+        <div class="nav-group"><div class="nav-group-title">Benefits &amp; Time Off</div><a class="nav-link" href="benefits.html" data-audience="employee">Benefits</a><a class="nav-link" href="time-off.html" data-audience="employee">Time Off &amp; Leave</a><a class="nav-link" href="bereavement.html" data-audience="employee">Bereavement Leave</a></div>
+        <div class="nav-group"><div class="nav-group-title">Workplace Policies</div><a class="nav-link" href="workplace.html" data-audience="all">Conduct &amp; Ethics</a><a class="nav-link" href="technology.html" data-audience="all">Technology &amp; Remote Work</a><a class="nav-link" href="travel.html" data-audience="all">Travel Policy</a></div>
+        <div class="nav-group"><div class="nav-group-title">Contractors</div><a class="nav-link" href="contractors.html" data-audience="contractor">Contractor Policies</a></div>
+        <div class="nav-group"><div class="nav-group-title">State &amp; Local Policies</div><a class="nav-link nav-toggle" href="#">State Policies <span class="chevron">&#9656;</span></a><div class="nav-submenu"><a class="nav-link" href="states/arizona.html" data-audience="employee">Arizona</a><a class="nav-link" href="states/california.html" data-audience="employee">California</a><a class="nav-link" href="states/dc.html" data-audience="employee">District of Columbia</a><a class="nav-link" href="states/delaware.html" data-audience="employee">Delaware</a><a class="nav-link" href="states/florida.html" data-audience="employee">Florida</a><a class="nav-link" href="states/maryland.html" data-audience="employee">Maryland</a><a class="nav-link" href="states/new-jersey.html" data-audience="employee">New Jersey</a><a class="nav-link" href="states/new-york.html" data-audience="employee">New York</a><a class="nav-link" href="states/vermont.html" data-audience="employee">Vermont</a><a class="nav-link" href="states/virginia.html" data-audience="employee">Virginia</a></div></div>
+        <div class="nav-group"><a class="nav-link" href="acknowledgment.html" data-audience="all">Acknowledgment</a></div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="content">
+        <div class="breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><span>Work Schedule &amp; Overtime</span></div>
+
+        <div class="page-header">
+          <span class="badge badge-all">All Staff</span>
+          <h1>Work Schedule &amp; Overtime Policy</h1>
+          <p class="subtitle">Effective October 2025 &nbsp;·&nbsp; Approved by the Executive Team</p>
+        </div>
+
+        <div class="toc">
+          <div class="toc-title">On This Page</div>
+          <ul>
+            <li><a href="#philosophy">Our Philosophy</a></li>
+            <li><a href="#standard-week">Standard Work Week</a></li>
+            <li><a href="#exempt">Salaried Exempt Employees</a></li>
+            <li><a href="#time-tracking">Time Tracking &amp; Documentation</a></li>
+            <li><a href="#client-travel">Client Site Work &amp; Travel</a></li>
+            <li><a href="#accountability">Performance &amp; Accountability</a></li>
+            <li><a href="#exceptions">Exceptions &amp; Special Circumstances</a></li>
+            <li><a href="#compliance">Policy Compliance &amp; Enforcement</a></li>
+            <li><a href="#contractors">Independent Contractors &amp; 1099s</a></li>
+          </ul>
+        </div>
+
+        <h2 id="philosophy">Our Philosophy: Excellence Through Balance</h2>
+        <p>At Focus Consulting, we believe that exceptional work comes from well-rested, engaged professionals who bring their best selves to client challenges. Our commitment to delivery excellence is built on the principle that a sustainable 40-hour work week enables our team to consistently produce high-quality outcomes for government clients while maintaining the personal well-being that fuels long-term success.</p>
+        <p>We recognize that government contracting occasionally requires flexibility beyond standard hours. These periods of extended effort are the exception, not the rule, and are essential to maintaining our reputation for reliability and mission-critical delivery.</p>
+
+        <div class="info-box warning">
+          <div class="info-box-title">Consistent Overwork Is a Signal, Not a Standard</div>
+          If any team member finds themselves consistently working over 40 hours per week, this signals a systemic challenge requiring immediate attention — resource constraints, scope creep, unrealistic timelines, or process inefficiencies. These issues should be addressed through retrospectives, program health checks, and escalation to Focus leadership.
+        </div>
+
+        <h2 id="standard-week">Standard Work Week</h2>
+
+        <h3>Full-Time Employees</h3>
+        <table>
+          <thead>
+            <tr><th>Parameter</th><th>Standard</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Hours per week</td><td>40–45 hours</td></tr>
+            <tr><td>Work days</td><td>Monday through Friday</td></tr>
+            <tr><td>Core hours</td><td>9:00 AM – 5:00 PM Eastern Time (may vary by contract)</td></tr>
+            <tr><td>Work environment</td><td>Fully remote with occasional travel for client meetings, conferences, or team events</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Flexible Work Arrangements</h3>
+        <p>Focus recognizes the need for flexibility to accommodate client schedules across time zones, government contract requirements, personal work-life balance, and project-specific demands. Discuss any flexibility needs with your project lead and practice lead.</p>
+
+        <h2 id="exempt">Salaried Exempt Employees</h2>
+
+        <h3>Professional Responsibilities</h3>
+        <p>Exempt employees are expected to fulfill their professional duties regardless of the specific number of hours required, including meeting project deadlines, attending client meetings, participating in proposals and business development, and ensuring quality delivery of contracted services.</p>
+
+        <h3>Occasional Extended Hours</h3>
+        <p>Government contracting requires flexibility. Exempt employees should expect to occasionally work beyond 40-hour weeks for the following scenarios:</p>
+
+        <table>
+          <thead>
+            <tr><th>Scenario</th><th>Typical Duration</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Proposal submissions</td><td>2–4 weeks of extended hours during preparation and submission</td></tr>
+            <tr><td>Project go-live events</td><td>System implementations, data migrations, or launch activities</td></tr>
+            <tr><td>Client presentations</td><td>Preparation for and delivery of executive briefings or milestone presentations</td></tr>
+            <tr><td>Government inspections</td><td>Contract audits, site visits, or compliance reviews</td></tr>
+            <tr><td>End-of-contract activities</td><td>Final deliverable preparation and transition activities</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Frequency Guidelines</h3>
+        <ul>
+          <li><strong>Expected frequency:</strong> 4–6 periods per year requiring extended hours</li>
+          <li><strong>Typical duration:</strong> 1–3 weeks per period</li>
+          <li><strong>Maximum consecutive period:</strong> 4 weeks without executive review and approval</li>
+          <li><strong>Recovery time:</strong> Following extended periods, supervisors should accommodate flexible scheduling when operationally feasible</li>
+        </ul>
+
+        <h3>Work-Life Balance Commitments</h3>
+        <ul>
+          <li>Providing as much advance notice as possible for known extended work periods</li>
+          <li>Distributing extended work requirements across team members when possible</li>
+          <li>Allowing reduced hours or flexible scheduling during non-critical periods</li>
+          <li>Protecting allocated professional development and training time</li>
+        </ul>
+
+        <h2 id="time-tracking">Time Tracking &amp; Documentation</h2>
+
+        <h3>All Employees</h3>
+        <ul>
+          <li><strong>Daily time tracking:</strong> Accurately track all time worked using the company's designated time tracking system</li>
+          <li><strong>Project code assignment:</strong> Allocate time to appropriate client contracts and internal project codes</li>
+          <li><strong>Accuracy requirement:</strong> Time entries must be completed within 24 hours of work performed</li>
+        </ul>
+        <p>See <a href="technology.html">Focus Time Tracking Policies</a> for full guidance on the time tracking system.</p>
+
+        <h3>Government Contract Compliance</h3>
+        <ul>
+          <li><strong>Billable hour documentation:</strong> All billable hours must include detailed task descriptions sufficient for client invoicing and audit purposes</li>
+          <li><strong>Rate category accuracy:</strong> Time must be logged under the correct labor category and rate as defined in the applicable contract</li>
+          <li><strong>Overhead vs. direct:</strong> Clear delineation between direct client work and overhead activities</li>
+        </ul>
+
+        <h2 id="client-travel">Client Site Work &amp; Travel</h2>
+        <p>When client contracts require on-site work, standard work week expectations apply unless modified by client requirements. Travel time to and from client sites is compensated according to applicable labor laws and contract terms. Client-mandated extended hours must be pre-approved and documented.</p>
+        <p>For full travel reimbursement procedures and rates, see the <a href="travel.html">Travel Policy</a>.</p>
+
+        <h2 id="accountability">Performance &amp; Accountability</h2>
+        <p>Supervisors will conduct regular one-on-one meetings to assess workload and work-life balance. Extended work patterns will be reviewed periodically to identify improvement opportunities. Employees are encouraged to raise work-life balance concerns with their supervisor or People Operations at any time.</p>
+
+        <h2 id="exceptions">Exceptions &amp; Special Circumstances</h2>
+
+        <h3>Contract-Specific Requirements</h3>
+        <p>Some government contracts may impose specific work hour requirements that supersede this policy. Contract terms take precedence, and employees will be notified of special requirements during contract onboarding.</p>
+
+        <h3>Emergency Response</h3>
+        <p>During government-declared emergencies or critical system failures, standard approval processes may be expedited. All applicable overtime and compensation rules remain in effect, and post-emergency recovery time will be provided when operationally feasible.</p>
+
+        <h2 id="compliance">Policy Compliance &amp; Enforcement</h2>
+
+        <h3>Manager Responsibilities</h3>
+        <ul>
+          <li>Judiciously approve extended work and overtime</li>
+          <li>Regularly monitor employee work hours and well-being</li>
+          <li>Maintain proper records of all extended work approvals and justifications</li>
+          <li>Clearly communicate expectations and deadlines in advance</li>
+        </ul>
+
+        <h3>Employee Responsibilities</h3>
+        <ul>
+          <li>Report time honestly and accurately</li>
+          <li>Communicate potential schedule conflicts or concerns in advance</li>
+          <li>Balance client needs with personal well-being using professional judgment</li>
+          <li>Adhere to all aspects of this policy</li>
+        </ul>
+
+        <div class="info-box important">
+          <div class="info-box-title">Time Reporting Violations</div>
+          Inaccurate time reporting may result in disciplinary action up to and including termination. Managers who consistently fail to properly manage work hour approvals may also face corrective action.
+        </div>
+
+        <h2 id="contractors">Independent Contractors &amp; 1099 Consultants</h2>
+        <span class="badge badge-contractor" style="margin-bottom: 16px; display: inline-block;">Contractors</span>
+
+        <p>Contractors work according to deliverable-based or hourly parameters defined in their Statement of Work (SOW). For hourly engagements, typical weekly commitments range from 20–40 hours as specified in the contract. Contractors maintain scheduling autonomy while remaining reasonably available during core collaboration hours for client meetings and team coordination.</p>
+
+        <div class="info-box">
+          <div class="info-box-title">No Expectation of Uncompensated Overtime</div>
+          Unlike W-2 exempt employees, contractors are <strong>never</strong> expected to work beyond their contracted scope without additional compensation. If project demands require additional hours, a formal SOW amendment or change order is required. Contractors have full discretion to accept or decline requests for additional work.
+        </div>
+
+        <h3>Scope Management for Contractors</h3>
+        <ul>
+          <li>All hours worked must be compensated according to the consulting agreement terms</li>
+          <li>Extended work periods (proposals, go-live events) require advance negotiation and may warrant premium compensation</li>
+          <li>Immediately notify your Focus project manager if workload consistently exceeds contracted parameters</li>
+          <li>Consistent overages signal scope creep requiring SOW clarification or amendment</li>
+        </ul>
+
+        <h3>Contractor Time Tracking</h3>
+        <ul>
+          <li>Track all billable hours accurately using designated systems</li>
+          <li>Assign time to appropriate project codes and client contracts</li>
+          <li>Adhere to any maximum weekly or monthly hour caps specified in the SOW</li>
+          <li>Submit timesheets according to the agreed-upon schedule (typically weekly or bi-weekly)</li>
+          <li>Log time under correct labor categories with documentation sufficient for government audit</li>
+        </ul>
+
+        <p>Questions about work schedules, scope, or hour limits? Contact your assigned Contact Lead or the Business Operations team for SOW modifications.</p>
+
+        <div class="page-footer">
+          <span>Effective October 2025 &nbsp;·&nbsp; Reviewed annually</span>
+          <span>&copy; Focus Consulting LLC</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>
