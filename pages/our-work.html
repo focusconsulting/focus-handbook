@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Work — Focus Handbook</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* === Our Work page styles === */
+    .projects-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin: 0 0 32px;
+    }
+
+    .project-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      background: var(--bg);
+      transition: box-shadow 0.2s;
+      position: relative;
+    }
+
+    .project-card:hover {
+      box-shadow: 0 4px 16px rgba(27,42,74,0.08);
+    }
+
+    .project-card.completed {
+      background: #fafafa;
+      border-color: #e8e8e8;
+    }
+
+    .project-card.completed .project-title {
+      color: var(--text-light);
+    }
+
+    .project-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .project-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--navy);
+      font-family: var(--font-display);
+      line-height: 1.3;
+    }
+
+    .project-dates {
+      font-size: 12px;
+      color: var(--text-light);
+      white-space: nowrap;
+      font-weight: 500;
+      padding-top: 2px;
+    }
+
+    .project-dates .active-dot {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      background: #2D8A56;
+      border-radius: 50%;
+      margin-right: 5px;
+      vertical-align: middle;
+      position: relative;
+      top: -1px;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 9px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+
+    .tag-modernization { background: #E8EEF8; color: #2A3D66; }
+    .tag-ai            { background: #EDE8F8; color: #5B3FA6; }
+    .tag-healthcare    { background: #E8F5ED; color: #2D8A56; }
+    .tag-benefits      { background: #E8F4F8; color: #2E7D9B; }
+    .tag-security      { background: #FDF0E0; color: #C77A20; }
+    .tag-public        { background: #FDF2F2; color: #C0392B; }
+    .tag-data          { background: #EFF0F2; color: #4A5568; }
+    .tag-workforce     { background: #F0EDF8; color: #6B4FA6; }
+    .tag-consular      { background: #E8F2F8; color: #1B6B9B; }
+    .tag-taxpayer      { background: #F8EDE8; color: #A63B2A; }
+
+    .project-desc {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .project-desc p + p {
+      margin-top: 10px;
+    }
+
+    .project-stat {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--teal);
+      background: var(--teal-dim);
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-light);
+      margin: 40px 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-label.active-label { color: #2D8A56; }
+  </style>
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+</head>
+<body>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="layout">
+    <nav class="sidebar">
+      <div class="sidebar-header"><a href="../index.html" class="sidebar-logo"><div class="logo-icon">F</div><span>Focus Handbook</span></a></div>
+      <div class="sidebar-search"><span class="search-icon">&#128269;</span><input type="text" placeholder="Search... ( / )"></div>
+      <div class="sidebar-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="employee">Employees</button><button class="filter-btn" data-filter="contractor">Contractors</button></div>
+      <div class="sidebar-nav">
+        <div class="nav-group"><div class="nav-group-title">Getting Started</div><a class="nav-link" href="welcome.html" data-audience="all">Welcome</a><a class="nav-link" href="onboarding.html" data-audience="all">Onboarding</a><a class="nav-link" href="our-work.html" data-audience="all">Our Work</a></div>
+        <div class="nav-group"><div class="nav-group-title">How We Work</div><a class="nav-link" href="how-we-work.html" data-audience="all">Communication &amp; Availability</a><a class="nav-link" href="management.html" data-audience="all">Management &amp; Mentorship</a></div>
+        <div class="nav-group"><div class="nav-group-title">Employment</div><a class="nav-link" href="employment.html" data-audience="employee">Categories &amp; Policies</a><a class="nav-link" href="performance.html" data-audience="all">Performance &amp; Expectations</a><a class="nav-link" href="compensation.html" data-audience="employee">Compensation &amp; Growth</a></div>
+        <div class="nav-group"><div class="nav-group-title">Benefits &amp; Time Off</div><a class="nav-link" href="benefits.html" data-audience="employee">Benefits</a><a class="nav-link" href="time-off.html" data-audience="employee">Time Off &amp; Leave</a></div>
+        <div class="nav-group"><div class="nav-group-title">Workplace Policies</div><a class="nav-link" href="workplace.html" data-audience="all">Conduct &amp; Ethics</a><a class="nav-link" href="technology.html" data-audience="all">Technology &amp; Remote Work</a></div>
+        <div class="nav-group"><div class="nav-group-title">Contractors</div><a class="nav-link" href="contractors.html" data-audience="contractor">Contractor Policies</a></div>
+        <div class="nav-group"><div class="nav-group-title">State &amp; Local Policies</div><a class="nav-link nav-toggle" href="#">State Policies <span class="chevron">&#9656;</span></a><div class="nav-submenu"><a class="nav-link" href="states/arizona.html" data-audience="employee">Arizona</a><a class="nav-link" href="states/california.html" data-audience="employee">California</a><a class="nav-link" href="states/dc.html" data-audience="employee">District of Columbia</a><a class="nav-link" href="states/delaware.html" data-audience="employee">Delaware</a><a class="nav-link" href="states/florida.html" data-audience="employee">Florida</a><a class="nav-link" href="states/maryland.html" data-audience="employee">Maryland</a><a class="nav-link" href="states/new-jersey.html" data-audience="employee">New Jersey</a><a class="nav-link" href="states/new-york.html" data-audience="employee">New York</a><a class="nav-link" href="states/vermont.html" data-audience="employee">Vermont</a><a class="nav-link" href="states/virginia.html" data-audience="employee">Virginia</a></div></div>
+        <div class="nav-group"><a class="nav-link" href="acknowledgment.html" data-audience="all">Acknowledgment</a></div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="content">
+        <div class="breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><span>Our Work</span></div>
+
+        <div class="page-header">
+          <span class="badge badge-all">All Staff</span>
+          <h1>Our Work</h1>
+          <p class="subtitle">We focus on projects that drive meaningful impact — delivering efficient services that improve access to critical programs, reduce burden on users and agency staff, improve health outcomes, and streamline access to benefits.</p>
+        </div>
+
+        <!-- Active Projects -->
+        <div class="section-label active-label">Active Projects</div>
+        <div class="projects-grid">
+
+          <!-- OPR 3.0 -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">Online Passport Renewal (OPR 3.0)</div>
+              <div class="project-dates"><span class="active-dot"></span>April 2024 – Present</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-consular">Consular Services</span>
+              <span class="tag tag-modernization">Modernization</span>
+              <span class="tag tag-security">Security</span>
+            </div>
+            <div class="project-desc">
+              <p>Focus is supporting the Department of State launch the third iteration of their online passport renewal pilot system. Focus is leading the engineering implementation that leans heavily on recent user research and design to improve on previous versions.</p>
+              <p>We are using a pilot approach to fully build and launch a mobile-first, accessible, USWDS-based, fully integrated renewal application system. As part of this effort, we are also putting the first systems into the cloud for the Department's consular division.</p>
+            </div>
+          </div>
+
+          <!-- Passport Adjudication -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">Passport Adjudication Modernization</div>
+              <div class="project-dates"><span class="active-dot"></span>July 2025 – Present</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-consular">Consular Services</span>
+              <span class="tag tag-modernization">Modernization</span>
+            </div>
+            <div class="project-desc">
+              <p>Our team is supporting the Department of State's Consular Division modernize the passport adjudication process by building a new centralized, accessible, and cloud-native adjudication platform MVP that will eventually replace multiple on-premises legacy systems.</p>
+            </div>
+          </div>
+
+          <!-- FAFSA -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">FAFSA Test Automation</div>
+              <div class="project-dates"><span class="active-dot"></span>May 2025 – Present</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-public">Public Interest</span>
+              <span class="tag tag-modernization">Modernization</span>
+              <span class="tag tag-ai">AI</span>
+            </div>
+            <div class="project-desc">
+              <p>Our team is supporting the Federal Student Aid office enhance, automate, and improve existing testing and observability functions for the Free Application for Federal Student Aid (FAFSA) system — a key federal program providing student loans, grants, and scholarships to US residents.</p>
+              <p>Our work is focused on standardizing and improving the coverage of automated tests across the complex FAFSA system, and enhancing the observability of multiple user-facing and back-office systems to better track the end-to-end journey of a user.</p>
+            </div>
+          </div>
+
+          <!-- Massachusetts PFML -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">Massachusetts Paid Family and Medical Leave</div>
+              <div class="project-dates"><span class="active-dot"></span>December 2019 – Present</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-benefits">Benefits</span>
+              <span class="tag tag-healthcare">Healthcare</span>
+              <span class="tag tag-ai">AI</span>
+            </div>
+            <div class="project-desc">
+              <p>PFML was a new legislatively mandated state project that kicked off in January 2020 to provide Massachusetts residents the ability to apply for and receive payment for family and medical leave. Focus was part of the initial core team at project kickoff, working with our prime contracting partner (Nava PBC) and other stakeholders to staff project teams across product, engineering, DevOps, and technical support.</p>
+              <p>Our staff led delivery of various critical product and engineering milestones including the payments workflow, Department of Revenue data processing, approval workflow integration, and core API and cloud architecture — requiring coordination across numerous department agencies and vendor teams.</p>
+            </div>
+            <span class="project-stat">Over $3 billion in leave benefits paid since 2021</span>
+          </div>
+
+          <!-- Minnesota Paid Leave -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">Minnesota Paid Leave</div>
+              <div class="project-dates"><span class="active-dot"></span>January 2025 – Present</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-benefits">Benefits</span>
+              <span class="tag tag-healthcare">Healthcare</span>
+              <span class="tag tag-ai">AI</span>
+            </div>
+            <div class="project-desc">
+              <p>We are currently supporting the full implementation of the Minnesota Paid Leave program. With launch upcoming in January 2026, our team is moving at speed to conduct user research, and design and implement support for multiple leave types. We are developing the end-to-end workflow from scratch including the claimant portal, employer portal, and adjudication system.</p>
+            </div>
+          </div>
+
+          <!-- NJ UI -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">New Jersey Unemployment Insurance</div>
+              <div class="project-dates"><span class="active-dot"></span>Ongoing</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-benefits">Benefits</span>
+              <span class="tag tag-modernization">Modernization</span>
+            </div>
+            <div class="project-desc">
+              <p>Our staff is supporting the large modernization effort of the NJ unemployment insurance program. The strain of pandemic-era unemployment claims triggered the modernization effort, which also introduced an increase in fraudulent schemes. Our team is collaborating with multiple vendors and working closely with agency stakeholders to update and improve the experience and workflow for applicants, while updating the legacy mainframe system to use modern APIs.</p>
+            </div>
+          </div>
+
+          <!-- CDC ReportStream -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">CDC ReportStream</div>
+              <div class="project-dates"><span class="active-dot"></span>Ongoing</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-healthcare">Healthcare</span>
+              <span class="tag tag-data">Enterprise Data</span>
+            </div>
+            <div class="project-desc">
+              <p>As part of the pandemic response, the CDC was tasked with improving how test results were reported and delivered to public health agencies. ReportStream is responsible for receiving, routing, and delivering test results. We've worked alongside our partners to augment the application to support sending and receiving any kind of test results or orders, and delivering this data in a wide variety of health specifications including HL7 and FHIR.</p>
+            </div>
+          </div>
+
+          <!-- Simpler Grants.gov -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">Simpler Grants.gov</div>
+              <div class="project-dates"><span class="active-dot"></span>Ongoing</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-healthcare">Healthcare</span>
+              <span class="tag tag-public">Public Interest</span>
+              <span class="tag tag-modernization">Modernization</span>
+            </div>
+            <div class="project-desc">
+              <p>This open source project is a modernization effort of the current Grants.gov website and backend systems. It aims to make seeking grants and completing applications seamless and intuitive for grant-eligible organizations, while streamlining publishing and monitoring for grantor agencies. Focus is supporting the design and implementation effort.</p>
+            </div>
+          </div>
+
+          <!-- Healthcare Marketplace -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">Healthcare Marketplace</div>
+              <div class="project-dates"><span class="active-dot"></span>Ongoing</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-healthcare">Healthcare</span>
+              <span class="tag tag-benefits">Benefits</span>
+            </div>
+            <div class="project-desc">
+              <p>Our staff has experience in key product and engineering leadership roles on HealthCare.gov and MyMedicare.gov projects. We are currently supporting a suite of education tools that help consumers shop for healthcare plans and understand their coverage options.</p>
+            </div>
+          </div>
+
+          <!-- CMS IaaS -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">CMS Infrastructure as a Service</div>
+              <div class="project-dates"><span class="active-dot"></span>Ongoing</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-healthcare">Healthcare</span>
+              <span class="tag tag-security">Security</span>
+            </div>
+            <div class="project-desc">
+              <p>In 2018, the Centers for Medicare and Medicaid Services (CMS) embarked on a multi-year effort to modernize the Medicare Fee for Service (FFS) shared systems used to process Medicare fee-for-service claims. The OSRE team was created to lead this program in the areas of DevSecOps, infrastructure support, and technical coordination. Focus is providing Infrastructure Engineering and Security Documentation services.</p>
+            </div>
+          </div>
+
+          <!-- Preventive Medicaid -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">Preventive Medicaid</div>
+              <div class="project-dates"><span class="active-dot"></span>Ongoing</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-healthcare">Healthcare</span>
+              <span class="tag tag-data">Enterprise Data</span>
+            </div>
+            <div class="project-desc">
+              <p>Supporting a commercial partner providing preventive care for Medicaid patients across various states. Our client works with insurance providers to identify and treat patients with preventable hospitalization risk.</p>
+              <p>Focus provides agile software development services across engineering and cloud infrastructure teams. We are currently supporting implementation of the next iteration of their data pipeline platform and infrastructure, and building the client application that allows care providers to deliver preventive care using patient data.</p>
+            </div>
+          </div>
+
+          <!-- DC Housing Insights -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">DC Housing Insights</div>
+              <div class="project-dates"><span class="active-dot"></span>Ongoing</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-public">Public Interest</span>
+            </div>
+            <div class="project-desc">
+              <p>This open source tool provides housing advocates and government officials with insights on the state of affordable housing in Washington, DC. The project started as a Code for DC / CNHED / Greater DC initiative. The tool overlays multiple local and national data sources on top of an interactive map with various filter toggles to better visualize the data. Focus is supporting the ongoing hosting, data update, and feature development needs.</p>
+            </div>
+          </div>
+
+          <!-- Skills-Based Talent -->
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-title">Skills-Based Talent Platform</div>
+              <div class="project-dates"><span class="active-dot"></span>Ongoing</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-workforce">Workforce Development</span>
+            </div>
+            <div class="project-desc">
+              <p>Building a next-generation talent marketplace platform that uses well-defined and industry-aligned job competency maps to more accurately match job seekers with employers.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Completed Projects -->
+        <div class="section-label">Completed Projects</div>
+        <div class="projects-grid">
+
+          <!-- IRS Digital Transformation -->
+          <div class="project-card completed">
+            <div class="project-header">
+              <div class="project-title">IRS Digital Transformation</div>
+              <div class="project-dates">August 2024 – February 2025</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-taxpayer">Taxpayer Systems</span>
+              <span class="tag tag-modernization">Modernization</span>
+            </div>
+            <div class="project-desc">
+              <p>Our team led an agency-wide digital transformation initiative at the Internal Revenue Service. We conducted interviews across agency divisions to identify key systemic obstacles to effective digital delivery. Outcomes resulted in a digital maturity assessment and a high-level living roadmap for enabling successful digital delivery.</p>
+              <p>As part of this contract, we also identified, selected, and implemented two "beacon" pilot projects that demonstrated visible improvements and new ways of working — digitizing the paper-based W7 application form and improving compliance operations.</p>
+            </div>
+          </div>
+
+          <!-- IRS CIO Strategic Initiatives -->
+          <div class="project-card completed">
+            <div class="project-header">
+              <div class="project-title">IRS CIO Strategic Initiatives</div>
+              <div class="project-dates">September 2024 – March 2025</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-taxpayer">Taxpayer Systems</span>
+              <span class="tag tag-modernization">Modernization</span>
+              <span class="tag tag-ai">AI</span>
+              <span class="tag tag-data">Enterprise Data</span>
+            </div>
+            <div class="project-desc">
+              <p>We supported the office of the IRS CIO to help application and business teams adopt a product-centric approach to development while providing technical guidance, prototypes, and roadmaps to assist teams modernize their applications. We were embedded on the Intake team where we provided key guidance as the team modernized a legacy COBOL system. We also served an important integration role ensuring the variety of vendor teams and IRS staff operated from a shared set of code quality standards and operational guides.</p>
+            </div>
+          </div>
+
+          <!-- Marriott Learning Platform -->
+          <div class="project-card completed">
+            <div class="project-header">
+              <div class="project-title">Marriott Learning Platform</div>
+              <div class="project-dates">Completed</div>
+            </div>
+            <div class="project-tags">
+              <span class="tag tag-workforce">Workforce Development</span>
+            </div>
+            <div class="project-desc">
+              <p>We built regional and organization-wide internal learning and development platforms that emphasized up-skilling and competency-based career growth for staff.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="page-footer">
+          <span>Last updated: April 2026</span>
+          <span>&copy; Focus Consulting LLC</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>
