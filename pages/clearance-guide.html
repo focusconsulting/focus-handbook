@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Clearance Guide &mdash; Focus Handbook</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+</head>
+<body>
+  <script>
+    (function() {
+      var SESSION_KEY = 'focus_ps_auth';
+      // SHA-256 of the access code
+      var CORRECT_HASH = '95f7dd1f45a38f973ba11d932fed179c1a40806ddaedae74b61a29487223fd21';
+      if (sessionStorage.getItem(SESSION_KEY) === 'true') return;
+
+      // Hide content before anything else so a thrown error fails closed
+      document.documentElement.style.visibility = 'hidden';
+
+      function deny() {
+        try { window.stop(); } catch (e) {}
+        // Replace the whole document element so the parser's insertion
+        // point is detached and no further page content can render
+        document.documentElement.innerHTML =
+          '<body style="font-family:sans-serif;padding:2rem">' +
+          '<p>Access denied. <a href="../index.html">Return to handbook</a></p>' +
+          '</body>';
+        document.documentElement.style.visibility = 'visible';
+      }
+
+      try {
+        var pw = prompt('This page is internal. Enter the access code:');
+        if (!pw || !(window.crypto && crypto.subtle)) { deny(); return; }
+        crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw))
+          .then(function(buf) {
+            var hash = Array.from(new Uint8Array(buf))
+              .map(function(b) { return b.toString(16).padStart(2, '0'); })
+              .join('');
+            if (hash === CORRECT_HASH) {
+              sessionStorage.setItem(SESSION_KEY, 'true');
+              document.documentElement.style.visibility = 'visible';
+            } else {
+              deny();
+            }
+          })
+          .catch(deny);
+      } catch (e) {
+        deny();
+      }
+    })();
+  </script>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="layout">
+    <nav class="sidebar">
+      <div class="sidebar-header"><a href="../index.html" class="sidebar-logo"><div class="logo-icon">F</div><span>Focus Handbook</span></a></div>
+      <div class="sidebar-search"><span class="search-icon">&#128269;</span><input type="text" placeholder="Search... ( / )"></div>
+      <div class="sidebar-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="employee">Employees</button><button class="filter-btn" data-filter="contractor">Contractors</button></div>
+      <div class="sidebar-nav">
+        <div class="nav-group"><div class="nav-group-title">Getting Started</div><a class="nav-link" href="welcome.html" data-audience="all">Welcome</a><a class="nav-link" href="onboarding.html" data-audience="all">Onboarding</a><a class="nav-link" href="our-work.html" data-audience="all">Our Work</a></div>
+        <div class="nav-group"><div class="nav-group-title">How We Work</div><a class="nav-link" href="how-we-work.html" data-audience="all">Communication &amp; Availability</a><a class="nav-link" href="management.html" data-audience="all">Management &amp; Mentorship</a><a class="nav-link" href="practices.html" data-audience="all">Practices</a></div>
+        <div class="nav-group"><div class="nav-group-title">Employment</div><a class="nav-link" href="employment.html" data-audience="employee">Categories &amp; Policies</a><a class="nav-link" href="work-schedule.html" data-audience="all">Work Schedule &amp; Overtime</a><a class="nav-link" href="performance.html" data-audience="all">Performance &amp; Expectations</a><a class="nav-link" href="compensation.html" data-audience="employee">Compensation &amp; Growth</a></div>
+        <div class="nav-group"><div class="nav-group-title">Benefits &amp; Time Off</div><a class="nav-link" href="benefits.html" data-audience="employee">Benefits</a><a class="nav-link" href="time-off.html" data-audience="employee">Time Off &amp; Leave</a><a class="nav-link" href="bereavement.html" data-audience="employee">Bereavement Leave</a></div>
+        <div class="nav-group"><div class="nav-group-title">Workplace Policies</div><a class="nav-link" href="workplace.html" data-audience="all">Conduct &amp; Ethics</a><a class="nav-link" href="technology.html" data-audience="all">Technology &amp; Remote Work</a><a class="nav-link" href="travel.html" data-audience="all">Travel Policy</a></div>
+        <div class="nav-group"><div class="nav-group-title">Contractors</div><a class="nav-link" href="contractors.html" data-audience="contractor">Contractor Policies</a></div>
+        <div class="nav-group"><div class="nav-group-title">State &amp; Local Policies</div><a class="nav-link nav-toggle" href="#">State Policies <span class="chevron">&#9656;</span></a><div class="nav-submenu"><a class="nav-link" href="states/arizona.html" data-audience="employee">Arizona</a><a class="nav-link" href="states/california.html" data-audience="employee">California</a><a class="nav-link" href="states/dc.html" data-audience="employee">District of Columbia</a><a class="nav-link" href="states/delaware.html" data-audience="employee">Delaware</a><a class="nav-link" href="states/florida.html" data-audience="employee">Florida</a><a class="nav-link" href="states/maryland.html" data-audience="employee">Maryland</a><a class="nav-link" href="states/new-jersey.html" data-audience="employee">New Jersey</a><a class="nav-link" href="states/new-york.html" data-audience="employee">New York</a><a class="nav-link" href="states/vermont.html" data-audience="employee">Vermont</a><a class="nav-link" href="states/virginia.html" data-audience="employee">Virginia</a></div></div>
+        <div class="nav-group"><a class="nav-link" href="acknowledgment.html" data-audience="all">Acknowledgment</a></div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="content">
+        <div class="breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><span>Security Clearance Guide</span></div>
+
+        <div class="page-header">
+          <span class="badge badge-employee">Employees</span>
+          <h1>Security Clearance Guide</h1>
+          <p class="subtitle">What clearances are, how the process works, and how to navigate it successfully.</p>
+        </div>
+
+        <div class="draft-notice" style="background:#FFF8E1;border:1px solid #F9A825;border-radius:6px;padding:12px 16px;margin-bottom:1.5rem;font-size:13px;color:#5D3F00;">
+          <strong>Draft &mdash; not final policy.</strong> This page is under internal review and has not been approved for distribution. Do not share externally.
+        </div>
+
+        <div class="toc">
+          <div class="toc-title">On This Page</div>
+          <ul>
+            <li><a href="#why-this-matters">Why This Matters at Focus</a></li>
+            <li><a href="#types">Types of Clearances We Encounter</a></li>
+            <li><a href="#process">The Clearance Process &mdash; What to Expect</a></li>
+            <li><a href="#common-reasons">Common Reasons Clearances Are Delayed or Denied</a></li>
+            <li><a href="#focus-support">What Focus Provides to Support You</a></li>
+            <li><a href="#your-responsibilities">Your Responsibilities</a></li>
+            <li><a href="#delayed">What Happens If Clearance Is Delayed</a></li>
+            <li><a href="#denied">What Happens If Clearance Is Denied</a></li>
+            <li><a href="#acknowledgment">Acknowledgment</a></li>
+          </ul>
+        </div>
+
+        <h2 id="why-this-matters">Why This Matters at Focus</h2>
+        <p>Federal government contracts require that staff who access agency systems, data, or facilities hold an appropriate clearance. Most Focus projects require at minimum a public trust clearance. Some require higher levels.</p>
+        <p>Clearances are issued by the sponsoring agency &mdash; not by Focus. We initiate the process, but we do not control the timeline or outcome. What we can control is how well you are prepared going in. Delays are almost always caused by things candidates could have prevented with better preparation. This guide exists to help you prevent them.</p>
+        <p><strong>You will be asked to sign an acknowledgment confirming you have read this guide before your clearance package is submitted.</strong></p>
+
+        <h2 id="types">Types of Clearances We Encounter</h2>
+        <table>
+          <thead>
+            <tr><th>Type</th><th>Common on</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Public trust &mdash; moderate risk</strong></td><td>CMS, CDC, state health agencies</td><td>Most common; SF-85 form</td></tr>
+            <tr><td><strong>Public trust &mdash; high risk</strong></td><td>FSA (tax data), some HHS programs</td><td>More intensive than moderate; SF-85P</td></tr>
+            <tr><td><strong>Secret</strong></td><td>Department of State, some DoD-adjacent</td><td>SF-86; longer timeline</td></tr>
+            <tr><td><strong>Confidential</strong></td><td>Varies</td><td>Less common in our work</td></tr>
+          </tbody>
+        </table>
+        <p>State-level projects vary. Many states use our background check directly. Some (e.g. New Jersey) run their own. Minnesota and most others require minimal additional screening beyond what we conduct at hire.</p>
+        <div class="info-box">
+          <div class="info-box-title">Clearances Are Agency-Specific</div>
+          Holding a public trust at CDC does not automatically transfer to a Department of State moderate risk clearance. If you move to a new project at a different agency, you may need to go through the process again.
+        </div>
+
+        <h2 id="process">The Clearance Process &mdash; What to Expect</h2>
+        <h3>Step 1: Form Submission</h3>
+        <p>You will complete the appropriate SF form (SF-85, SF-85P, or SF-86) through an online system called e-QIP. Focus will initiate your access to e-QIP. This typically happens as soon as your offer letter is signed.</p>
+        <h3>Step 2: Interim Determination</h3>
+        <p>Many agencies issue an interim clearance that allows you to begin work while the full investigation is pending. Not all agencies do this, and interim clearances can be denied even when the final clearance is eventually granted. Do not assume you will receive an interim.</p>
+        <h3>Step 3: Background Investigation</h3>
+        <p>An investigator (typically a contractor working for DCSA or the agency) will verify your employment history, education, references, and other information from your SF form. This involves contacting your listed employers, supervisors, and personal references directly by phone.</p>
+        <h3>Step 4: Adjudication</h3>
+        <p>The agency reviews the investigation results and makes a determination. For public trust, this is typically a straightforward pass/fail. For Secret and above, there is a formal adjudicative process.</p>
+        <h3>Timeline</h3>
+        <p>Public trust: 4&ndash;8 weeks when the process goes smoothly. Can extend to 3&ndash;4 months if there are complications. Department of State in particular has a longer and more variable process. Secret clearances can take 6+ months.</p>
+
+        <h2 id="common-reasons">Common Reasons Clearances Are Delayed or Denied</h2>
+        <p>These are the patterns Focus has seen repeatedly. Most delays are avoidable.</p>
+        <h3>Employers Not Returning Calls</h3>
+        <p>The investigator will call your past employers. If they cannot reach someone who can verify your employment, your package goes into a problem queue. Before you submit your SF form, call your past employers and tell them: &ldquo;I am applying for a federal background investigation. You may receive a call from an investigator asking to verify my employment. Please pick up and respond promptly.&rdquo; Give them a heads-up. This is the single most common cause of delays we have seen.</p>
+        <h3>Wrong or Outdated Contact Information</h3>
+        <p>Phone numbers for past employers change. HR departments move. Use LinkedIn or direct contact to verify that the number you are listing for a past employer is current and will reach someone who can actually confirm your employment.</p>
+        <h3>Not Telling Your Current Employer</h3>
+        <p>If you are still employed elsewhere when you begin the clearance process, the investigator will contact your current employer. This will reveal that you are job searching. This is an unavoidable reality of the process. Plan accordingly.</p>
+        <h3>Education That Cannot Be Verified</h3>
+        <p>Investigators verify degrees directly with institutions. If your school's records office is slow or you attended an institution that has since closed, build in extra time and gather official documentation proactively.</p>
+        <h3>Drug Use</h3>
+        <p>Federal law governs this process, not state law. Marijuana use is the most common issue. Be accurate and complete on your SF form. Do not omit or minimize. Investigators are trained to identify inconsistencies, and dishonesty on an SF form is a separate disqualifying issue from the underlying conduct.</p>
+        <h3>Tax Issues</h3>
+        <p>Unresolved federal or state tax obligations are a red flag in the adjudication process. Address them before or in parallel with starting your clearance process, not after.</p>
+        <h3>Foreign Contacts and Travel</h3>
+        <p>Some agencies (Department of State in particular) scrutinize foreign contacts, dual citizenship, and travel history carefully. Be accurate and thorough. Omissions are worse than disclosures.</p>
+        <h3>Financial Issues</h3>
+        <p>Significant unresolved debt, delinquent accounts, or financial circumstances that suggest vulnerability to outside pressure can be factors. Disclose fully and provide context where relevant.</p>
+
+        <h2 id="focus-support">What Focus Provides to Support You</h2>
+        <ul>
+          <li><strong>Pre-submission checklist.</strong> Before you submit your SF form, you will receive a checklist covering the most common pitfalls. Review it. Use it.</li>
+          <li><strong>e-QIP setup.</strong> We initiate your e-QIP access as soon as your offer is signed, so the clock starts immediately.</li>
+          <li><strong>A point of contact.</strong> You will have a named person at Focus to ask questions about the process. We cannot influence the investigation or its outcome, but we can answer process questions and help you navigate administrative steps.</li>
+          <li><strong>Guidance on employer notification.</strong> We will remind you to contact past employers before the investigator does and explain how.</li>
+        </ul>
+
+        <h2 id="your-responsibilities">Your Responsibilities</h2>
+        <ul>
+          <li>Complete your SF form accurately and fully. Omissions and inaccuracies are worse than disclosures.</li>
+          <li>Contact past employers before submitting to alert them of the upcoming verification call.</li>
+          <li>Respond promptly to any requests from the investigator or agency.</li>
+          <li>Notify your Focus contact immediately if your clearance package is denied at interim or if you receive any communication indicating a problem.</li>
+          <li>Do not wait and hope. If something comes up, surface it early.</li>
+        </ul>
+
+        <h2 id="delayed">What Happens If Clearance Is Delayed</h2>
+        <p>If your clearance is taking longer than expected through no fault of your own (agency backlog, a former employer slow to respond despite your preparation), Focus will work within a budgeted non-billable window before making a staffing decision.</p>
+        <p>This window is approximately <strong>6 weeks from your start date</strong>, which accounts for roughly 2 weeks of onboarding before billing would typically begin. This is not a hard cutoff &mdash; decisions are made on a case-by-case basis by leadership, taking into account the reason for the delay, whether other project placement is available, and business capacity.</p>
+        <p>If we reach this window, your manager and People Operations will have an explicit conversation with you about options. You will not be left wondering.</p>
+
+        <h2 id="denied">What Happens If Clearance Is Denied</h2>
+        <p>If you are unable to obtain the clearance required for your project, and no alternative project placement is available that does not require that clearance level, your employment may be terminated.</p>
+        <p>This is documented in your offer letter and in this guide, which you will have signed before your clearance package is submitted. It is not a surprise outcome, and it does not reflect on your skills or character as a professional. Clearance adjudication has factors that are outside your control and outside ours.</p>
+        <p>In most cases, denial is driven by things that were present before you joined Focus. If you have concerns about whether you would pass a federal background investigation before accepting an offer, raise them candidly. We would rather have that conversation early than reach a termination after you have started.</p>
+
+        <h2 id="acknowledgment">Acknowledgment</h2>
+        <p>Before your clearance package is submitted, you will be asked to sign an acknowledgment confirming:</p>
+        <ol>
+          <li>You have read this guide in full</li>
+          <li>You understand that continued employment is contingent on obtaining the required clearance for your project</li>
+          <li>You have no reason to believe at this time that you would be unable to obtain the required clearance, or you have disclosed any relevant concerns to People Operations</li>
+          <li>You understand the consequences if clearance is denied or indefinitely delayed</li>
+        </ol>
+        <p>The acknowledgment form is managed through Rippling. Your onboarding checklist will include a step to complete it.</p>
+
+        <div class="page-footer">
+          <span>Last updated: June 10, 2026</span>
+          <span>&copy; Focus Consulting LLC</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>

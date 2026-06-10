@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>W-2 Employment Policy &mdash; Focus Handbook</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+</head>
+<body>
+  <script>
+    (function() {
+      var SESSION_KEY = 'focus_ps_auth';
+      // SHA-256 of the access code
+      var CORRECT_HASH = '95f7dd1f45a38f973ba11d932fed179c1a40806ddaedae74b61a29487223fd21';
+      if (sessionStorage.getItem(SESSION_KEY) === 'true') return;
+
+      // Hide content before anything else so a thrown error fails closed
+      document.documentElement.style.visibility = 'hidden';
+
+      function deny() {
+        try { window.stop(); } catch (e) {}
+        // Replace the whole document element so the parser's insertion
+        // point is detached and no further page content can render
+        document.documentElement.innerHTML =
+          '<body style="font-family:sans-serif;padding:2rem">' +
+          '<p>Access denied. <a href="../index.html">Return to handbook</a></p>' +
+          '</body>';
+        document.documentElement.style.visibility = 'visible';
+      }
+
+      try {
+        var pw = prompt('This page is internal. Enter the access code:');
+        if (!pw || !(window.crypto && crypto.subtle)) { deny(); return; }
+        crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw))
+          .then(function(buf) {
+            var hash = Array.from(new Uint8Array(buf))
+              .map(function(b) { return b.toString(16).padStart(2, '0'); })
+              .join('');
+            if (hash === CORRECT_HASH) {
+              sessionStorage.setItem(SESSION_KEY, 'true');
+              document.documentElement.style.visibility = 'visible';
+            } else {
+              deny();
+            }
+          })
+          .catch(deny);
+      } catch (e) {
+        deny();
+      }
+    })();
+  </script>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="layout">
+    <nav class="sidebar">
+      <div class="sidebar-header"><a href="../index.html" class="sidebar-logo"><div class="logo-icon">F</div><span>Focus Handbook</span></a></div>
+      <div class="sidebar-search"><span class="search-icon">&#128269;</span><input type="text" placeholder="Search... ( / )"></div>
+      <div class="sidebar-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="employee">Employees</button><button class="filter-btn" data-filter="contractor">Contractors</button></div>
+      <div class="sidebar-nav">
+        <div class="nav-group"><div class="nav-group-title">Getting Started</div><a class="nav-link" href="welcome.html" data-audience="all">Welcome</a><a class="nav-link" href="onboarding.html" data-audience="all">Onboarding</a><a class="nav-link" href="our-work.html" data-audience="all">Our Work</a></div>
+        <div class="nav-group"><div class="nav-group-title">How We Work</div><a class="nav-link" href="how-we-work.html" data-audience="all">Communication &amp; Availability</a><a class="nav-link" href="management.html" data-audience="all">Management &amp; Mentorship</a><a class="nav-link" href="practices.html" data-audience="all">Practices</a></div>
+        <div class="nav-group"><div class="nav-group-title">Employment</div><a class="nav-link" href="employment.html" data-audience="employee">Categories &amp; Policies</a><a class="nav-link" href="work-schedule.html" data-audience="all">Work Schedule &amp; Overtime</a><a class="nav-link" href="performance.html" data-audience="all">Performance &amp; Expectations</a><a class="nav-link" href="compensation.html" data-audience="employee">Compensation &amp; Growth</a></div>
+        <div class="nav-group"><div class="nav-group-title">Benefits &amp; Time Off</div><a class="nav-link" href="benefits.html" data-audience="employee">Benefits</a><a class="nav-link" href="time-off.html" data-audience="employee">Time Off &amp; Leave</a><a class="nav-link" href="bereavement.html" data-audience="employee">Bereavement Leave</a></div>
+        <div class="nav-group"><div class="nav-group-title">Workplace Policies</div><a class="nav-link" href="workplace.html" data-audience="all">Conduct &amp; Ethics</a><a class="nav-link" href="technology.html" data-audience="all">Technology &amp; Remote Work</a><a class="nav-link" href="travel.html" data-audience="all">Travel Policy</a></div>
+        <div class="nav-group"><div class="nav-group-title">Contractors</div><a class="nav-link" href="contractors.html" data-audience="contractor">Contractor Policies</a></div>
+        <div class="nav-group"><div class="nav-group-title">State &amp; Local Policies</div><a class="nav-link nav-toggle" href="#">State Policies <span class="chevron">&#9656;</span></a><div class="nav-submenu"><a class="nav-link" href="states/arizona.html" data-audience="employee">Arizona</a><a class="nav-link" href="states/california.html" data-audience="employee">California</a><a class="nav-link" href="states/dc.html" data-audience="employee">District of Columbia</a><a class="nav-link" href="states/delaware.html" data-audience="employee">Delaware</a><a class="nav-link" href="states/florida.html" data-audience="employee">Florida</a><a class="nav-link" href="states/maryland.html" data-audience="employee">Maryland</a><a class="nav-link" href="states/new-jersey.html" data-audience="employee">New Jersey</a><a class="nav-link" href="states/new-york.html" data-audience="employee">New York</a><a class="nav-link" href="states/vermont.html" data-audience="employee">Vermont</a><a class="nav-link" href="states/virginia.html" data-audience="employee">Virginia</a></div></div>
+        <div class="nav-group"><a class="nav-link" href="acknowledgment.html" data-audience="all">Acknowledgment</a></div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="content">
+        <div class="breadcrumb"><a href="../index.html">Home</a><span class="sep">/</span><span>W-2 Employment Policy</span></div>
+
+        <div class="page-header">
+          <span class="badge badge-employee">Employees</span>
+          <h1>W-2 Employment Policy</h1>
+          <p class="subtitle">Focus's approach to employment classification and what it means for you.</p>
+        </div>
+
+        <div class="draft-notice" style="background:#FFF8E1;border:1px solid #F9A825;border-radius:6px;padding:12px 16px;margin-bottom:1.5rem;font-size:13px;color:#5D3F00;">
+          <strong>Draft &mdash; not final policy.</strong> This page is under internal review and has not been approved for distribution. Do not share externally.
+        </div>
+
+        <div class="toc">
+          <div class="toc-title">On This Page</div>
+          <ul>
+            <li><a href="#classification">Our Classification Approach</a></li>
+            <li><a href="#why-w2">Why W-2</a></li>
+            <li><a href="#clearance">Clearance and Continued Employment</a></li>
+            <li><a href="#federal-compliance">Federal Compliance Requirements</a></li>
+            <li><a href="#contract-to-hire">Contract-to-Hire Is No Longer Our Default</a></li>
+            <li><a href="#existing-1099">Existing 1099 Arrangements</a></li>
+            <li><a href="#questions">Questions</a></li>
+          </ul>
+        </div>
+
+        <h2 id="classification">Our Classification Approach</h2>
+        <p>All new Focus hires are engaged as W-2 employees. We do not offer 1099 / independent contractor arrangements as a default hiring path. This applies regardless of project type, contract vehicle, or whether you are being hired for a specific engagement.</p>
+        <p>Short-term or part-time engagements where a contractor relationship is genuinely appropriate (fewer than 20 hours per week, clearly bounded scope, no expectation of ongoing employment) may be exceptions at leadership's discretion. These are not the norm and will be identified as such during the hiring process.</p>
+
+        <h2 id="why-w2">Why W-2</h2>
+        <p>W-2 employment is how Focus signals that we are hiring you for Focus &mdash; not for a single contract. It means:</p>
+        <ul>
+          <li>You receive full benefits from your first day: health insurance, 401(k) eligibility, paid time off, and all other applicable benefits</li>
+          <li>You are expected to be assignable across projects as business needs change</li>
+          <li>You are subject to the same professional expectations, development requirements, and performance standards as every other employee</li>
+          <li>The company has a stake in your growth, and you have a stake in ours</li>
+        </ul>
+        <p>The 3-month contract-to-hire period we used previously is discontinued. We no longer ask candidates to go without benefits while we evaluate fit. Fit is evaluated through our hiring process, not through a probationary contractor arrangement.</p>
+
+        <h2 id="clearance">Clearance and Continued Employment</h2>
+        <p>Focus operates primarily on government contracts. Most engagements require staff to hold, or be able to obtain, at minimum a federal public trust clearance (moderate risk level). Some contracts require higher-level clearances. State-level projects vary by agency.</p>
+        <p><strong>Continued employment at Focus is contingent on your ability to obtain and maintain the clearances required for your assigned project.</strong></p>
+        <p>This is not a gotcha &mdash; it is a structural reality of government contracting that we communicate explicitly so you can make an informed decision before accepting an offer.</p>
+        <p>What this means in practice:</p>
+        <ul>
+          <li>Your offer letter will specify the clearance level required for your initial project</li>
+          <li>You will be asked to acknowledge in writing that you have read the clearance guide and understand that ongoing employment depends on successfully obtaining clearance</li>
+          <li>If you are unable to obtain the required clearance despite completing our documented support process, your employment may be terminated for cause</li>
+          <li>If clearance is delayed (not denied), we will work within a budgeted window of non-billable time before making a staffing decision; this is documented in the clearance guide</li>
+        </ul>
+        <p>See the <a href="./clearance-guide.html">Clearance Guide</a> for the full process, common pitfalls, and what Focus provides to support you through it.</p>
+
+        <h2 id="federal-compliance">Federal Compliance Requirements</h2>
+        <p>Because our work is predominantly on federal contracts, all employees &mdash; including those currently assigned to state or local projects &mdash; must be able to meet federal employment eligibility standards. This includes:</p>
+        <p><strong>Tax compliance.</strong> Unresolved federal or state tax issues are a disqualifying factor for most public trust clearances. If you have outstanding tax obligations, you should address them before beginning the clearance process.</p>
+        <p><strong>Drug use and federal law.</strong> Focus employees must comply with federal law regarding controlled substances. Marijuana remains a Schedule I controlled substance under federal law regardless of state legality. Use of marijuana or other federally controlled substances may disqualify you from obtaining a federal clearance. We are not in a position to advise on how this applies to your individual circumstances &mdash; we are telling you clearly that it is a factor in the clearance process, and that being unable to clear has employment consequences.</p>
+        <p><strong>Financial background.</strong> Significant unresolved financial issues (delinquent debts, certain bankruptcy circumstances, undisclosed foreign financial interests) may be factors in the clearance review process depending on agency and level.</p>
+        <p>This is not an exhaustive list. The SF-85 / SF-86 questionnaire and the subsequent investigator review are the authoritative sources for what gets evaluated.</p>
+
+        <h2 id="contract-to-hire">Contract-to-Hire Is No Longer Our Default</h2>
+        <p>Previously, some hires began on a 1099 contract-to-hire basis for an initial period of up to 3 months before converting to W-2. This practice is discontinued effective [date to be inserted].</p>
+        <p>If you were hired under a contract-to-hire arrangement prior to this policy and have questions about your status, contact People Operations.</p>
+
+        <h2 id="existing-1099">Existing 1099 Arrangements</h2>
+        <p>A small number of individuals currently engaged with Focus as 1099 contractors will remain on their existing arrangements on a case-by-case basis. These are grandfathered arrangements and do not represent a pathway available to new hires.</p>
+        <p>Existing 1099 contractors are subject to the contractor policies in the handbook and are not covered by the W-2 employment policies on this page.</p>
+
+        <h2 id="questions">Questions</h2>
+        <p>Contact People Operations with any questions about your employment classification or what this policy means for your specific situation.</p>
+
+        <div class="page-footer">
+          <span>Last updated: June 10, 2026</span>
+          <span>&copy; Focus Consulting LLC</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>
