@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People Strategy &mdash; Focus Handbook</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+  <style>
+    .level {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 12px;
+      background: var(--bg);
+    }
+    .level summary {
+      cursor: pointer;
+      padding: 14px 18px;
+      font-weight: 600;
+      color: var(--navy);
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+    .level summary::-webkit-details-marker { display: none; }
+    .level summary::before {
+      content: '\25B8';
+      color: var(--teal);
+      transition: transform 0.15s;
+    }
+    .level[open] summary::before { transform: rotate(90deg); }
+    .level .level-id {
+      font-family: var(--font-body);
+      background: #E8F4F8;
+      color: var(--badge-all);
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 13px;
+    }
+    .level .level-meta {
+      margin-left: auto;
+      font-weight: 400;
+      font-size: 13px;
+      color: var(--text-light);
+    }
+    .level .level-body { padding: 0 18px 16px; }
+  </style>
+</head>
+<body>
+  <script>
+    (function() {
+      var SESSION_KEY = 'focus_ps_auth';
+      // SHA-256 of the access code
+      var CORRECT_HASH = '95f7dd1f45a38f973ba11d932fed179c1a40806ddaedae74b61a29487223fd21';
+      if (sessionStorage.getItem(SESSION_KEY) === 'true') return;
+
+      // Hide content before anything else so a thrown error fails closed
+      document.documentElement.style.visibility = 'hidden';
+
+      function deny() {
+        try { window.stop(); } catch (e) {}
+        // Replace the whole document element so the parser's insertion
+        // point is detached and no further page content can render
+        document.documentElement.innerHTML =
+          '<body style="font-family:sans-serif;padding:2rem">' +
+          '<p>Access denied. <a href="../index.html">Return to handbook</a></p>' +
+          '</body>';
+        document.documentElement.style.visibility = 'visible';
+      }
+
+      try {
+        var pw = prompt('This page is internal. Enter the access code:');
+        if (!pw || !(window.crypto && crypto.subtle)) { deny(); return; }
+        crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw))
+          .then(function(buf) {
+            var hash = Array.from(new Uint8Array(buf))
+              .map(function(b) { return b.toString(16).padStart(2, '0'); })
+              .join('');
+            if (hash === CORRECT_HASH) {
+              sessionStorage.setItem(SESSION_KEY, 'true');
+              document.documentElement.style.visibility = 'visible';
+            } else {
+              deny();
+            }
+          })
+          .catch(deny);
+      } catch (e) {
+        deny();
+      }
+    })();
+  </script>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="layout">
+    <nav class="sidebar">
+      <div class="sidebar-header">
+        <a href="../index.html" class="sidebar-logo">
+          <div class="logo-icon">F</div>
+          <span>Focus Handbook</span>
+        </a>
+      </div>
+      <div class="sidebar-search">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" placeholder="Search... ( / )">
+      </div>
+      <div class="sidebar-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="employee">Employees</button>
+        <button class="filter-btn" data-filter="contractor">Contractors</button>
+      </div>
+      <div class="sidebar-nav">
+        <div class="nav-group">
+          <div class="nav-group-title">Getting Started</div>
+          <a class="nav-link" href="welcome.html" data-audience="all">Welcome</a>
+          <a class="nav-link" href="onboarding.html" data-audience="all">Onboarding</a><a class="nav-link" href="our-work.html" data-audience="all">Our Work</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">How We Work</div>
+          <a class="nav-link" href="how-we-work.html" data-audience="all">Communication &amp; Availability</a>
+          <a class="nav-link" href="management.html" data-audience="all">Management &amp; Mentorship</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Employment</div>
+          <a class="nav-link" href="employment.html" data-audience="employee">Categories &amp; Policies</a>
+          <a class="nav-link" href="performance.html" data-audience="all">Performance &amp; Expectations</a>
+          <a class="nav-link" href="compensation.html" data-audience="employee">Compensation &amp; Growth</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Benefits &amp; Time Off</div>
+          <a class="nav-link" href="benefits.html" data-audience="employee">Benefits</a>
+          <a class="nav-link" href="time-off.html" data-audience="employee">Time Off &amp; Leave</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Workplace Policies</div>
+          <a class="nav-link" href="workplace.html" data-audience="all">Conduct &amp; Ethics</a>
+          <a class="nav-link" href="technology.html" data-audience="all">Technology &amp; Remote Work</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Contractors</div>
+          <a class="nav-link" href="contractors.html" data-audience="contractor">Contractor Policies</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">State &amp; Local Policies</div>
+          <a class="nav-link nav-toggle" href="#">State Policies <span class="chevron">&#9656;</span></a>
+          <div class="nav-submenu">
+            <a class="nav-link" href="states/arizona.html" data-audience="employee">Arizona</a>
+            <a class="nav-link" href="states/california.html" data-audience="employee">California</a>
+            <a class="nav-link" href="states/dc.html" data-audience="employee">District of Columbia</a>
+            <a class="nav-link" href="states/delaware.html" data-audience="employee">Delaware</a>
+            <a class="nav-link" href="states/florida.html" data-audience="employee">Florida</a>
+            <a class="nav-link" href="states/maryland.html" data-audience="employee">Maryland</a>
+            <a class="nav-link" href="states/new-jersey.html" data-audience="employee">New Jersey</a>
+            <a class="nav-link" href="states/new-york.html" data-audience="employee">New York</a>
+            <a class="nav-link" href="states/vermont.html" data-audience="employee">Vermont</a>
+            <a class="nav-link" href="states/virginia.html" data-audience="employee">Virginia</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <a class="nav-link" href="acknowledgment.html" data-audience="all">Acknowledgment</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="content">
+        <div class="breadcrumb">
+          <a href="../index.html">Home</a>
+          <span class="sep">/</span>
+          <span>People Strategy</span>
+        </div>
+
+        <div class="page-header">
+          <span class="badge badge-employee">Internal Draft</span>
+          <h1>People Strategy</h1>
+          <p class="subtitle">Compensation philosophy, level-by-level expectations for every practice, bonus pillars, and the Focus non-negotiables.</p>
+        </div>
+
+        <div class="info-box important">
+          <div class="info-box-title">Draft &mdash; Not Yet Final</div>
+          This page is an internal working draft. Salary figures are illustrative placeholders and will be updated before this content is finalized. Do not share outside Focus.
+        </div>
+
+        <div class="toc">
+          <div class="toc-title">On This Page</div>
+          <ul>
+            <li><a href="#philosophy">Comp Philosophy</a></li>
+            <li><a href="#roles">Additional Roles</a></li>
+            <li><a href="#pillars">Bonus Pillars</a></li>
+            <li><a href="#engineering">Level Expectations: Engineering</a></li>
+            <li><a href="#design">Level Expectations: Design</a></li>
+            <li><a href="#product">Level Expectations: Product</a></li>
+            <li><a href="#non-negotiables">Focus Non-Negotiables</a></li>
+          </ul>
+        </div>
+
+        <h2 id="philosophy">Comp Philosophy</h2>
+        <ul>
+          <li><strong>One level = one salary number.</strong> No negotiation, no ranges.</li>
+          <li><strong>Level is tied directly to total years of professional experience</strong> in the discipline.</li>
+          <li><strong>Annual COLA adjustments</strong> are applied across the entire grid.</li>
+          <li><strong>Bonuses are the mechanism for rewarding impact</strong> &mdash; not base salary adjustments.</li>
+          <li><strong>W-2 status is required.</strong> Development is not optional.</li>
+        </ul>
+
+        <h2 id="roles">Additional Roles</h2>
+        <p>These are assignments, not promotions. They do not change base salary. They unlock eligibility for the &ldquo;Helps Focus Scale&rdquo; bonus pillar.</p>
+        <table>
+          <thead>
+            <tr><th>Role</th><th>Description</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Contract lead</strong></td><td>The named lead for a specific engagement (e.g. tech lead, design lead, program lead)</td></tr>
+            <tr><td><strong>Manager of people</strong></td><td>Direct people management responsibility for Focus staff</td></tr>
+            <tr><td><strong>KP on contract</strong></td><td>Key person designation on a specific government contract</td></tr>
+          </tbody>
+        </table>
+
+        <h2 id="pillars">Bonus Pillars</h2>
+        <p>Bonuses are paid twice a year. The percentage of salary increases with level. Unused pool is surfaced company-wide each cycle.</p>
+
+        <h3>Pillar 1 &mdash; Helps Focus Scale</h3>
+        <p>Biggest leg up for contract leads, managers of people, and KPs.</p>
+        <ul>
+          <li>Onboarding buddy program</li>
+          <li>Interviewing</li>
+          <li>Practice leadership</li>
+        </ul>
+
+        <h3>Pillar 2 &mdash; Project Delivery</h3>
+        <ul>
+          <li>Outcomes shipped</li>
+          <li>Press / case studies</li>
+        </ul>
+
+        <h3>Pillar 3 &mdash; Builds Brand &amp; Client Relationships</h3>
+        <ul>
+          <li>Speaking, writing, demoing work</li>
+          <li>Stakeholder trust</li>
+          <li>Winning new work</li>
+        </ul>
+
+        <h3>Pillar 4 &mdash; Corporate Improvements</h3>
+        <ul>
+          <li>Org health</li>
+          <li>Process</li>
+          <li>Change management</li>
+        </ul>
+
+        <h2 id="engineering">Level Expectations: Engineering</h2>
+        <table>
+          <thead>
+            <tr><th>Level</th><th>Title</th><th>Yrs exp</th><th>Salary</th><th>Core expectation summary</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>E-1</td><td>Associate engineer</td><td>0&ndash;1</td><td>$70k</td><td>Guided delivery on scoped tasks. Learning mode. Asks before getting stuck.</td></tr>
+            <tr><td>E-2</td><td>Associate engineer</td><td>1&ndash;2</td><td>$80k</td><td>Owns small features end to end. Investigates before escalating.</td></tr>
+            <tr><td>E-3</td><td>Software engineer I</td><td>2&ndash;4</td><td>$100k</td><td>Independent contributor. Works without supervision on medium-complexity features. Spots problems proactively.</td></tr>
+            <tr><td>E-4</td><td>Software engineer I</td><td>4&ndash;6</td><td>$115k</td><td>Reliable senior IC. Influences technical decisions. Client-facing without preparation needed.</td></tr>
+            <tr><td>E-5</td><td>Software engineer II</td><td>6&ndash;8</td><td>$130k</td><td>Sets technical direction for a workstream. Trusted by client as technical authority.</td></tr>
+            <tr><td>E-6</td><td>Software engineer II</td><td>8&ndash;10</td><td>$145k</td><td>Owns technical health of the engagement end to end. Contributes to BD.</td></tr>
+            <tr><td>E-7</td><td>Staff engineer</td><td>10&ndash;12</td><td>$160k</td><td>Company-level influence. Defines engineering standards. Shapes hiring bar.</td></tr>
+            <tr><td>E-8</td><td>Staff engineer</td><td>12&ndash;15</td><td>$175k</td><td>Defines the engineering ceiling at Focus. Clients request by name. Full autonomy.</td></tr>
+          </tbody>
+        </table>
+
+        <details class="level">
+          <summary><span class="level-id">E-1</span> Associate engineer <span class="level-meta">0&ndash;1 yr &middot; $70k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Completes clearly scoped tasks with direct guidance. Asks questions before getting stuck rather than after. Writes readable, tested code with support from a senior. Beginning to understand the difference between a government product and a commercial one &mdash; the user didn&rsquo;t choose to be here.</p>
+            <p><strong>Technical expectations:</strong> Comfortable in one language/framework. Writes and runs unit tests. Can open a PR, respond to review feedback, and ship with help.</p>
+            <p><strong>Civic tech context:</strong> Learning to navigate legacy systems and constrained environments without frustration. Understands that &ldquo;done&rdquo; in government means accessible, secure, and documented.</p>
+            <p><strong>Moving to E-2:</strong> Ships tasks reliably with minimal re-work. Starts unblocking themselves before escalating. Shows curiosity about the system beyond their assigned ticket.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">E-2</span> Associate engineer <span class="level-meta">1&ndash;2 yrs &middot; $80k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Takes ownership of a small feature or bug domain. Investigates before escalating. Begins contributing to team rituals with something substantive to say. Understands the policy or program their code supports at a basic level.</p>
+            <p><strong>Technical expectations:</strong> Writes clean, reviewable code with minimal guidance. Comfortable with CI/CD pipelines, basic debugging, and reading documentation for unfamiliar tools.</p>
+            <p><strong>Civic tech context:</strong> Beginning to understand procurement and compliance constraints. Can explain what their feature does to a non-technical colleague.</p>
+            <p><strong>Moving to E-3:</strong> Consistently delivers with low supervision. Has navigated at least one ambiguous or blocked situation and resolved it. Actively helps junior teammates when asked.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">E-3</span> Software engineer I <span class="level-meta">2&ndash;4 yrs &middot; $100k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Works independently on medium-complexity features. Spots problems before they become incidents. Communicates status and blockers proactively. Participates in discovery &mdash; not just building what they&rsquo;re handed, but asking whether it&rsquo;s the right thing to build.</p>
+            <p><strong>Technical expectations:</strong> Writes well-tested, maintainable code across the stack. Comfortable with accessibility requirements (WCAG), security basics, and FedRAMP-adjacent tooling. Reviews others&rsquo; PRs thoughtfully.</p>
+            <p><strong>Civic tech context:</strong> Understands the program they&rsquo;re supporting &mdash; who the end users are, what their constraints are. Flags usability or equity concerns when they see them, even when it&rsquo;s not their job title.</p>
+            <p><strong>Moving to E-4:</strong> Delivering consistently without supervision. Beginning to influence technical decisions, not just implement them. Mentors E-1/E-2 peers informally.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">E-4</span> Software engineer I <span class="level-meta">4&ndash;6 yrs &middot; $115k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Delivers independently on significant pieces of the project. Proactively surfaces technical risk to the PM and team. Can run a sprint independently if the tech lead is out. Starting to build trust directly with government counterparts on technical matters.</p>
+            <p><strong>Technical expectations:</strong> Strong in at least one domain (frontend, backend, infra, data). Can architect a small system and explain trade-offs. Comfortable in legacy codebases &mdash; not just greenfield.</p>
+            <p><strong>Civic tech context:</strong> Comfortable navigating government stakeholder reviews, ATO processes, and change-management constraints. Understands the difference between what&rsquo;s technically ideal and what&rsquo;s deployable in a given environment.</p>
+            <p><strong>Moving to E-5:</strong> Demonstrably influencing technical direction on the project. Client-facing without needing preparation. Has mentored a less-experienced engineer through a real problem.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">E-5</span> Software engineer II <span class="level-meta">6&ndash;8 yrs &middot; $130k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Sets technical direction for a project or workstream. Translates requirements into architecture that accounts for government constraints: compliance, legacy integration, accessibility mandates. Trusted by the client as a technical authority. Actively shapes team practices, not just their own output.</p>
+            <p><strong>Technical expectations:</strong> Deep expertise in at least one area, workable knowledge across the stack. Owns an entire technical domain on a project. Writes RFCs and architecture docs that other engineers can act on.</p>
+            <p><strong>Civic tech context:</strong> Can run a technical kickoff with a new agency partner. Knows how to move quickly within government constraints. Has shipped something live on a production government system.</p>
+            <p><strong>Moving to E-6:</strong> Has led a team through a technically complex or politically difficult project phase. Is sought out by PMs and designers &mdash; not just other engineers &mdash; for decisions.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">E-6</span> Software engineer II <span class="level-meta">8&ndash;10 yrs &middot; $145k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Owns the technical health of an engagement end to end. Can hand off a project in a state another team can maintain. Runs pre-project technical discovery independently. Contributes to BD &mdash; credibly represents Focus&rsquo;s engineering capabilities to a prospective client.</p>
+            <p><strong>Technical expectations:</strong> Expert-level in their domain. Understands procurement well enough to scope technical work for a proposal. Sets the engineering quality bar for the project.</p>
+            <p><strong>Civic tech context:</strong> Has navigated a program restructure, a contract transition, or a major agency stakeholder change without destabilizing the team. Builds continuity into everything &mdash; documentation, runbooks, handoffs.</p>
+            <p><strong>Moving to E-7:</strong> Influence extends beyond the project &mdash; shaping how Focus engineers work company-wide. Has grown a junior or mid-level engineer in a meaningful, traceable way.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">E-7</span> Staff engineer <span class="level-meta">10&ndash;12 yrs &middot; $160k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Influence spans multiple projects and shapes engineering culture at Focus. Defines standards &mdash; not just follows them. Spotted by clients as a rare engineer who understands both the technical and mission dimensions of the work. Helps write proposals, guides practice hiring, mentors staff-track engineers.</p>
+            <p><strong>Technical expectations:</strong> Recognized internally and externally as an expert. Contributes to the field &mdash; writing, speaking, tooling, open source. Can evaluate a new technology domain quickly and form a defensible position.</p>
+            <p><strong>Civic tech context:</strong> Understands the policy and procurement landscape well enough to advise leadership on strategic technical bets. Has a track record of projects that outlasted the engagement.</p>
+            <p><strong>Moving to E-8:</strong> Is the person Focus calls first when a new engagement has a hard technical problem. Has shaped a practice area, not just a project.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">E-8</span> Staff engineer <span class="level-meta">12&ndash;15 yrs &middot; $175k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> One of the most senior technical voices in civic tech consulting. Shapes Focus&rsquo;s engineering philosophy, hiring bar, and technical reputation. Clients request this person by name. Operates with full autonomy &mdash; sets their own agenda in service of the company&rsquo;s goals.</p>
+            <p><strong>Technical expectations:</strong> Definitional expertise. Produces work that raises the bar for the whole practice. Can make technology bets for the company and defend them to leadership, clients, and government partners.</p>
+            <p><strong>Civic tech context:</strong> Deep relationships in the civic tech ecosystem. Helps position Focus in a changing government technology landscape &mdash; AI adoption, platform shifts, changing procurement models.</p>
+            <p><strong>The bar:</strong> Would be recruited aggressively by Nava, USDS alums, or top civic tech players. Stays at Focus because of the mission, the autonomy, and the impact &mdash; not because they have no options.</p>
+          </div>
+        </details>
+
+        <h2 id="design">Level Expectations: Design</h2>
+        <table>
+          <thead>
+            <tr><th>Level</th><th>Title</th><th>Yrs exp</th><th>Salary</th><th>Core expectation summary</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>D-1</td><td>Associate designer</td><td>0&ndash;1</td><td>$65k</td><td>Produces clean, annotated artifacts from clear briefs. Learning mode. Asks good questions in critiques.</td></tr>
+            <tr><td>D-2</td><td>Associate designer</td><td>1&ndash;2</td><td>$75k</td><td>Takes a feature from brief to dev-ready with light supervision. Communicates decisions, not just outputs.</td></tr>
+            <tr><td>D-3</td><td>Designer I</td><td>2&ndash;4</td><td>$95k</td><td>Leads design for a feature or journey end to end. Plans and executes user research. Advocates for users.</td></tr>
+            <tr><td>D-4</td><td>Designer I</td><td>4&ndash;6</td><td>$108k</td><td>Sets the design approach for an engagement. Runs discovery. Trusted by the client as the design voice.</td></tr>
+            <tr><td>D-5</td><td>Designer II</td><td>6&ndash;8</td><td>$122k</td><td>Sets design standards across engagements. Recognized by agency clients as a design expert.</td></tr>
+            <tr><td>D-6</td><td>Designer II</td><td>8&ndash;10</td><td>$136k</td><td>Owns design quality across a complex, multi-workstream engagement. Contributes to BD credibly.</td></tr>
+            <tr><td>D-7</td><td>Principal designer</td><td>10&ndash;12</td><td>$150k</td><td>Shapes the design practice at Focus. Clients request by name. Recognized in the civic tech design community.</td></tr>
+            <tr><td>D-8</td><td>Principal designer</td><td>12&ndash;15</td><td>$165k</td><td>One of the most senior civic tech designers in the field. Sets the design philosophy. Full autonomy.</td></tr>
+          </tbody>
+        </table>
+
+        <details class="level">
+          <summary><span class="level-id">D-1</span> Associate designer <span class="level-meta">0&ndash;1 yr &middot; $65k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Produces clean, annotated design artifacts from clear briefs. Participates in research sessions as a notetaker or observer. Asks good questions in critiques. Beginning to understand that government users are often under-served, non-optional participants &mdash; not customers who chose the product.</p>
+            <p><strong>Craft:</strong> Proficient in Figma or equivalent. Can build from a component library. Understands basic IA and interaction patterns. Knows WCAG accessibility basics.</p>
+            <p><strong>Civic tech context:</strong> Learning to design for low-literacy, low-bandwidth, and high-stress users. Government users aren&rsquo;t always the savviest &mdash; design should work for everyone.</p>
+            <p><strong>Moving to D-2:</strong> Consistently delivers artifacts ready for dev handoff without re-work. Asks about the user before asking about the visual.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">D-2</span> Associate designer <span class="level-meta">1&ndash;2 yrs &middot; $75k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Takes a feature from brief to dev-ready with light supervision. Runs simple usability tests with support. Communicates design decisions &mdash; not just outputs &mdash; to teammates. Understands that &ldquo;it looks good&rdquo; is never sufficient justification in a government context.</p>
+            <p><strong>Craft:</strong> Strong Figma fundamentals. Can contribute to or extend a design system. Produces clear redlines and annotations. Beginning to conduct research independently.</p>
+            <p><strong>Civic tech context:</strong> Can articulate why accessibility and plain language matter for the specific program. Flags friction in user flows even when it&rsquo;s not in scope.</p>
+            <p><strong>Moving to D-3:</strong> Has owned a user research effort, however small. Can present design decisions to a non-design stakeholder clearly.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">D-3</span> Designer I <span class="level-meta">2&ndash;4 yrs &middot; $95k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Leads design for a feature or user journey end to end. Plans and executes user research. Synthesizes findings into actionable insights. Works directly with engineers and PMs. Advocates for users in product decisions, especially when the client wants to cut corners on accessibility or plain language.</p>
+            <p><strong>Craft:</strong> Expert Figma. Can audit a design system and identify gaps. Conducts moderated usability tests. Delivers research that changes a product decision.</p>
+            <p><strong>Civic tech context:</strong> Designs for the hardest users to reach &mdash; low literacy, rural, elderly, non-English-speaking. Understands Section 508 compliance beyond &ldquo;run the checker.&rdquo; Has done research with people who actually use the government service being redesigned.</p>
+            <p><strong>Moving to D-4:</strong> Consistently influences product decisions with research evidence. Has navigated a stakeholder who pushed back on user-centered recommendations &mdash; and landed somewhere better.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">D-4</span> Designer I <span class="level-meta">4&ndash;6 yrs &middot; $108k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Sets the design approach for a project or engagement. Runs discovery. Frames the problem before jumping to solutions. Trusted by the client as the design voice on the team. Mentors junior designers. Can represent design in a proposal or kickoff without senior support.</p>
+            <p><strong>Craft:</strong> Leads end-to-end design: discovery, research, IA, interaction design, visual design, handoff. Can stand up or refactor a design system for a project. Runs complex research &mdash; journey mapping, service blueprinting &mdash; with government stakeholders as participants.</p>
+            <p><strong>Civic tech context:</strong> Can navigate a government agency&rsquo;s internal politics to get user access. Knows how to run research in a constrained environment &mdash; no recruiting budget, no research ops, limited time.</p>
+            <p><strong>Moving to D-5:</strong> Design decisions on this project are visibly better because of their involvement. Other disciplines seek their input before making calls.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">D-5</span> Designer II <span class="level-meta">6&ndash;8 yrs &middot; $122k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Sets design standards across multiple engagements. Runs design critique that raises the whole team&rsquo;s bar. Recognized by agency clients as a design expert who understands government constraints. Contributes to Focus&rsquo;s design practice &mdash; methods, toolkits, onboarding.</p>
+            <p><strong>Craft:</strong> Deep expertise in at least one area (research, systems, service design) and strong across the others. Creates reusable design systems and research frameworks Focus can use across clients. Can scope a design engagement for a proposal.</p>
+            <p><strong>Civic tech context:</strong> Has redesigned a service that real people now use more effectively. Can quantify design impact &mdash; reduced errors, higher completion rates, fewer support calls.</p>
+            <p><strong>Moving to D-6:</strong> Demonstrably shaped how Focus designs. Has grown a designer who is now operating at a higher level.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">D-6</span> Designer II <span class="level-meta">8&ndash;10 yrs &middot; $136k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Owns design quality across a complex, multi-workstream engagement. Builds design into contracts &mdash; scoping, deliverables, success metrics. Runs design without a design manager present. Contributes to BD credibly. Has a point of view on what good civic design looks like and can defend it.</p>
+            <p><strong>Craft:</strong> Expert-level. Sets the design quality bar for the engagement. Writes documentation and process guides that others can follow. Can run a multi-agency co-design session with 30+ participants.</p>
+            <p><strong>Civic tech context:</strong> Builds continuity into design &mdash; handoff documentation, design system governance, research archives. Has seen their work survive a contract transition.</p>
+            <p><strong>Moving to D-7:</strong> Is sought out by PMs and engineers across Focus when they want to raise the design bar. Influence is felt beyond their current project.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">D-7</span> Principal designer <span class="level-meta">10&ndash;12 yrs &middot; $150k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Shapes the design practice at Focus &mdash; hiring bar, critique culture, methods library, design system standards. Clients request this person by name. Recognized in the civic tech design community. Mentors a pipeline of senior designers.</p>
+            <p><strong>Craft:</strong> Definitional expertise. Produces work that is referenced as an example by others in the practice. Contributes to the civic tech design conversation externally &mdash; speaking, writing, community leadership.</p>
+            <p><strong>Civic tech context:</strong> Deep fluency in government design &mdash; USWDS, federal plain language guidelines, Section 508. Knows how to push for the best design within real constraints, not an ideal world.</p>
+            <p><strong>Moving to D-8:</strong> Has shaped Focus&rsquo;s design reputation externally. Focus&rsquo;s design quality today is traceable in part to their leadership.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">D-8</span> Principal designer <span class="level-meta">12&ndash;15 yrs &middot; $165k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> One of the most senior civic tech designers in the field. Sets the design philosophy for Focus and influences the broader industry. Operates with full autonomy. Helps position Focus in conversations about what equitable, accessible government design looks like at scale.</p>
+            <p><strong>Craft:</strong> Field-defining. Their work is cited, referenced, or built on by others. Can evaluate and adopt emerging methods &mdash; AI-assisted design, new accessibility standards &mdash; and bring the practice along.</p>
+            <p><strong>The bar:</strong> Would be recruited by Code for America, USDS alumni orgs, or top civic design teams. Stays at Focus because of the mission, the autonomy, and the scale of impact &mdash; not because they have no options.</p>
+          </div>
+        </details>
+
+        <h2 id="product">Level Expectations: Product</h2>
+        <table>
+          <thead>
+            <tr><th>Level</th><th>Title</th><th>Yrs exp</th><th>Salary</th><th>Core expectation summary</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>P-1</td><td>Associate PM</td><td>0&ndash;1</td><td>$75k</td><td>Supports a PM or delivery lead. Keeps tickets groomed, notes accurate, and blockers visible.</td></tr>
+            <tr><td>P-2</td><td>Associate PM</td><td>1&ndash;2</td><td>$88k</td><td>Owns a feature area or workstream with light supervision. Communicates progress without prompting.</td></tr>
+            <tr><td>P-3</td><td>Product manager I</td><td>2&ndash;4</td><td>$108k</td><td>Runs a product track independently. Builds a roadmap grounded in research and program constraints.</td></tr>
+            <tr><td>P-4</td><td>Product manager I</td><td>4&ndash;6</td><td>$122k</td><td>Sets product strategy for the engagement. Builds trust with senior government stakeholders.</td></tr>
+            <tr><td>P-5</td><td>Product manager II</td><td>6&ndash;8</td><td>$138k</td><td>Leads product across a large or complex engagement. Recognized by clients as the product authority.</td></tr>
+            <tr><td>P-6</td><td>Product manager II</td><td>8&ndash;10</td><td>$152k</td><td>Owns product quality across a complex engagement end to end. Contributes to BD independently.</td></tr>
+            <tr><td>P-7</td><td>Senior PM / director</td><td>10&ndash;12</td><td>$168k</td><td>Shapes Focus&rsquo;s product practice. Credible product voice in the civic tech community.</td></tr>
+            <tr><td>P-8</td><td>Senior PM / director</td><td>12&ndash;15</td><td>$185k</td><td>One of the most senior civic tech product leaders in the field. Sets the product philosophy. Full autonomy.</td></tr>
+          </tbody>
+        </table>
+
+        <details class="level">
+          <summary><span class="level-id">P-1</span> Associate PM <span class="level-meta">0&ndash;1 yr &middot; $75k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Supports a PM or delivery lead on a project. Keeps tickets groomed, meeting notes accurate, and blockers visible. Asks what the user needs before asking what the client wants. Learning that government product work is about getting the right thing through a system that resists change.</p>
+            <p><strong>Skills:</strong> Comfortable with Jira or equivalent. Can write a clear user story. Takes meeting notes that other people find useful. Follows up on action items without being asked twice.</p>
+            <p><strong>Civic tech context:</strong> Learning how government procurement, compliance, and org structure shape what&rsquo;s possible. Understands the difference between the contracting officer, the program owner, and the end user.</p>
+            <p><strong>Moving to P-2:</strong> Can run a sprint ceremony solo. Has owned a small piece of scope end to end &mdash; even just a single user story &mdash; from discovery through delivery.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">P-2</span> Associate PM <span class="level-meta">1&ndash;2 yrs &middot; $88k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Owns a feature area or workstream with light supervision. Writes acceptance criteria that engineers and designers can act on. Communicates progress and blockers clearly to stakeholders without prompting. Developing a working relationship with at least one agency counterpart.</p>
+            <p><strong>Skills:</strong> Runs sprint ceremonies. Writes tickets that don&rsquo;t need a follow-up conversation to execute. Has participated in at least one round of user research &mdash; as organizer or observer.</p>
+            <p><strong>Civic tech context:</strong> Can explain the program their product supports &mdash; its funding source, its regulatory obligations, its end users &mdash; without reading from a brief.</p>
+            <p><strong>Moving to P-3:</strong> Has navigated a scope change or a shift in government priorities without losing team momentum. Shows judgment about what to escalate vs. resolve independently.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">P-3</span> Product manager I <span class="level-meta">2&ndash;4 yrs &middot; $108k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Runs a product track independently. Builds and maintains a roadmap grounded in user research and program constraints. Navigates ambiguity &mdash; when the client doesn&rsquo;t know what they want, helps them figure it out. Trusted by both the delivery team and the agency client to keep the work on track.</p>
+            <p><strong>Skills:</strong> Owns discovery to delivery. Can facilitate a roadmap prioritization session with government stakeholders. Writes product briefs and decision memos that leadership can act on.</p>
+            <p><strong>Civic tech context:</strong> Knows how to move a product forward in a constrained, consensus-driven environment. Has worked through at least one significant policy or compliance constraint that shaped product decisions.</p>
+            <p><strong>Moving to P-4:</strong> Has owned a product milestone &mdash; a launch, a phase completion, a major scope change &mdash; and delivered it. Is the person the team looks to when priorities shift mid-sprint.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">P-4</span> Product manager I <span class="level-meta">4&ndash;6 yrs &middot; $122k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Sets product strategy for the engagement &mdash; not just managing a backlog, but framing the product vision and getting the team and client aligned to it. Builds trust with senior government stakeholders. Mentors junior PMs. Can represent Focus&rsquo;s product perspective in a proposal or kickoff without support.</p>
+            <p><strong>Skills:</strong> Runs complex discovery: stakeholder interviews, service blueprinting, outcome mapping. Translates program goals into measurable product outcomes. Can scope a product engagement and write the product section of a proposal.</p>
+            <p><strong>Civic tech context:</strong> Has navigated a politically complex stakeholder environment &mdash; multiple agencies, competing priorities, or changing administration directives &mdash; and kept the product moving.</p>
+            <p><strong>Moving to P-5:</strong> Has run a full project phase as the lead PM with a multi-disciplinary team. The product is measurably better because of their strategic framing, not just their execution.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">P-5</span> Product manager II <span class="level-meta">6&ndash;8 yrs &middot; $138k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Leads product across a large or complex engagement. Contributes to how Focus does product &mdash; methods, templates, onboarding. Recognized by clients as the product authority on the account. Can run a project kickoff without any executive present from Focus.</p>
+            <p><strong>Skills:</strong> Expert in discovery, prioritization, and stakeholder alignment under government constraints. Writes and coaches to good product specs. Can lead a program-level outcome measurement effort.</p>
+            <p><strong>Civic tech context:</strong> Has shipped a government product used by real people and can quantify the impact. Has handed off a product to a government team that actually maintained it.</p>
+            <p><strong>Moving to P-6:</strong> Is the PM other PMs at Focus come to when they&rsquo;re stuck. Has shaped how Focus does product &mdash; not just delivered well themselves.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">P-6</span> Product manager II <span class="level-meta">8&ndash;10 yrs &middot; $152k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Owns product quality across a complex engagement end to end. Builds product into contracts &mdash; outcome metrics and success criteria that matter to users. Contributes to BD independently. Can stand up a new engagement from contract kickoff to first sprint without hand-holding.</p>
+            <p><strong>Skills:</strong> Expert PM in ambiguous or politically complex environments. Leads program-level change management with agency partners. Can run a retrospective across multiple projects and synthesize lessons into practice improvements.</p>
+            <p><strong>Civic tech context:</strong> Has survived a major project disruption &mdash; leadership change, policy reversal, contract modification &mdash; and kept value flowing. Builds institutional memory into the work so it survives turnover on both sides.</p>
+            <p><strong>Moving to P-7:</strong> Influence extends beyond the project. Is the reason a client renews with Focus. Has grown another PM in a visible, traceable way.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">P-7</span> Senior PM / director <span class="level-meta">10&ndash;12 yrs &middot; $168k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> Shapes Focus&rsquo;s product practice &mdash; hiring, methods, quality bar. Recognized by the civic tech community as a credible product voice. Helps set strategic direction of engagements from the pre-sales stage. Mentors senior PMs.</p>
+            <p><strong>Skills:</strong> Expert in government product strategy. Can evaluate a new program area quickly and frame the right product bet. Writes and speaks about civic tech product in ways that build Focus&rsquo;s reputation externally.</p>
+            <p><strong>Civic tech context:</strong> Deep fluency in the policy and funding landscape. Understands how to position Focus&rsquo;s product capabilities in relation to federal digital strategy shifts, AI adoption in government, and changing procurement models.</p>
+            <p><strong>Moving to P-8:</strong> Has shaped Focus&rsquo;s product reputation. Clients ask for this person by name. The practice is stronger because of their leadership.</p>
+          </div>
+        </details>
+
+        <details class="level">
+          <summary><span class="level-id">P-8</span> Senior PM / director <span class="level-meta">12&ndash;15 yrs &middot; $185k</span></summary>
+          <div class="level-body">
+            <p><strong>Core:</strong> One of the most senior civic tech product leaders in the field. Sets the product philosophy for Focus. Operates with full autonomy. Helps leadership make strategic bets &mdash; what to pursue, what to build internally, where civic tech is heading in the next 3&ndash;5 years.</p>
+            <p><strong>Skills:</strong> Definitional expertise. Evaluates and adopts emerging product methods &mdash; AI-assisted discovery, outcomes contracting, co-design at scale &mdash; and brings the practice along.</p>
+            <p><strong>The bar:</strong> Would be recruited by Code for America, USDS alumni networks, or senior product roles at top civic tech firms. Stays at Focus because of the mission, the autonomy, and the scale of impact &mdash; not because they have no options.</p>
+          </div>
+        </details>
+
+        <h2 id="non-negotiables">Focus Non-Negotiables</h2>
+        <p>These apply to every hire, all practices, all levels. One &ldquo;no&rdquo; ends the conversation.</p>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-title">Adaptability</div>
+            <div class="card-desc">Adjusts when ground shifts without losing forward momentum.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Ownership</div>
+            <div class="card-desc">Treats the outcome as theirs. Doesn&rsquo;t wait to be told. Closes loops.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Mission alignment</div>
+            <div class="card-desc">Cares about the work itself. Makes mission-forward choices when no one&rsquo;s watching.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Communication</div>
+            <div class="card-desc">Says the real thing, to the right audience, in the right setting. Clarity over jargon.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Collaboration</div>
+            <div class="card-desc">Makes the people around them better. Doesn&rsquo;t hoard credit, context, or decisions.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Decency</div>
+            <div class="card-desc">Treats teammates, clients, and partners with respect &mdash; always. Brilliance is never a license to be corrosive.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Stakeholder navigation</div>
+            <div class="card-desc">Reads the room. Manages up, across, and down. Builds trust with people whose priorities differ.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Professionalism</div>
+            <div class="card-desc">Reliable, prepared, composed. Honors commitments. Represents Focus well in any room.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Conflict management</div>
+            <div class="card-desc">Pulls disagreement into the open early. Disagrees without damaging the relationship.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Lean / user-centered thinking</div>
+            <div class="card-desc">Anchors decisions on user value. Ships the smallest thing that proves the bet.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Curiosity</div>
+            <div class="card-desc">Asks better questions than the assignment requires. Follows threads on their own.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Growth mindset</div>
+            <div class="card-desc">Treats feedback as information, not threat. Sees being wrong as a starting point.</div>
+          </div>
+          <div class="card">
+            <div class="card-title">Builder orientation</div>
+            <div class="card-desc">Learns by doing. Has a track record of shipping things because building is how they think.</div>
+          </div>
+        </div>
+
+        <div class="page-footer">
+          <span>Last updated: June 10, 2026</span>
+          <span>&copy; Focus Consulting LLC</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>
