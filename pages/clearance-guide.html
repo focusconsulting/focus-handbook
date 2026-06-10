@@ -11,48 +11,6 @@
   <script src="../js/nav.js" defer></script>
 </head>
 <body>
-  <script>
-    (function() {
-      var SESSION_KEY = 'focus_ps_auth';
-      // SHA-256 of the access code
-      var CORRECT_HASH = '95f7dd1f45a38f973ba11d932fed179c1a40806ddaedae74b61a29487223fd21';
-      if (sessionStorage.getItem(SESSION_KEY) === 'true') return;
-
-      // Hide content before anything else so a thrown error fails closed
-      document.documentElement.style.visibility = 'hidden';
-
-      function deny() {
-        try { window.stop(); } catch (e) {}
-        // Replace the whole document element so the parser's insertion
-        // point is detached and no further page content can render
-        document.documentElement.innerHTML =
-          '<body style="font-family:sans-serif;padding:2rem">' +
-          '<p>Access denied. <a href="../index.html">Return to handbook</a></p>' +
-          '</body>';
-        document.documentElement.style.visibility = 'visible';
-      }
-
-      try {
-        var pw = prompt('This page is internal. Enter the access code:');
-        if (!pw || !(window.crypto && crypto.subtle)) { deny(); return; }
-        crypto.subtle.digest('SHA-256', new TextEncoder().encode(pw))
-          .then(function(buf) {
-            var hash = Array.from(new Uint8Array(buf))
-              .map(function(b) { return b.toString(16).padStart(2, '0'); })
-              .join('');
-            if (hash === CORRECT_HASH) {
-              sessionStorage.setItem(SESSION_KEY, 'true');
-              document.documentElement.style.visibility = 'visible';
-            } else {
-              deny();
-            }
-          })
-          .catch(deny);
-      } catch (e) {
-        deny();
-      }
-    })();
-  </script>
   <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
   <div class="layout">
     <nav class="sidebar">
