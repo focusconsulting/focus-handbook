@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Operations — Focus Handbook</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="https://unpkg.com/lunr/lunr.js" defer></script>
+  <script src="../../js/search.js" defer></script>
+  <script src="../../js/nav.js" defer></script>
+</head>
+<body>
+  <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+  <div class="layout">
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="sidebar-header">
+        <a href="../../index.html" class="sidebar-logo">
+          <div class="logo-icon">F</div>
+          <span>Focus Handbook</span>
+        </a>
+      </div>
+      <div class="sidebar-search">
+        <span class="search-icon">&#128269;</span>
+        <input type="text" placeholder="Search... ( / )">
+      </div>
+      <div class="sidebar-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="employee">Employees</button>
+        <button class="filter-btn" data-filter="contractor">Contractors</button>
+      </div>
+      <div class="sidebar-nav">
+        <div class="nav-group">
+          <div class="nav-group-title">Getting Started</div>
+          <a class="nav-link" href="../../pages/welcome.html" data-audience="all">Welcome</a>
+          <a class="nav-link" href="../../pages/onboarding.html" data-audience="all">Onboarding</a>
+          <a class="nav-link" href="../../pages/our-work.html" data-audience="all">Our Work</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">How We Work</div>
+          <a class="nav-link" href="../../pages/how-we-work.html" data-audience="all">Communication &amp; Availability</a>
+          <a class="nav-link" href="../../pages/management.html" data-audience="all">Management &amp; Mentorship</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Employment</div>
+          <a class="nav-link" href="../../pages/employment.html" data-audience="employee">Categories &amp; Policies</a>
+          <a class="nav-link" href="../../pages/work-schedule.html" data-audience="all">Work Schedule &amp; Overtime</a>
+          <a class="nav-link" href="../../pages/performance.html" data-audience="all">Performance &amp; Expectations</a>
+          <a class="nav-link" href="../../pages/compensation.html" data-audience="employee">Compensation &amp; Growth</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Benefits &amp; Time Off</div>
+          <a class="nav-link" href="../../pages/benefits.html" data-audience="employee">Benefits</a>
+          <a class="nav-link" href="../../pages/time-off.html" data-audience="employee">Time Off &amp; Leave</a>
+          <a class="nav-link" href="../../pages/bereavement.html" data-audience="employee">Bereavement Leave</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Workplace Policies</div>
+          <a class="nav-link" href="../../pages/workplace.html" data-audience="all">Conduct &amp; Ethics</a>
+          <a class="nav-link" href="../../pages/technology.html" data-audience="all">Technology &amp; Remote Work</a>
+          <a class="nav-link" href="../../pages/travel.html" data-audience="all">Travel Policy</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Contractors</div>
+          <a class="nav-link" href="../../pages/contractors.html" data-audience="contractor">Contractor Policies</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">Delivery Operations</div>
+          <a class="nav-link nav-toggle active" href="#">
+            Subcontract Ops
+            <span class="chevron">&#9662;</span>
+          </a>
+          <div class="nav-submenu" style="display:block;">
+            <a class="nav-link" href="subcontract-ops/on-program-escalations.html" data-audience="all">On-Program Escalations</a>
+            <a class="nav-link" href="subcontract-ops/staffing-transitions.html" data-audience="all">Staffing Transitions</a>
+            <a class="nav-link" href="subcontract-ops/lcat-management.html" data-audience="all">LCAT Management</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">State &amp; Local Policies</div>
+          <a class="nav-link nav-toggle" href="#">
+            State Policies
+            <span class="chevron">&#9656;</span>
+          </a>
+          <div class="nav-submenu">
+            <a class="nav-link" href="../../pages/states/arizona.html" data-audience="employee">Arizona</a>
+            <a class="nav-link" href="../../pages/states/california.html" data-audience="employee">California</a>
+            <a class="nav-link" href="../../pages/states/dc.html" data-audience="employee">District of Columbia</a>
+            <a class="nav-link" href="../../pages/states/delaware.html" data-audience="employee">Delaware</a>
+            <a class="nav-link" href="../../pages/states/florida.html" data-audience="employee">Florida</a>
+            <a class="nav-link" href="../../pages/states/maryland.html" data-audience="employee">Maryland</a>
+            <a class="nav-link" href="../../pages/states/new-jersey.html" data-audience="employee">New Jersey</a>
+            <a class="nav-link" href="../../pages/states/new-york.html" data-audience="employee">New York</a>
+            <a class="nav-link" href="../../pages/states/vermont.html" data-audience="employee">Vermont</a>
+            <a class="nav-link" href="../../pages/states/virginia.html" data-audience="employee">Virginia</a>
+          </div>
+        </div>
+        <div class="nav-group">
+          <a class="nav-link" href="../../pages/acknowledgment.html" data-audience="all">Acknowledgment</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+      <div class="content">
+
+        <div class="page-header">
+          <div class="breadcrumb">
+            <a href="../../index.html">Handbook</a>
+            <span>&#8250;</span>
+            <span>Delivery Operations</span>
+          </div>
+          <h1>Delivery Operations</h1>
+          <p class="page-subtitle">Operating procedures for Focus staff working on client engagements, including subcontract and prime contract programs.</p>
+          <div class="badge-row">
+            <span class="badge badge-all">All Staff</span>
+          </div>
+        </div>
+
+        <p>This section covers the processes, standards, and escalation paths that govern how Focus manages active delivery engagements. The procedures here are primarily aimed at Delivery Leads, program staff, and the contracts team, but are available to all staff for reference.</p>
+
+        <p>Content is organized by engagement type — subcontracts, prime contracts, and joint ventures — because the specific contacts, notification requirements, and contractual levers differ across each. The underlying principles (escalation discipline, staffing transparency, LCAT alignment) apply across the board.</p>
+
+        <h2>Subcontract Ops</h2>
+        <p>SOPs for Focus engagements where Focus serves as a subcontractor. Current procedures are scoped to Nava as the prime.</p>
+
+        <div class="cards-grid">
+          <a class="card" href="subcontract-ops/on-program-escalations.html">
+            <span class="badge badge-all">All Staff</span>
+            <div class="card-title">On-Program Escalations</div>
+            <div class="card-desc">How to identify, route, and resolve delivery concerns, personnel issues, and client complaints on a Nava subcontract. Includes escalation matrix and communication rules.</div>
+          </a>
+          <a class="card" href="subcontract-ops/staffing-transitions.html">
+            <span class="badge badge-all">All Staff</span>
+            <div class="card-title">Staffing Transitions &amp; KP Notifications</div>
+            <div class="card-desc">Notification windows and process steps when a Focus team member transitions off a Nava program, including key personnel designation and involuntary removal procedures.</div>
+          </a>
+          <a class="card" href="subcontract-ops/lcat-management.html">
+            <span class="badge badge-all">All Staff</span>
+            <div class="card-title">LCAT Management &amp; Backfill Alignment</div>
+            <div class="card-desc">How to handle situations where a team member has performed above their contracted labor category level, and what to do when backfill needs exceed the LCAT ceiling.</div>
+          </a>
+        </div>
+
+        <h2>Prime Contract Ops</h2>
+        <p>SOPs for Focus engagements where Focus is the prime contractor. Covers client relationship management, subcontractor oversight, and reporting obligations specific to Focus-led programs.</p>
+        <div class="coming-soon-block">
+          <div class="coming-soon-label">Coming soon</div>
+          <p>Procedures for prime contract engagements are in development.</p>
+        </div>
+
+        <h2>Joint Ventures</h2>
+        <p>SOPs for engagements where Focus participates as a JV partner. Covers governance, work allocation, shared staffing, and partner communication protocols specific to JV structures.</p>
+        <div class="coming-soon-block">
+          <div class="coming-soon-label">Coming soon</div>
+          <p>Procedures for joint venture engagements are in development.</p>
+        </div>
+
+        <div class="page-footer">
+          <span>&copy; Focus Consulting LLC 2025. All rights reserved.</span>
+          <span>1015 15th St NW, Suite 600, Washington, DC 20005</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <button class="back-to-top" aria-label="Back to top">&#8593;</button>
+</body>
+</html>
