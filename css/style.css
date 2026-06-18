@@ -642,6 +642,86 @@ body {
   font-family: monospace;
 }
 
+/* === Delivery Operations / SOP pages === */
+.page-subtitle {
+  font-size: 17px;
+  color: var(--text-light);
+  margin: 6px 0 0;
+  line-height: 1.5;
+}
+
+.badge-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.policy-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 1.5rem 0 2rem;
+  font-size: 13px;
+}
+
+.policy-meta-item {
+  padding: 8px 14px;
+  border-right: 1px solid var(--border);
+  flex: 1 1 auto;
+  min-width: 160px;
+  background: var(--bg-page);
+}
+
+.policy-meta-item:last-child { border-right: none; }
+
+.policy-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin: 1rem 0 1.5rem;
+}
+
+.policy-table th {
+  background: var(--navy);
+  color: #fff;
+  text-align: left;
+  padding: 9px 12px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.policy-table td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.policy-table tr:last-child td { border-bottom: none; }
+.policy-table tr:nth-child(even) td { background: var(--bg-page); }
+
+.page-nav-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  font-size: 14px;
+}
+
+.page-nav-prev,
+.page-nav-next {
+  color: var(--navy);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.page-nav-prev:hover,
+.page-nav-next:hover { text-decoration: underline; }
+
 /* === Page Footer === */
 .page-footer {
   margin-top: 48px;
