@@ -1,0 +1,38 @@
+title: Focus Consulting Handbook
+description: Policies, benefits, and how we work together to deliver impactful digital services.
+baseurl: "/focus-handbook"
+url: "https://focusconsulting.github.io"
+
+theme: minima
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+
+readme_index:
+  enabled: true
+  remove_originals: false
+
+optional_front_matter:
+  enabled: true
+
+relative_links:
+  enabled: true
+  collections: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - convert_to_md.py
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - css
+  - js
