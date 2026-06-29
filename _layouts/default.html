@@ -27,6 +27,16 @@
       </a>
     </div>
 
+    <div class="hb-search-wrap">
+      <div class="hb-search-field">
+        <svg width="13" height="13" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.099zm-5.242 1.15a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"/>
+        </svg>
+        <input class="hb-search-input" type="text" placeholder="Search handbook…" readonly
+               onclick="openSearch()" aria-label="Search handbook" />
+      </div>
+    </div>
+
     <nav class="hb-sidebar-nav">
       {% for section in site.data.nav %}
       <div class="hb-nav-section">
@@ -73,6 +83,186 @@
 
   </div>
 </div>
+
+<!-- Search overlay -->
+<div class="hb-search-overlay" id="hb-search-overlay" role="dialog" aria-modal="true" aria-label="Search">
+  <div class="hb-search-modal">
+    <div class="hb-search-modal-input-wrap">
+      <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.099zm-5.242 1.15a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"/>
+      </svg>
+      <input class="hb-search-modal-input" id="hb-search-modal-input"
+             type="text" placeholder="Search policies, benefits, practices…"
+             autocomplete="off" spellcheck="false" />
+      <kbd class="hb-search-kbd">Esc</kbd>
+    </div>
+    <div class="hb-search-results" id="hb-search-results">
+      <div class="hb-search-empty" id="hb-search-empty" style="display:none"></div>
+    </div>
+    <div class="hb-search-footer">
+      <span class="hb-search-hint">
+        <kbd class="hb-search-kbd">↑↓</kbd> navigate
+      </span>
+      <span class="hb-search-hint">
+        <kbd class="hb-search-kbd">↵</kbd> open
+      </span>
+      <span class="hb-search-hint">
+        <kbd class="hb-search-kbd">Esc</kbd> close
+      </span>
+    </div>
+  </div>
+</div>
+
+<script src="{{ '/assets/lunr.min.js' | relative_url }}"></script>
+<script>
+(function () {
+  var INDEX_URL = '{{ "/search-index.json" | relative_url }}';
+  var BASE_URL  = '{{ site.baseurl }}';
+
+  var docs  = [];
+  var index = null;
+  var focusedIdx = -1;
+
+  function loadIndex(cb) {
+    if (index) return cb();
+    fetch(INDEX_URL)
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        docs = data;
+        index = lunr(function () {
+          this.ref('id');
+          this.field('title', { boost: 10 });
+          this.field('section', { boost: 5 });
+          this.field('content');
+          data.forEach(function (d) { this.add(d); }, this);
+        });
+        cb();
+      });
+  }
+
+  function highlight(text, query) {
+    if (!text || !query) return text || '';
+    var words = query.trim().split(/\s+/).filter(Boolean);
+    var escaped = words.map(function (w) {
+      return w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    });
+    var re = new RegExp('(' + escaped.join('|') + ')', 'gi');
+    return text.replace(re, '<mark>$1</mark>');
+  }
+
+  function excerpt(content, query) {
+    if (!content) return '';
+    var words = query.trim().split(/\s+/).filter(Boolean);
+    var lower = content.toLowerCase();
+    var first = content.length;
+    words.forEach(function (w) {
+      var i = lower.indexOf(w.toLowerCase());
+      if (i !== -1 && i < first) first = i;
+    });
+    var start = Math.max(0, first - 60);
+    var snippet = (start > 0 ? '…' : '') + content.slice(start, start + 160) + '…';
+    return highlight(snippet, query);
+  }
+
+  function renderResults(results, query) {
+    var container = document.getElementById('hb-search-results');
+    var empty     = document.getElementById('hb-search-empty');
+    container.querySelectorAll('.hb-search-result').forEach(function (el) { el.remove(); });
+    focusedIdx = -1;
+
+    if (!query.trim()) {
+      empty.style.display = 'none';
+      return;
+    }
+
+    if (!results.length) {
+      empty.textContent = 'No results for "' + query + '"';
+      empty.style.display = 'block';
+      return;
+    }
+
+    empty.style.display = 'none';
+    results.slice(0, 8).forEach(function (r) {
+      var doc = docs.find(function (d) { return d.id === r.ref; });
+      if (!doc) return;
+      var a = document.createElement('a');
+      a.className = 'hb-search-result';
+      a.href = BASE_URL + '/' + doc.url;
+      a.innerHTML =
+        '<div class="hb-search-result-section">' + doc.section + '</div>' +
+        '<div class="hb-search-result-title">' + highlight(doc.title, query) + '</div>' +
+        '<div class="hb-search-result-excerpt">' + excerpt(doc.content, query) + '</div>';
+      container.appendChild(a);
+    });
+  }
+
+  function getItems() {
+    return Array.from(document.querySelectorAll('.hb-search-result'));
+  }
+
+  function setFocus(idx) {
+    var items = getItems();
+    items.forEach(function (el, i) {
+      el.classList.toggle('focused', i === idx);
+    });
+    if (items[idx]) items[idx].scrollIntoView({ block: 'nearest' });
+    focusedIdx = idx;
+  }
+
+  window.openSearch = function () {
+    var overlay = document.getElementById('hb-search-overlay');
+    overlay.classList.add('open');
+    loadIndex(function () {
+      document.getElementById('hb-search-modal-input').focus();
+    });
+  };
+
+  function closeSearch() {
+    document.getElementById('hb-search-overlay').classList.remove('open');
+    document.getElementById('hb-search-modal-input').value = '';
+    document.getElementById('hb-search-results').querySelectorAll('.hb-search-result').forEach(function (el) { el.remove(); });
+    document.getElementById('hb-search-empty').style.display = 'none';
+    focusedIdx = -1;
+  }
+
+  document.getElementById('hb-search-modal-input').addEventListener('input', function () {
+    var q = this.value.trim();
+    if (!q) { renderResults([], ''); return; }
+    var results = [];
+    try { results = index ? index.search(q + '~1') : []; } catch (e) { results = []; }
+    renderResults(results, q);
+  });
+
+  document.getElementById('hb-search-modal-input').addEventListener('keydown', function (e) {
+    var items = getItems();
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setFocus(Math.min(focusedIdx + 1, items.length - 1));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      setFocus(Math.max(focusedIdx - 1, 0));
+    } else if (e.key === 'Enter' && focusedIdx >= 0 && items[focusedIdx]) {
+      items[focusedIdx].click();
+    } else if (e.key === 'Escape') {
+      closeSearch();
+    }
+  });
+
+  document.getElementById('hb-search-overlay').addEventListener('click', function (e) {
+    if (e.target === this) closeSearch();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      openSearch();
+    }
+    if (e.key === 'Escape' && document.getElementById('hb-search-overlay').classList.contains('open')) {
+      closeSearch();
+    }
+  });
+})();
+</script>
 
 </body>
 </html>
