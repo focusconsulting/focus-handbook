@@ -598,3 +598,36 @@ body {
   align-items: center;
   gap: 5px;
 }
+
+/* ── Topbar search button ── */
+.hb-topbar-search {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: var(--shell);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 13px;
+  transition: border-color 0.15s, color 0.15s;
+  user-select: none;
+}
+
+.hb-topbar-search:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.hb-topbar-kbd {
+  font-size: 11px;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-family: inherit;
+  margin-left: 4px;
+}
