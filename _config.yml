@@ -3,8 +3,6 @@ description: Policies, benefits, and how we work together to deliver impactful d
 baseurl: "/focus-handbook"
 url: "https://focusconsulting.github.io"
 
-theme: minima
-
 plugins:
   - jekyll-relative-links
   - jekyll-optional-front-matter

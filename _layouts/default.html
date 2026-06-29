@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <link rel="stylesheet" href="{{ '/assets/handbook.css' | relative_url }}" />
+</head>
+<body>
+
+<div class="hb-app">
+
+  <!-- Sidebar -->
+  <aside class="hb-sidebar">
+    <div class="hb-sidebar-header">
+      <a class="hb-logo" href="{{ '/' | relative_url }}">
+        <div class="hb-logo-mark">
+          <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 3h12v2H2zm0 4h8v2H2zm0 4h10v2H2z"/>
+          </svg>
+        </div>
+        <div class="hb-logo-text">
+          <span class="hb-logo-company">Focus</span>
+          <span class="hb-logo-sub">Handbook</span>
+        </div>
+      </a>
+    </div>
+
+    <nav class="hb-sidebar-nav">
+      {% for section in site.data.nav %}
+      <div class="hb-nav-section">
+        <span class="hb-nav-section-label">{{ section.title }}</span>
+        {% for item in section.pages %}
+        <a href="{{ item.url }}"
+           class="hb-nav-item{% if page.url == item.url or page.url == item.url | append: '/' %} active{% endif %}">
+          {{ item.label }}
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </nav>
+  </aside>
+
+  <!-- Main -->
+  <div class="hb-main">
+
+    <!-- Topbar -->
+    <header class="hb-topbar">
+      <div class="hb-breadcrumb">
+        {% assign current_url = page.url %}
+        {% for section in site.data.nav %}
+          {% for item in section.pages %}
+            {% if current_url == item.url or current_url == item.url | append: '/' %}
+              <span>{{ section.title }}</span>
+              <span class="hb-breadcrumb-sep">›</span>
+              <span class="hb-breadcrumb-current">{{ item.label }}</span>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        {% unless page.url contains '/pages/' %}
+          <span class="hb-breadcrumb-current">{{ site.title }}</span>
+        {% endunless %}
+      </div>
+    </header>
+
+    <!-- Content -->
+    <div class="hb-content-wrap">
+      <div class="hb-content">
+        {{ content }}
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

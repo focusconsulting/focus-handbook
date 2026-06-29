@@ -1,0 +1,106 @@
+- title: Getting Started
+  pages:
+    - label: Welcome to Focus
+      url: /focus-handbook/pages/welcome
+    - label: Onboarding
+      url: /focus-handbook/pages/onboarding
+    - label: Our Work
+      url: /focus-handbook/pages/our-work
+
+- title: How We Work
+  pages:
+    - label: Communication & Availability
+      url: /focus-handbook/pages/how-we-work
+    - label: Management & Mentorship
+      url: /focus-handbook/pages/management
+    - label: Practices
+      url: /focus-handbook/pages/practices
+
+- title: Employment
+  pages:
+    - label: Categories & Policies
+      url: /focus-handbook/pages/employment
+    - label: Work Schedule & Overtime
+      url: /focus-handbook/pages/work-schedule
+    - label: Performance & Expectations
+      url: /focus-handbook/pages/performance
+    - label: Compensation & Growth
+      url: /focus-handbook/pages/compensation
+    - label: W-2 Policy
+      url: /focus-handbook/pages/w2-policy
+
+- title: Benefits & Time Off
+  pages:
+    - label: Benefits
+      url: /focus-handbook/pages/benefits
+    - label: Time Off & Leave
+      url: /focus-handbook/pages/time-off
+    - label: Bereavement Leave
+      url: /focus-handbook/pages/bereavement
+
+- title: Workplace Policies
+  pages:
+    - label: Conduct & Ethics
+      url: /focus-handbook/pages/workplace
+    - label: Technology & Remote Work
+      url: /focus-handbook/pages/technology
+    - label: Travel Policy
+      url: /focus-handbook/pages/travel
+
+- title: Contractors
+  pages:
+    - label: Contractor Policies
+      url: /focus-handbook/pages/contractors
+
+- title: Delivery Operations
+  pages:
+    - label: Overview
+      url: /focus-handbook/pages/delivery-operations/
+    - label: On-Program Escalations
+      url: /focus-handbook/pages/delivery-operations/subcontract-ops/on-program-escalations
+    - label: Staffing Transitions
+      url: /focus-handbook/pages/delivery-operations/subcontract-ops/staffing-transitions
+    - label: LCAT Management
+      url: /focus-handbook/pages/delivery-operations/subcontract-ops/lcat-management
+
+- title: Business Operations
+  pages:
+    - label: Invoicing & Timekeeping
+      url: /focus-handbook/pages/invoicing
+
+- title: People Strategy
+  pages:
+    - label: People Strategy
+      url: /focus-handbook/pages/people-strategy
+    - label: Bonus Guide
+      url: /focus-handbook/pages/bonus-guide
+    - label: Clearance Guide
+      url: /focus-handbook/pages/clearance-guide
+
+- title: State & Local Policies
+  pages:
+    - label: Arizona
+      url: /focus-handbook/pages/states/arizona
+    - label: California
+      url: /focus-handbook/pages/states/california
+    - label: District of Columbia
+      url: /focus-handbook/pages/states/dc
+    - label: Delaware
+      url: /focus-handbook/pages/states/delaware
+    - label: Florida
+      url: /focus-handbook/pages/states/florida
+    - label: Maryland
+      url: /focus-handbook/pages/states/maryland
+    - label: New Jersey
+      url: /focus-handbook/pages/states/new-jersey
+    - label: New York
+      url: /focus-handbook/pages/states/new-york
+    - label: Vermont
+      url: /focus-handbook/pages/states/vermont
+    - label: Virginia
+      url: /focus-handbook/pages/states/virginia
+
+- title: Other
+  pages:
+    - label: Acknowledgment
+      url: /focus-handbook/pages/acknowledgment
