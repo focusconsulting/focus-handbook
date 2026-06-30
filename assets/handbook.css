@@ -156,6 +156,20 @@ body {
   background: var(--accent);
 }
 
+.hb-nav-subsection-label {
+  display: block;
+  padding: 8px 20px 3px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--s-section);
+  user-select: none;
+  margin-top: 4px;
+}
+
+.hb-nav-item--indent {
+  padding-left: 32px;
+}
+
 /* ── Main ── */
 .hb-main {
   margin-left: var(--sidebar-w);

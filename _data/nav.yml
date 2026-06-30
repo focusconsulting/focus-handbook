@@ -56,14 +56,21 @@
   pages:
     - label: Overview
       url: /focus-handbook/pages/delivery-operations/
+    - subsection: Subcontracts
     - label: On-Program Escalations
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/on-program-escalations
+      indent: true
     - label: Staffing Transitions
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/staffing-transitions
+      indent: true
     - label: LCAT Management
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/lcat-management
+      indent: true
+    - subsection: Prime Contracts
     - label: CDO Engagement Model for Prime Contracts
       url: /focus-handbook/pages/delivery-operations/prime-contract-ops/cdo-engagement-model
+      indent: true
+    - subsection: Joint Ventures
 
 - title: Business Operations
   pages:
