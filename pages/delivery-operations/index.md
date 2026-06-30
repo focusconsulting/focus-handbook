@@ -96,7 +96,7 @@ What is the delivery lead hearing that Focus should act on? This includes relati
 
 SOPs for Focus engagements where Focus is the prime contractor. Covers client relationship management, subcontractor oversight, and reporting obligations specific to Focus-led programs.
 
-_Coming soon._ Procedures for prime contract engagements are in development.
+- [CDO Engagement Model for Prime Contracts](prime-contract-ops/cdo-engagement-model.md): How the CDO's role evolves across the lifecycle of a Focus prime contract — from BD-to-delivery handoff at notice of award through contract closeout. Covers meeting cadence, escalation model, option year and recompete triggers, and FAQs for contract leads.
 
 ## Joint Ventures
 
