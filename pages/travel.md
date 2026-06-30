@@ -85,6 +85,6 @@ For travel interruptions, delays, or emergencies while traveling, contact Meg Gr
 
 ## Compliance
 
-Employees and contractors are expected to use good judgment and act as responsible stewards of company resources when traveling. Non-compliance with this policy — including submitting unsupported or inaccurate expense reports — may result in denied reimbursements and disciplinary action up to and including termination.
+Employees and contractors are expected to use good judgment and act as responsible stewards of company resources when traveling. Non-compliance with this policy, including submitting unsupported or inaccurate expense reports, may result in denied reimbursements and disciplinary action up to and including termination.
 
 Questions about travel approval, expense eligibility, or reimbursement? Contact **Meg Greenberg** in Business Operations.

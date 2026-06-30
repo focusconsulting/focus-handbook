@@ -16,7 +16,7 @@ _PTO, sick leave, holidays, and federal and state leave entitlements._
 - Focus provides **unlimited sick leave** for employees
 - Use sick leave for personal illness, medical appointments, or caring for an ill family member
 - Documentation (doctor's note) is required after 3 or more consecutive sick days
-- Additional state-specific sick leave requirements may apply — see [State Policies](states/index.md)
+- Additional state-specific sick leave requirements may apply; see [State Policies](states/index.md)
 
 ## Paid Holidays
 

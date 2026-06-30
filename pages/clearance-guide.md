@@ -2,7 +2,7 @@
 
 _What clearances are, how the process works, and how to navigate it successfully._
 
-> **Draft:** Draft — not final policy.This page is under internal review and has not been approved for distribution. Do not share externally.
+> **Draft (not final policy):** This page is under internal review and has not been approved for distribution. Do not share externally.
 
 ## Why This Matters at Focus
 
@@ -16,8 +16,8 @@ Clearances are issued by the sponsoring agency — not by Focus. We initiate the
 
 | Type | Common on | Notes |
 | --- | --- | --- |
-| **Public trust — moderate risk** | CMS, CDC, state health agencies | Most common; SF-85 form |
-| **Public trust — high risk** | FSA (tax data), some HHS programs | More intensive than moderate; SF-85P |
+| **Public trust (moderate risk)** | CMS, CDC, state health agencies | Most common; SF-85 form |
+| **Public trust (high risk)** | FSA (tax data), some HHS programs | More intensive than moderate; SF-85P |
 | **Secret** | Department of State, some DoD-adjacent | SF-86; longer timeline |
 | **Confidential** | Varies | Less common in our work |
 
@@ -25,7 +25,7 @@ State-level projects vary. Many states use our background check directly. Some (
 
 > **Clearances Are Agency-Specific:** Holding a public trust at CDC does not automatically transfer to a Department of State moderate risk clearance. If you move to a new project at a different agency, you may need to go through the process again.
 
-## The Clearance Process — What to Expect
+## The Clearance Process: What to Expect
 
 ### Step 1: Form Submission
 
@@ -102,7 +102,7 @@ Significant unresolved debt, delinquent accounts, or financial circumstances tha
 
 If your clearance is taking longer than expected through no fault of your own (agency backlog, a former employer slow to respond despite your preparation), Focus will work within a budgeted non-billable window before making a staffing decision.
 
-This window is approximately **6 weeks from your start date**, which accounts for roughly 2 weeks of onboarding before billing would typically begin. This is not a hard cutoff — decisions are made on a case-by-case basis by leadership, taking into account the reason for the delay, whether other project placement is available, and business capacity.
+This window is approximately **6 weeks from your start date**, which accounts for roughly 2 weeks of onboarding before billing would typically begin. This is not a hard cutoff; decisions are made on a case-by-case basis by leadership, taking into account the reason for the delay, whether other project placement is available, and business capacity.
 
 If we reach this window, your manager and People Operations will have an explicit conversation with you about options. You will not be left wondering.
 

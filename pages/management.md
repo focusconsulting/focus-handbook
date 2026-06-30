@@ -34,14 +34,14 @@ Every staff member at Focus has access to mentorship. Mentors help with:
 - Technical or discipline-specific guidance
 - Preparing for promotion and expanded responsibilities
 
-Mentorship at Focus is primarily async — regular check-ins supplemented by ad-hoc conversations as needed. Your mentor is not your evaluator; they are your advocate.
+Mentorship at Focus is primarily async, with regular check-ins supplemented by ad-hoc conversations as needed. Your mentor is not your evaluator; they are your advocate.
 
 ## How We Evaluate
 
 Performance evaluation at Focus is based on observable outcomes, not subjective impressions. We use three primary inputs:
 
-1. **Colleague feedback** — regular input from people who work directly with you
-2. **Async check-ins** — documented progress and growth conversations over time
-3. **Project artifacts** — the actual work you produce, including code, designs, documents, and delivery outcomes
+1. **Colleague feedback:** regular input from people who work directly with you
+2. **Async check-ins:** documented progress and growth conversations over time
+3. **Project artifacts:** the actual work you produce, including code, designs, documents, and delivery outcomes
 
 Staff have up to 12 months to fully align with company values and performance expectations. This window recognizes that people need time to adapt to Focus's approach, especially if coming from a different organizational culture.

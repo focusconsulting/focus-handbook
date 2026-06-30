@@ -30,10 +30,10 @@ When personal devices are used for business purposes:
 
 Staff may use social media in their personal capacity, but must follow these guidelines:
 
-- Never reveal confidential company information or trade secrets — including client details, project specifics, or marketing strategies
+- Never reveal confidential company information or trade secrets, including client details, project specifics, or marketing strategies
 - Do not speak on behalf of Focus without authorization
 - All confidentiality and proprietary information rules apply to social media activity
-- Be professional — remember that your online presence can reflect on Focus
+- Be professional; remember that your online presence can reflect on Focus
 
 > **State Protections:** Some states (including Vermont and New Jersey) prohibit employers from requiring employees to disclose social media credentials or passwords. Focus does not request social media login information.
 

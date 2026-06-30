@@ -4,7 +4,7 @@ _What Focus expects of every team member and how we approach performance managem
 
 ## Core Expectations
 
-Every person at Focus — employee or contractor — is expected to adhere to:
+Every person at Focus, whether employee or contractor, is expected to adhere to:
 
 - Focus's working norms and communication standards
 - The delivery approach and methodologies used on their project
@@ -28,8 +28,8 @@ Reviews consider:
 Focus uses active coaching to address performance concerns early. The following are examples of behaviors that may trigger a coaching conversation:
 
 - **Lack of visible task progress** without seeking help or surfacing blockers
-- **Missing meaningful status updates** — updates should reflect real progress, not just activity
-- **Unexcused meeting absences** — if you can't attend, communicate in advance
+- **Missing meaningful status updates:** updates should reflect real progress, not just activity
+- **Unexcused meeting absences:** if you can't attend, communicate in advance
 - **Chronic lateness** to meetings or deliverables
 - **Repeated failure to follow team norms** after they've been communicated
 - **Being unreachable** during working hours without prior notification
@@ -45,7 +45,7 @@ Life happens. If you anticipate or are experiencing a productivity impact, the e
 - Burnout or sustained low motivation
 - Personal circumstances affecting your ability to work
 
-This is not punitive — it's how we support each other. Waiting until a productivity drop is visible in your work creates larger problems for you, your team, and your client.
+This is not punitive; it's how we support each other. Waiting until a productivity drop is visible in your work creates larger problems for you, your team, and your client.
 
 ## Timekeeping & Attendance
 

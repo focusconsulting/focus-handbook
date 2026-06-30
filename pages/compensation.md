@@ -10,7 +10,7 @@ Non-exempt employees who work beyond their regular schedule will receive overtim
 
 ## Discretionary Bonus Policy
 
-Focus offers discretionary bonuses based on measurable outcomes that directly contribute to the company's growth and success. Bonuses are not capped at a fixed percentage of base salary — they are determined by the impact of your contributions.
+Focus offers discretionary bonuses based on measurable outcomes that directly contribute to the company's growth and success. Bonuses are not capped at a fixed percentage of base salary; they are determined by the impact of your contributions.
 
 ### Eligibility
 
@@ -53,7 +53,7 @@ Focus conducts annual compensation reviews throughout the year.
 
 ### How Compensation Is Determined
 
-- **Years of experience (YOE)** in the specific role you were hired for guides compensation discussions — this is distinct from total career experience across all roles
+- **Years of experience (YOE)** in the specific role you were hired for guides compensation discussions; this is distinct from total career experience across all roles
 - **Raise eligibility** is reviewed for employees who have been at Focus for 18 or more months
 - **Adjustments** are contingent on role and labor category (LCAT) availability on your current contract, as well as your performance calibration against the career ladder
 
@@ -63,8 +63,8 @@ Focus conducts annual compensation reviews throughout the year.
 
 Promotions at Focus are tied to two factors:
 
-1. **Performance calibration** against the career ladder — demonstrated readiness for the next level based on delivery quality, colleague feedback, and project artifacts
-2. **Role availability** — an appropriate LCAT must be available on your current contract or elsewhere in the company
+1. **Performance calibration** against the career ladder: demonstrated readiness for the next level based on delivery quality, colleague feedback, and project artifacts
+2. **Role availability:** an appropriate LCAT must be available on your current contract or elsewhere in the company
 
 ### Career Levels
 

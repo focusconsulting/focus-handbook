@@ -1,6 +1,6 @@
 # Onboarding
 
-_Your first months at Focus — what to expect, who to connect with, and how to get up to speed._
+_Your first months at Focus: what to expect, who to connect with, and how to get up to speed._
 
 ## Onboarding Overview
 
@@ -23,7 +23,7 @@ During your first week, expect to:
 
 During the first month, you should focus on:
 
-- Understanding the project context — who the client is, what the system does, and where the team is in the delivery lifecycle
+- Understanding the project context: who the client is, what the system does, and where the team is in the delivery lifecycle
 - Building relationships with your immediate team and cross-functional partners
 - Getting comfortable with the team's communication norms and meeting cadence
 - Starting to contribute to your first tasks with guidance from your mentor or tech lead

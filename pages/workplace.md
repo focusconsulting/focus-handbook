@@ -43,7 +43,7 @@ Sexual harassment includes unwelcome sexual advances, requests for sexual favors
 
 ## Workplace Violence Prevention
 
-Focus has zero tolerance for violence, threats of violence, threatening language, or aggressive behavior in the workplace — whether in person, remote, or at client sites.
+Focus has zero tolerance for violence, threats of violence, threatening language, or aggressive behavior in the workplace, whether in person, remote, or at client sites.
 
 All staff must immediately report:
 
@@ -71,7 +71,7 @@ The company will determine appropriate mitigation measures, which may include re
 
 ## Confidential Company & Client Information
 
-All client information — including personal data, financial details, and project information — must remain confidential. Access to client data is restricted to authorized personnel only.
+All client information (including personal data, financial details, and project information) must remain confidential. Access to client data is restricted to authorized personnel only.
 
 Company confidential information includes customer lists, price lists, financial data, marketing plans, business strategies, and sensitive employee information. Employees must protect this information and may face termination for improper disclosure.
 

@@ -2,7 +2,7 @@
 
 _How to make the case for a bonus, what counts, and what doesn't._
 
-> **Draft:** Draft — not final policy.This page is under internal review and has not been approved for distribution. Do not share externally.
+> **Draft (not final policy):** This page is under internal review and has not been approved for distribution. Do not share externally.
 
 ## How the Bonus Process Works
 
@@ -29,14 +29,14 @@ Your submission should address any of the four areas below where you have a genu
 
 ### 1. Helps Focus Scale
 
-Contributing to the internal infrastructure that makes Focus function and grow. This is the pillar most directly tied to additional roles (contract lead, manager of people, KP on contract) — holding those roles gives you a structural leg up here. But non-role-holders can contribute here too.
+Contributing to the internal infrastructure that makes Focus function and grow. This is the pillar most directly tied to additional roles (contract lead, manager of people, KP on contract); holding those roles gives you a structural leg up here. But non-role-holders can contribute here too.
 
 Examples:
 
-- Onboarding buddy — actively supporting a new hire's integration beyond what is formally required
-- Interviewing — conducting or materially supporting hiring cycles, not just being available
-- Practice leadership — organizing practice meetings, developing internal toolkits, setting standards others follow
-- Internal process improvements — documented changes that save time or reduce friction for the whole team
+- Onboarding buddy: actively supporting a new hire's integration beyond what is formally required
+- Interviewing: conducting or materially supporting hiring cycles, not just being available
+- Practice leadership: organizing practice meetings, developing internal toolkits, setting standards others follow
+- Internal process improvements: documented changes that save time or reduce friction for the whole team
 
 ### 2. Project Delivery
 
@@ -44,7 +44,7 @@ Outcomes you drove on your project that exceeded what was expected for your leve
 
 Examples:
 
-- A client stakeholder provided external recognition of your work (save the Slack message, email, or LinkedIn post — these are evidence)
+- A client stakeholder provided external recognition of your work (save the Slack message, email, or LinkedIn post; these are evidence)
 - A release, feature, or initiative was mentioned in a press release, client communication, or agency announcement
 - You identified a risk or problem before it became visible and resolved it in a way that saved the project materially
 - You stepped into a leadership vacuum (tech lead out, PM transition, new agency stakeholder) and kept delivery on track
@@ -71,7 +71,7 @@ Examples:
 
 - Driving a process improvement that was adopted company-wide
 - Leading or significantly contributing to a change management effort (policy rollout, tool migration, practice restructure)
-- Org health contributions — identifying a cultural problem and doing something about it, not just flagging it
+- Org health contributions: identifying a cultural problem and doing something about it, not just flagging it
 - Documenting institutional knowledge that would otherwise live only in someone's head
 
 ## What Counts as Impact
@@ -81,7 +81,7 @@ Impact is something that would not have happened, or would have happened worse, 
 - Would this outcome have occurred if I had just done my regular job?
 - Is there a specific moment, deliverable, or relationship I can point to?
 - Did someone outside my immediate team notice or benefit from this?
-- Can I show evidence — a message, a metric, a release, a referral?
+- Can I show evidence: a message, a metric, a release, a referral?
 
 If the answer to most of those is yes, it probably counts.
 
@@ -93,7 +93,7 @@ If the answer to most of those is yes, it probably counts.
 - Work that only your manager can see and that has no external trace or outcome.
 - Being available, responsive, or professional. These are baseline expectations, not differentiators.
 
-This may feel strict. It is. The bar is intentional. Bonuses at Focus are for impact that grows the company or meaningfully advances a client's mission. That bar is reachable — many people clear it every cycle — but it requires doing things beyond the minimum.
+This may feel strict. It is. The bar is intentional. Bonuses at Focus are for impact that grows the company or meaningfully advances a client's mission. That bar is reachable; many people clear it every cycle, but it requires doing things beyond the minimum.
 
 ## How to Write Your Submission
 
@@ -119,15 +119,15 @@ Total length: most strong submissions are 200–500 words. There is no word limi
 
 ### Example: Helps Focus Scale
 
-> During the June–December cycle I served as onboarding buddy for two new hires — [Name] and [Name]. Beyond the formal checklist, I ran three working sessions helping [Name] navigate the CMS access process and introduced [Name] to four engineering colleagues outside our immediate project team. Both are fully ramped. I also condensed the onboarding feedback into a 1-page doc that Meg is now using as a standard supplement to the existing checklist.
+> During the June–December cycle I served as onboarding buddy for two new hires, [Name] and [Name]. Beyond the formal checklist, I ran three working sessions helping [Name] navigate the CMS access process and introduced [Name] to four engineering colleagues outside our immediate project team. Both are fully ramped. I also condensed the onboarding feedback into a 1-page doc that Meg is now using as a standard supplement to the existing checklist.
 
 ### Example: Builds Brand and Client Relationships
 
-> In October I presented our NJ UI accessibility remediation approach at the GovTech Design Summit. About 60 people attended. Three of them reached out afterward — one was a program director at HHS who mentioned the presentation to Anne during the ACF kickoff. I have the original Zoom attendee message and the HHS follow-up email if useful.
+> In October I presented our NJ UI accessibility remediation approach at the GovTech Design Summit. About 60 people attended. Three of them reached out afterward, including a program director at HHS who mentioned the presentation to Anne during the ACF kickoff. I have the original Zoom attendee message and the HHS follow-up email if useful.
 
 ### Example: Project Delivery
 
-> In September, our DOL integration test suite was failing sporadically in ways that were going to push our October go-live. I dug into it over a weekend, identified a timing issue in the third-party API wrapper, and submitted a fix that stabilized the suite. The October release went out on schedule. The client mentioned it in the sprint review — I saved that message. The fix is in the repo at [commit].
+> In September, our DOL integration test suite was failing sporadically in ways that were going to push our October go-live. I dug into it over a weekend, identified a timing issue in the third-party API wrapper, and submitted a fix that stabilized the suite. The October release went out on schedule. The client mentioned it in the sprint review; I saved that message. The fix is in the repo at [commit].
 
 ## Timeline
 

@@ -6,7 +6,7 @@ _Employee classifications, introductory period, accommodations, and discipline p
 
 | Category | Description | Benefits Eligible |
 | --- | --- | --- |
-| **Regular Full-Time** | Works 40+ hours weekly, not in introductory period | Yes — full benefits |
+| **Regular Full-Time** | Works 40+ hours weekly, not in introductory period | Yes (full benefits) |
 | **Regular Part-Time** | Indefinite employment under 40 hours weekly | Some benefits may apply |
 | **Short-Term / Contract** | Limited duration, hired for specific projects | Generally ineligible |
 
@@ -42,12 +42,12 @@ Source: Pregnant Workers Fairness Act, 42 U.S.C. § 2000gg (effective June 27, 2
 
 Focus applies a graduated approach to addressing performance or conduct issues. The goal is always correction and improvement, not punishment. Depending on the nature and severity of the issue, steps may include:
 
-1. **Verbal warning** — documented conversation identifying the issue and expectations
-2. **Written warning** — formal documentation of the issue with a corrective action plan
-3. **Probation** — defined period with specific performance requirements
-4. **Suspension** — temporary removal from work duties
-5. **Demotion or transfer** — reassignment to a different role or level
-6. **Termination** — end of employment
+1. **Verbal warning:** documented conversation identifying the issue and expectations
+2. **Written warning:** formal documentation of the issue with a corrective action plan
+3. **Probation:** defined period with specific performance requirements
+4. **Suspension:** temporary removal from work duties
+5. **Demotion or transfer:** reassignment to a different role or level
+6. **Termination:** end of employment
 
 Focus reserves the right to skip steps based on the severity of the violation. Serious misconduct (theft, violence, harassment) may result in immediate termination.
 

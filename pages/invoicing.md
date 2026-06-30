@@ -2,7 +2,7 @@
 
 _Focus's internal standards for timekeeping compliance and invoice management across all active engagements._
 
-> **Draft:** Draft — not final policy.This page is under internal review and has not been approved for distribution. Do not share externally.
+> **Draft (not final policy):** This page is under internal review and has not been approved for distribution. Do not share externally.
 
 ## Purpose
 
@@ -14,7 +14,7 @@ The internal bar is **daily time entry**. On federal contracts, DCAA audit stand
 
 For all staff billable to a program, hours must be entered in Rippling by end of day, every working day. This applies to both employees and 1099 contractors.
 
-> **DCAA Compliance Note:** Federal contracts are subject to DCAA audit at any time. Contemporaneous timekeeping is not optional on these engagements — it is the standard of evidence. Late entries that cannot be corroborated by project records create audit exposure.
+> **DCAA Compliance Note:** Federal contracts are subject to DCAA audit at any time. Contemporaneous timekeeping is not optional on these engagements; it is the standard of evidence. Late entries that cannot be corroborated by project records create audit exposure.
 
 ## Biz Ops Weekly Checklist
 

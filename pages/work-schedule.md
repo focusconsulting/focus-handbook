@@ -8,7 +8,7 @@ At Focus Consulting, we believe that exceptional work comes from well-rested, en
 
 We recognize that government contracting occasionally requires flexibility beyond standard hours. These periods of extended effort are the exception, not the rule, and are essential to maintaining our reputation for reliability and mission-critical delivery.
 
-> **Consistent Overwork Is a Signal, Not a Standard:** If any team member finds themselves consistently working over 40 hours per week, this signals a systemic challenge requiring immediate attention — resource constraints, scope creep, unrealistic timelines, or process inefficiencies. These issues should be addressed through retrospectives, program health checks, and escalation to Focus leadership.
+> **Consistent Overwork Is a Signal, Not a Standard:** If any team member finds themselves consistently working over 40 hours per week, this signals a systemic challenge requiring immediate attention: resource constraints, scope creep, unrealistic timelines, or process inefficiencies. These issues should be addressed through retrospectives, program health checks, and escalation to Focus leadership.
 
 ## Standard Work Week
 

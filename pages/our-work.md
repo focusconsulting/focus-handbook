@@ -8,13 +8,13 @@ We are using a pilot approach to fully build and launch a mobile-first, accessib
  Passport Adjudication Passport Adjudication ModernizationJuly 2025 – PresentConsular ServicesModernization
 Our team is supporting the Department of State's Consular Division modernize the passport adjudication process by building a new centralized, accessible, and cloud-native adjudication platform MVP that will eventually replace multiple on-premises legacy systems.
  FAFSA FAFSA Test AutomationMay 2025 – PresentPublic InterestModernizationAI
-Our team is supporting the Federal Student Aid office enhance, automate, and improve existing testing and observability functions for the Free Application for Federal Student Aid (FAFSA) system — a key federal program providing student loans, grants, and scholarships to US residents.
+Our team is supporting the Federal Student Aid office enhance, automate, and improve existing testing and observability functions for the Free Application for Federal Student Aid (FAFSA) system, a key federal program providing student loans, grants, and scholarships to US residents.
 
 Our work is focused on standardizing and improving the coverage of automated tests across the complex FAFSA system, and enhancing the observability of multiple user-facing and back-office systems to better track the end-to-end journey of a user.
  Massachusetts PFML Massachusetts Paid Family and Medical LeaveDecember 2019 – PresentBenefitsHealthcareAI
 PFML was a new legislatively mandated state project that kicked off in January 2020 to provide Massachusetts residents the ability to apply for and receive payment for family and medical leave. Focus was part of the initial core team at project kickoff, working with our prime contracting partner (Nava PBC) and other stakeholders to staff project teams across product, engineering, DevOps, and technical support.
 
-Our staff led delivery of various critical product and engineering milestones including the payments workflow, Department of Revenue data processing, approval workflow integration, and core API and cloud architecture — requiring coordination across numerous department agencies and vendor teams.
+Our staff led delivery of various critical product and engineering milestones including the payments workflow, Department of Revenue data processing, approval workflow integration, and core API and cloud architecture, requiring coordination across numerous department agencies and vendor teams.
 Over $3 billion in leave benefits paid since 2021 Minnesota Paid Leave Minnesota Paid LeaveJanuary 2025 – PresentBenefitsHealthcareAI
 We are currently supporting the full implementation of the Minnesota Paid Leave program. With launch upcoming in January 2026, our team is moving at speed to conduct user research, and design and implement support for multiple leave types. We are developing the end-to-end workflow from scratch including the claimant portal, employer portal, and adjudication system.
  NJ UI New Jersey Unemployment InsuranceOngoingBenefitsModernization
@@ -44,7 +44,7 @@ Building a next-generation talent marketplace platform that uses well-defined an
  Completed Projects Completed Projects IRS Digital Transformation IRS Digital TransformationAugust 2024 – February 2025Taxpayer SystemsModernization
 Our team led an agency-wide digital transformation initiative at the Internal Revenue Service. We conducted interviews across agency divisions to identify key systemic obstacles to effective digital delivery. Outcomes resulted in a digital maturity assessment and a high-level living roadmap for enabling successful digital delivery.
 
-As part of this contract, we also identified, selected, and implemented two "beacon" pilot projects that demonstrated visible improvements and new ways of working — digitizing the paper-based W7 application form and improving compliance operations.
+As part of this contract, we also identified, selected, and implemented two "beacon" pilot projects that demonstrated visible improvements and new ways of working: digitizing the paper-based W7 application form and improving compliance operations.
  IRS CIO Strategic Initiatives IRS CIO Strategic InitiativesSeptember 2024 – March 2025Taxpayer SystemsModernizationAIEnterprise Data
 We supported the office of the IRS CIO to help application and business teams adopt a product-centric approach to development while providing technical guidance, prototypes, and roadmaps to assist teams modernize their applications. We were embedded on the Intake team where we provided key guidance as the team modernized a legacy COBOL system. We also served an important integration role ensuring the variety of vendor teams and IRS staff operated from a shared set of code quality standards and operational guides.
  Marriott Learning Platform Marriott Learning PlatformCompletedWorkforce Development

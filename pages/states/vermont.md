@@ -18,7 +18,7 @@ The Vermont Parental and Family Leave Act provides up to 12 weeks of unpaid leav
 
 - Care for a seriously ill family member
 - Care for a newborn or newly adopted child
-- Bereavement — up to 2 weeks (maximum 5 consecutive days)
+- Bereavement: up to 2 weeks (maximum 5 consecutive days)
 
 Employees may use accrued sick leave, vacation, paid leave, or short-term disability during family leave.
 

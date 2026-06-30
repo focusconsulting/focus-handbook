@@ -21,8 +21,8 @@ Focus provides health insurance through **[CareFirst (BCBS) via DC Health Link](
 
 - **59 plans** available for employees in the MD/DC/Northern VA area
 - **23 plans** available for employees outside the local area
-- Rates are age-banded — log into your [DC Health Link portal](https://www.dchealthlink.com/) to see your personal cost
-- Already enrolled and keeping your plan? No action needed — coverage auto-renews July 1
+- Rates are age-banded; log into your [DC Health Link portal](https://www.dchealthlink.com/) to see your personal cost
+- Already enrolled and keeping your plan? No action needed. Coverage auto-renews July 1.
 
 ## Dental Insurance
 
@@ -61,7 +61,7 @@ Plan highlights:
 
 ## Life & Disability Insurance
 
-Focus provides the following coverage at **no cost to employees** through **Principal**. You are auto-enrolled — no action required.
+Focus provides the following coverage at **no cost to employees** through **Principal**. You are auto-enrolled; no action required.
 
 | Benefit | Coverage | Eligibility |
 | --- | --- | --- |
@@ -81,7 +81,7 @@ Focus offers a 401(k) through **[Human Interest](https://humaninterest.com/)**.
 
 ## Flexible Spending Accounts
 
-Both FSA and DCAP are administered through **[Further](https://hellofurther.com/)**. Focus covers all administrative costs. **Neither account auto-renews — you must re-enroll each benefit year.**
+Both FSA and DCAP are administered through **[Further](https://hellofurther.com/)**. Focus covers all administrative costs. **Neither account auto-renews. You must re-enroll each benefit year.**
 
 ### Healthcare FSA
 
@@ -93,7 +93,7 @@ Both FSA and DCAP are administered through **[Further](https://hellofurther.com/
 ### Dependent Care Assistance Program (DCAP)
 
 - Contribute up to **$7,500 per household per year** (pre-tax via payroll)
-- No rollover permitted — unused funds are forfeited at year end
+- No rollover permitted; unused funds are forfeited at year end
 - Use for eligible dependent care expenses (daycare, after-school care, elder care)
 - Eligible from the 1st of the month following your hire date
 
@@ -112,5 +112,5 @@ For questions about your benefits, contact:
 
 | Contact | For |
 | --- | --- |
-| **Meg Greenberg** — People Operations [people@focusconsulting.io](mailto:people@focusconsulting.io) | All benefits enrollment, PTO, FSA/DCAP, 401k, PFML, upskilling |
-| **Steve Blair** — Lyceum Insurance Services [steve@lyceumins.com](mailto:steve@lyceumins.com) | Specific questions about medical, dental, vision, or disability coverage |
+| **Meg Greenberg**, People Operations [people@focusconsulting.io](mailto:people@focusconsulting.io) | All benefits enrollment, PTO, FSA/DCAP, 401k, PFML, upskilling |
+| **Steve Blair**, Lyceum Insurance Services [steve@lyceumins.com](mailto:steve@lyceumins.com) | Specific questions about medical, dental, vision, or disability coverage |

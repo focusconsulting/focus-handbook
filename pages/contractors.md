@@ -17,9 +17,9 @@ Key differences from W2 employment:
 
 Most Focus contractor engagements are structured as 90-day contract-to-hire arrangements:
 
-1. **Contract phase (90 days)** — You work as a 1099 contractor at an agreed hourly rate. This is a mutual evaluation period.
-2. **Conversion decision** — At or before 90 days, Focus evaluates performance and fit. If both parties agree, you convert to a W2 full-time employee with a salaried compensation package and full benefits.
-3. **Benefits eligibility** — Upon conversion, benefits begin the 1st of the month following your W2 start date.
+1. **Contract phase (90 days):** You work as a 1099 contractor at an agreed hourly rate. This is a mutual evaluation period.
+2. **Conversion decision:** At or before 90 days, Focus evaluates performance and fit. If both parties agree, you convert to a W2 full-time employee with a salaried compensation package and full benefits.
+3. **Benefits eligibility:** Upon conversion, benefits begin the 1st of the month following your W2 start date.
 
 > **Conversion Is Not Guaranteed:** The contract-to-hire period is a mutual evaluation. Conversion depends on performance, project needs, and mutual agreement. Focus will communicate clearly about conversion decisions before the end of the contract period.
 
@@ -66,8 +66,8 @@ The following sections of this handbook apply to all staff, including contractor
 | Performance & Expectations | Yes |
 | Conduct & Ethics | Yes |
 | Technology & Remote Work | Yes |
-| Benefits | No — employees only |
-| Time Off & Leave | No — employees only |
-| Compensation & Growth | No — employees only |
-| Employment Categories | No — employees only |
-| State Policies | No — employees only |
+| Benefits | No (employees only) |
+| Time Off & Leave | No (employees only) |
+| Compensation & Growth | No (employees only) |
+| Employment Categories | No (employees only) |
+| State Policies | No (employees only) |

@@ -22,6 +22,6 @@ By acknowledging this handbook, I confirm that:
 
 If you have questions about any policy in this handbook, please reach out to:
 
-- **People Operations** — Meg Greenberg, Business Operations Lead
-- **Your Project Lead** — for project-specific questions
-- **Your Practice Lead or Mentor** — for career development questions
+- **People Operations:** Meg Greenberg, Business Operations Lead
+- **Your Project Lead:** for project-specific questions
+- **Your Practice Lead or Mentor:** for career development questions

@@ -10,11 +10,11 @@ We approach bereavement with humanity and flexibility. If your circumstances req
 
 ## Eligibility
 
-All regular full-time and part-time employees are eligible for bereavement leave. There is no waiting period — employees may use bereavement leave at any point during their employment, including the introductory period.
+All regular full-time and part-time employees are eligible for bereavement leave. There is no waiting period; employees may use bereavement leave at any point during their employment, including the introductory period.
 
 ## Leave Entitlements
 
-### Immediate Family — Primary (5 Days)
+### Immediate Family: Primary (5 Days)
 
 Five paid days off for the loss of an immediate family member you had a primary relationship with:
 
@@ -43,7 +43,7 @@ One paid day off for the loss of a pet. Focus recognizes that companion animals 
 
 ## Requesting Leave
 
-1. **Notify your manager** as soon as you are able — a brief message is sufficient. You do not need to provide details about the circumstances.
+1. **Notify your manager** as soon as you are able; a brief message is sufficient. You do not need to provide details about the circumstances.
 2. **Notify People Operations** so the time can be recorded appropriately in the time tracking system.
 3. **Documentation** is not required. Focus trusts employees to use this policy in good faith.
 
@@ -56,7 +56,7 @@ If you need more time than the paid entitlement allows, the following options ar
 - **PTO:** You may supplement bereavement leave with available PTO
 - **Flexible scheduling:** Supervisors may accommodate reduced hours or adjusted schedules during recovery
 - **Unpaid leave:** Available on a case-by-case basis with manager and People Operations approval
-- **FMLA:** May apply in certain circumstances — speak with People Operations if you believe this may be relevant
+- **FMLA:** May apply in certain circumstances; speak with People Operations if you believe this may be relevant
 
 ## Independent Contractors
 

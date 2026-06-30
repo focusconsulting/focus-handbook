@@ -4,7 +4,7 @@ _We're glad you're here. This handbook is your guide to working at Focus — our
 
 ## About This Handbook
 
-This handbook provides an overview of Focus Consulting's policies, practices, programs, and benefits. It is designed as an informational guide for all staff — both W2 employees and project contractors — though certain sections apply specifically to one group or the other, as marked.
+This handbook provides an overview of Focus Consulting's policies, practices, programs, and benefits. It is designed as an informational guide for all staff (both W2 employees and project contractors), though certain sections apply specifically to one group or the other, as marked.
 
 > **Important:** This handbook is not a binding contract between the company and its staff. Focus retains the right to modify any provision at any time. Employees will be notified of significant changes.
 

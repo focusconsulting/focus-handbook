@@ -2,7 +2,7 @@
 
 _Focus's approach to employment classification and what it means for you._
 
-> **Draft:** Draft — not final policy.This page is under internal review and has not been approved for distribution. Do not share externally.
+> **Draft (not final policy):** This page is under internal review and has not been approved for distribution. Do not share externally.
 
 ## Our Classification Approach
 
@@ -12,7 +12,7 @@ Short-term or part-time engagements where a contractor relationship is genuinely
 
 ## Why W-2
 
-W-2 employment is how Focus signals that we are hiring you for Focus — not for a single contract. It means:
+W-2 employment is how Focus signals that we are hiring you for Focus and not for a single contract. It means:
 
 - You receive full benefits from your first day: health insurance, 401(k) eligibility, paid time off, and all other applicable benefits
 - You are expected to be assignable across projects as business needs change
@@ -40,11 +40,11 @@ See the [Clearance Guide](./clearance-guide.md) for the full process, common pit
 
 ## Federal Compliance Requirements
 
-Because our work is predominantly on federal contracts, all employees — including those currently assigned to state or local projects — must be able to meet federal employment eligibility standards. This includes:
+Because our work is predominantly on federal contracts, all employees (including those currently assigned to state or local projects) must be able to meet federal employment eligibility standards. This includes:
 
 **Tax compliance.** Unresolved federal or state tax issues are a disqualifying factor for most public trust clearances. If you have outstanding tax obligations, you should address them before beginning the clearance process.
 
-**Drug use and federal law.** Focus employees must comply with federal law regarding controlled substances. Marijuana remains a Schedule I controlled substance under federal law regardless of state legality. Use of marijuana or other federally controlled substances may disqualify you from obtaining a federal clearance. We are not in a position to advise on how this applies to your individual circumstances — we are telling you clearly that it is a factor in the clearance process, and that being unable to clear has employment consequences.
+**Drug use and federal law.** Focus employees must comply with federal law regarding controlled substances. Marijuana remains a Schedule I controlled substance under federal law regardless of state legality. Use of marijuana or other federally controlled substances may disqualify you from obtaining a federal clearance. We are not in a position to advise on how this applies to your individual circumstances; we are telling you clearly that it is a factor in the clearance process, and that being unable to clear has employment consequences.
 
 **Financial background.** Significant unresolved financial issues (delinquent debts, certain bankruptcy circumstances, undisclosed foreign financial interests) may be factors in the clearance review process depending on agency and level.
 

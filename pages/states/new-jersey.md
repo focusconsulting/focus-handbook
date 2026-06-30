@@ -31,7 +31,7 @@ Source: NJ Family Leave Act, N.J.S.A. 34:11B-1 et seq.
 
 Focus may monitor email, internet usage, networks, phones, voicemail, texts, computer files, applications, data, and security systems. Employees should have no expectation of privacy when using company systems.
 
-New Jersey law protects employee social media privacy — employers may not require employees to disclose usernames, passwords, or provide access to personal social media accounts.
+New Jersey law protects employee social media privacy; employers may not require employees to disclose usernames, passwords, or provide access to personal social media accounts.
 
 Source: N.J.S.A. 34:6B-5 et seq.
 
