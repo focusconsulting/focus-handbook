@@ -42,10 +42,14 @@
       <div class="hb-nav-section">
         <span class="hb-nav-section-label">{{ section.title }}</span>
         {% for item in section.pages %}
+        {% if item.subsection %}
+        <span class="hb-nav-subsection-label">{{ item.subsection }}</span>
+        {% else %}
         <a href="{{ item.url }}"
-           class="hb-nav-item{% if page.url == item.url or page.url == item.url | append: '/' %} active{% endif %}">
+           class="hb-nav-item{% if item.indent %} hb-nav-item--indent{% endif %}{% if page.url == item.url or page.url == item.url | append: '/' %} active{% endif %}">
           {{ item.label }}
         </a>
+        {% endif %}
         {% endfor %}
       </div>
       {% endfor %}
