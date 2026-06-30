@@ -1,7 +1,4 @@
-# CDO Engagement Model for Prime Contracts
-
-_How the CDO's role evolves across the lifecycle of a Focus prime contract, from pre-kickoff through closeout._
-Owner Chief Delivery Officer (CDO)Applies to Focus prime contracts (initial application: ACF; intended as the template for future prime engagements, e.g. Alameda County)
+# Engagement Model for Prime Contracts
 
 ## Terminology
 
