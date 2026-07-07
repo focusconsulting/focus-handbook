@@ -17,8 +17,22 @@ Focus is a remote-first company. We trust our staff to manage their time effecti
 
 - Core collaboration hours align with your project team's working hours, typically Eastern Time for most projects
 - Keep your Slack status updated to reflect your availability
-- If you will be unavailable during core hours, notify your project lead in advance
 - Employees must accurately report hours worked and conform to established schedules
+
+Our clients engage us for full-time work during regular business hours, and our reputation depends on meeting that commitment. Being available means you are at your computer, able to respond to Slack or email, and able to attend to urgent matters. It does not mean checking Slack on your phone or being more than an hour away from being able to work.
+
+If you need to step away during core hours, that is completely fine — just give your team appropriate notice and ensure coverage for any ongoing, time-sensitive work:
+
+| Duration | Notice Required |
+| --- | --- |
+| Up to 2 hours | Let your project team know via Slack or chat before stepping away |
+| 2–8 hours | Notify your team the day before and block the time on the Focus Out of Office calendar |
+| 1 day to 1 week | Notify your team the preceding week and add the time to the Focus Out of Office calendar |
+| 1 week or more | Notify your Focus people manager at least one month in advance so a coverage plan can be arranged |
+
+Unexpected unavailability happens. When it does, notify your Focus people manager as soon as possible so they can handle any necessary communications.
+
+Regular business hours are typically 8 AM to 6 PM ET, though this may be adjusted based on your location or client.
 
 > **Productivity Impact Protocol:** If you anticipate or experience a productivity impact (illness, family matters, burnout, low motivation), proactively notify your manager. This is expected and helps us support you; waiting until the impact is visible in your work creates larger problems.
 

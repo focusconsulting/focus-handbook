@@ -64,3 +64,26 @@ As a consulting firm, accurate billable hour tracking is essential for transpare
 - Meet productivity targets for billable hours as defined by their project
 - Distinguish between billable and non-billable activities
 - Maintain high-quality work output alongside time tracking requirements
+
+## What You Can Expect from Focus
+
+Expectations run both ways. Here is what Focus commits to every staff member.
+
+### Client Check-Ins
+
+- We check in regularly with your project leads to confirm the client is satisfied with your work and to surface growth opportunities and positive feedback promptly
+- We check in regularly with directors at your project to understand how the Focus team is perceived as a group
+
+### One-on-One Check-Ins
+
+- We meet with you every two to four weeks to see how things are going with your work and team and to discuss how we can support you
+- We provide regular, honest feedback on how you are performing and where you have opportunities to grow against our core values
+
+### Performance Reviews
+
+Every six months, Focus conducts a performance check-in with every staff member. The goals are to:
+
+- Evaluate performance against Focus's core values
+- Review any feedback from clients
+- Align on your satisfaction with your current project and work
+- Discuss growth opportunities and next steps
