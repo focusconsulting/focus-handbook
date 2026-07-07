@@ -2,9 +2,35 @@
 
 _Effective October 2025  ·  Approved by the Executive Team_
 
+## Client-Site Travel
+
+Focus is remote-first, not remote-only. As consultants, our work happens in partnership with government stakeholders, and that occasionally means being in the room with them. Client-site travel is a normal and expected part of working at Focus.
+
+This is tied directly to delivery success and client relationships, which is what keeps contracts healthy and the business running.
+
+### What "Occasional" Actually Means
+
+Travel frequency varies by contract and client:
+
+- **Most contracts:** infrequent travel. A kickoff, a milestone review, an on-site visit once or twice a year.
+- **Some clients:** more regular in-person presence. The Department of State, for example, often expects weekly or near-weekly attendance for staff local to the site. This is the nature of that client relationship.
+- **Contract leads** should expect the highest likelihood of travel, as they are typically the primary point of contact and relationship owner with the client.
+
+### Why It Matters
+
+Some things don't translate well over Slack or a video call: trust-building, reading a room, catching what a client isn't saying directly. Physical presence is sometimes the fastest way to solve a problem or strengthen a relationship that benefits the whole team. When client relationships weaken, it directly affects contract continuity.
+
+### What We Ask
+
+- **At staffing time:** If a contract involves more frequent travel, that should be made clear up front. It is fair to ask about expected travel cadence during staffing conversations.
+- **If real constraints exist:** Health, caregiving, or other family circumstances are real constraints. Talk to your contract lead or People Operations and we will work with you.
+- **On discomfort vs. constraint:** General discomfort with travel or in-person work is understandable, but it is not the same as a hard constraint. As a business with client obligations, we need staff who can flex when the work calls for it.
+
+---
+
 ## Overview & Approval
 
-This policy applies to all employees and contractors traveling on behalf of Focus Consulting. Focus is a remote-first company, and most work is conducted virtually. When in-person travel is necessary for client meetings, conferences, or team events, this policy governs how travel is planned, booked, and reimbursed.
+This policy applies to all employees and contractors traveling on behalf of Focus Consulting. Most work is conducted virtually. When in-person travel is necessary for client meetings, conferences, or team events, this policy governs how travel is planned, booked, and reimbursed.
 
 > **Pre-Approval Required:** All travel plans must be approved before booking. Any expense that falls outside the guidelines below requires prior written approval from Meg Greenberg, Business Operations. Unapproved expenses may not be reimbursed.
 
