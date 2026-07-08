@@ -61,7 +61,7 @@ As soon as a written request is received, the Delivery Lead posts to the **#it-s
 
 > `ECA-001 — request received, details in thread`
 
-Full context — which prime, what was requested, which team member is affected — is shared in a **private Slack thread or direct message** with the CDO and the IT support contact, not in the public channel. This keeps the audit trail intact without broadcasting sensitive investigation details.
+Full context — which prime, what was requested, which team member is affected — is shared in a **private Slack thread or direct message** with the CDO, contracts@focusconsulting.io, and **Kalish** (current IT support owner). Do not include sensitive investigation details in the public channel. This keeps the audit trail intact without broadcasting the situation to the broader team.
 
 The Delivery Lead also forwards the written request to the CDO and contracts@focusconsulting.io at this step.
 
