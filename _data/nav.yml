@@ -66,6 +66,15 @@
     - label: LCAT Management
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/lcat-management
       indent: true
+    - label: Compliance Investigations & Data Calls
+      url: /focus-handbook/pages/delivery-operations/subcontract-ops/compliance-investigations
+      indent: true
+    - label: Evidence Capture from Focus Machines
+      url: /focus-handbook/pages/delivery-operations/subcontract-ops/evidence-capture
+      indent: true
+    - label: Operating at Risk
+      url: /focus-handbook/pages/delivery-operations/subcontract-ops/operating-at-risk
+      indent: true
     - subsection: Prime Contracts
     - label: CDO Engagement Model for Prime Contracts
       url: /focus-handbook/pages/delivery-operations/prime-contract-ops/cdo-engagement-model
