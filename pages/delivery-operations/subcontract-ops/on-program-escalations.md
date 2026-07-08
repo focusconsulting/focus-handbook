@@ -12,6 +12,10 @@ On-program issues escalated without a defined process create the risk that criti
 
 Program-level staff should not resolve personnel or contractual escalations directly with Nava program staff. Contractual and personnel issues belong to the Focus Delivery Lead and, where contracts are involved, the Contracts Lead. Nava program-side contacts are not the right channel for contract disputes or personnel actions.
 
+## Contracts Team on All Prime Communications
+
+All written communications with primes related to an escalation — including the initial outreach, follow-up confirmations, and resolution documentation — must CC **contracts@focusconsulting.io**. This applies from the first response, not only once the situation escalates.
+
 ## Escalation Matrix
 
 Use the table below to identify the correct path for each type of issue.

@@ -15,6 +15,10 @@ In federal and state contracting, "operating at risk" means performing work befo
 
 This SOP governs how Focus handles these situations: when to continue, when to pause, how to protect staff, and what to document.
 
+## Contracts Team on All Prime Communications
+
+All written communications with primes about an at-risk period — including the initial notification response, written assurance requests, and any decision to pause or continue — must CC **contracts@focusconsulting.io**. This applies from the first response.
+
 ## Thresholds: When Focus Will Pause
 
 Focus's default when a prime provides written assurance and a credible timeline is to continue work within defined limits. If either threshold below is reached without a formally executed amendment, the CDO makes the call on whether to pause:

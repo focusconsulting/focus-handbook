@@ -13,6 +13,10 @@ These requests currently arrive via email and Slack, typically directed to the C
 
 A recurring tension on engineering-heavy programs: some compliance requests (keystroke logging, continuous screen capture, invasive device monitoring) conflict with how Focus builds trust with its technical staff. This SOP includes guidance on how to push back thoughtfully without damaging the prime relationship.
 
+## Contracts Team on All Prime Communications
+
+All written communications with primes related to a compliance investigation or data call — including the initial acknowledgment, scope clarification exchanges, and any formal response — must CC **contracts@focusconsulting.io**. This applies from the first response, not only once the situation escalates.
+
 ## Common Investigation Triggers
 
 | Trigger | Typical Source | Notes |
