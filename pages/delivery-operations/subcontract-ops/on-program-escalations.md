@@ -1,7 +1,7 @@
 # SOP: On-Program Escalations
 
 _How to identify, route, and resolve delivery concerns, personnel issues, and client complaints on a Nava subcontract._
-Scope Nava subcontracts (Focus as subcontractor)Version 1.0Owners Delivery Lead, Contracts Lead
+**Scope** Nava subcontracts (Focus as subcontractor) · **Version** 1.0 · **Owners** Delivery Lead, Contracts Lead
 ## Purpose
 
 Ensure that delivery concerns, personnel issues, and client complaints surfaced on a Nava subcontract are routed, communicated, and resolved through a defined process that protects all parties and prevents information gaps. Escalation discipline is not bureaucracy. It is how the right people stay informed at the right moment.

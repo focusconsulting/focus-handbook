@@ -1,7 +1,9 @@
 # SOP: Staffing Transitions & KP Notifications
 
 _Notification windows and process steps when a Focus team member transitions off a Nava program, whether due to reallocation, end of engagement, or removal._
-Scope Nava subcontracts (Focus as subcontractor)Version 1.0Owners Delivery Lead, Contracts LeadKey principle Nava should never learn about a staffing transition from program-level staff before the contracts relationship has been notified.
+**Scope** Nava subcontracts (Focus as subcontractor) · **Version** 1.0 · **Owners** Delivery Lead, Contracts Lead
+
+**Key principle** Nava should never learn about a staffing transition from program-level staff before the contracts relationship has been notified.
 ## Purpose
 
 Establish clear notification windows and process steps when a Focus team member is transitioning off a Nava subcontract. This covers voluntary reallocation to a new contract, end of engagement, and program-initiated removal.

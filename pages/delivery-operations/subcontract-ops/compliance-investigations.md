@@ -1,7 +1,9 @@
 # SOP: Compliance Investigations & Data Calls
 
 _How Focus responds when a prime contractor or client initiates an investigation or data call involving a Focus team member — including overseas IP flags, AI tool use, and alleged contract non-compliance._
-Scope All prime subcontracts (Nava, eSimplicity, Accenture, and others)Version 1.0Owners Delivery Lead, CDOKey principle Focus cooperates with legitimate investigations — but cooperation does not mean unconditional compliance. Every request deserves scope, legal basis, and proportionality before Focus hands anything over.
+**Scope** All prime subcontracts (Nava, eSimplicity, Accenture, and others) · **Version** 1.0 · **Owners** Delivery Lead, CDO
+
+**Key principle** Focus cooperates with legitimate investigations — but cooperation does not mean unconditional compliance. Every request deserves scope, legal basis, and proportionality before Focus hands anything over.
 
 ## Purpose
 

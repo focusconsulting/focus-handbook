@@ -1,7 +1,9 @@
 # SOP: Operating at Risk
 
 _What Focus does when a prime contractor is performing work before a contract amendment or authorization to proceed has been formally executed._
-Scope All prime subcontracts (Nava, eSimplicity, Accenture, and others)Version 1.0Owners Delivery Lead, CDOKey principle The first move is always to request an Authority to Proceed. Time and dollar thresholds only apply when the prime cannot or will not issue one.
+**Scope** All prime subcontracts (Nava, eSimplicity, Accenture, and others) · **Version** 1.0 · **Owners** Delivery Lead, CDO
+
+**Key principle** The first move is always to request an Authority to Proceed. Time and dollar thresholds only apply when the prime cannot or will not issue one.
 
 ## Purpose
 

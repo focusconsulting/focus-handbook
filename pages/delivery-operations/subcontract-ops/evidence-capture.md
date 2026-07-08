@@ -1,7 +1,9 @@
 # SOP: Evidence Capture from Focus Machines
 
 _What to do when a prime contractor requests logs, screenshots, configuration settings, or other data from a Focus-owned device._
-Scope All prime subcontracts (Nava, eSimplicity, Accenture, and others)Version 1.0Owners Delivery Lead, CDO, IT SupportKey principle Legal review is a hard gate — not a suggestion — before Focus collects or shares any device-level data. Focus reviews everything before it leaves, and no data is transmitted to a prime directly from a team member's machine without that review.
+**Scope** All prime subcontracts (Nava, eSimplicity, Accenture, and others) · **Version** 1.0 · **Owners** Delivery Lead, CDO, IT Support
+
+**Key principle** Legal review is a hard gate — not a suggestion — before Focus collects or shares any device-level data. Focus reviews everything before it leaves, and no data is transmitted to a prime directly from a team member's machine without that review.
 
 ## Purpose
 

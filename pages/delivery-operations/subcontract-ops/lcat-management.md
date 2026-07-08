@@ -1,7 +1,9 @@
 # SOP: LCAT Management & Backfill Alignment
 
 _How to handle situations where a team member has performed above their contracted labor category, and what to do when backfill needs exceed the LCAT ceiling._
-Scope Nava subcontracts (Focus as subcontractor)Version 1.0Owners Delivery Lead, Contracts LeadKey problem When a senior resource fills a mid-level LCAT and expands the scope of that role over time, the program's needs at backfill exceed the contractual ceiling, creating a gap that neither a same-level replacement nor a strict LCAT-match can fill.
+**Scope** Nava subcontracts (Focus as subcontractor) · **Version** 1.0 · **Owners** Delivery Lead, Contracts Lead
+
+**Key problem** When a senior resource fills a mid-level LCAT and expands the scope of that role over time, the program's needs at backfill exceed the contractual ceiling, creating a gap that neither a same-level replacement nor a strict LCAT-match can fill.
 ## Purpose
 
 Establish a process for identifying and addressing situations where a Focus team member has been performing work above their contracted Labor Category (LCAT) level, and for managing the contractual and programmatic implications when that person transitions off the program.
