@@ -12,6 +12,10 @@ Two distinct staffing transition problems have surfaced on Nava engagements. Fir
 
 Staffing assignment is a strategic management function, not an administrative one. How transitions are handled is a direct reflection of firm quality and is slow and expensive to recover from when handled poorly.
 
+## Contracts Team on All Prime Communications
+
+All written communications with primes related to a staffing transition — including KP notifications, backfill submissions, and ramp-down confirmations — must CC **contracts@focusconsulting.io**. This applies from the first notification, not only when complications arise.
+
 ## Notification Timeline by Phase
 
 | Phase | Trigger | Action Required | Owner |
