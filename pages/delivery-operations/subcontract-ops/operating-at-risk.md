@@ -1,7 +1,7 @@
 # SOP: Operating at Risk
 
 _What Focus does when a prime contractor is performing work before a contract amendment or authorization to proceed has been formally executed._
-Scope All prime subcontracts (Nava, eSimplicity, Accenture, and others)Version 1.0Owners Delivery Lead, CDOKey principle Operating at risk is a business decision, not a default. Focus sets defined time and dollar limits, documents every assurance it receives, and has a clear escalation path when those limits are reached.
+Scope All prime subcontracts (Nava, eSimplicity, Accenture, and others)Version 1.0Owners Delivery Lead, CDOKey principle The first move is always to request an Authority to Proceed. Time and dollar thresholds only apply when the prime cannot or will not issue one.
 
 ## Purpose
 
@@ -19,9 +19,23 @@ This SOP governs how Focus handles these situations: when to continue, when to p
 
 All written communications with primes about an at-risk period — including the initial notification response, written assurance requests, and any decision to pause or continue — must CC **contracts@focusconsulting.io**. This applies from the first response.
 
-## Thresholds: When Focus Will Pause
+## Authority to Proceed: First Ask, Every Time
 
-Focus's default when a prime provides written assurance and a credible timeline is to continue work within defined limits. If either threshold below is reached without a formally executed amendment, the CDO makes the call on whether to pause:
+Whenever a prime notifies Focus that it is operating at risk, Focus's immediate response is to request a formal **Authority to Proceed (ATP)** from the prime's contracts team. An ATP is a written instrument — issued by the prime — that authorizes Focus to perform specific work during a defined period, even when the underlying subcontract amendment has not yet been executed. It gives Focus documented authorization to bill for that work once the amendment is executed.
+
+The ATP request goes to the prime contracts team (not the program manager) and should specify:
+
+- The scope of work Focus is being asked to perform during the at-risk period
+- The period of performance the ATP covers
+- Confirmation that the work will be billable and paid upon amendment execution
+
+If the prime issues an ATP, Focus can proceed with confidence. The at-risk log still applies, and the Delivery Lead still monitors for execution, but the time and dollar thresholds below are not the primary constraint when an ATP is in hand.
+
+**The thresholds below apply only when the prime cannot or will not issue an ATP.** That is when Focus's exposure is unprotected and the limits become enforceable.
+
+## Thresholds: When Focus Will Pause (ATP Not Issued)
+
+Focus's default when a prime provides written assurance and a credible timeline but cannot issue an ATP is to continue work within defined limits. If either threshold below is reached without a formally executed amendment or ATP, the CDO makes the call on whether to pause:
 
 | Threshold | Default Limit | Notes |
 | --- | --- | --- |
@@ -46,17 +60,19 @@ When a Delivery Lead or CDO learns that Focus may be operating at risk — from 
 
 Save all communications (email screenshots, Slack exports) to a designated folder in Focus's document management system, labeled by contract and date.
 
-### Step 2: Get Written Assurance from the Prime Contracts Team
+### Step 2: Request an Authority to Proceed
 
-A statement from the prime's program manager that "we still intend to keep [person] in their role" is useful context. It is not sufficient protection for Focus on its own.
+Before continuing work beyond a brief bridging period (five business days), the Delivery Lead — CCing contracts@focusconsulting.io — formally requests an **ATP** from the prime's contracts team. The request should be specific: scope, period of performance, and confirmation that work performed under the ATP will be billable once the amendment executes.
 
-Before continuing work beyond a brief bridging period (five business days), the Delivery Lead requests written confirmation from the prime's **contracts team** — not just the program manager — that:
+If the prime issues an ATP, document it in the at-risk log and proceed. Continue monitoring for amendment execution, but the thresholds in this SOP are not the binding constraint while a valid ATP is in place.
+
+If the prime cannot issue an ATP, the Delivery Lead requests written confirmation from the prime's contracts team — not just the program manager — that:
 
 - The prime intends to execute the amendment covering Focus's work
-- The at-risk period, once executed, will be billable and paid
+- The at-risk period will be billable and paid once executed
 - The anticipated execution timeline
 
-This confirmation should come via email from the prime contracts contact, not from the program-side PM. Both are useful, but only the contracts team has authority to make commitments about payment.
+A statement from the program manager alone is useful context but is not sufficient. Only the prime contracts team has authority to commit on billing and payment. With no ATP and no contracts-team confirmation, the time and dollar thresholds in this SOP are active from that point forward.
 
 ### Step 3: Notify Affected Staff
 
