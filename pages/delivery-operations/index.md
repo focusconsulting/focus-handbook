@@ -59,6 +59,9 @@ SOPs for Focus engagements where Focus serves as a subcontractor. Current proced
 - [On-Program Escalations](subcontract-ops/on-program-escalations.md): How to identify, route, and resolve delivery concerns, personnel issues, and client complaints on a Nava subcontract. Includes escalation matrix and communication rules.
 - [Staffing Transitions & KP Notifications](subcontract-ops/staffing-transitions.md): Notification windows and process steps when a Focus team member transitions off a Nava program, including key personnel designation and involuntary removal procedures.
 - [LCAT Management & Backfill Alignment](subcontract-ops/lcat-management.md): How to handle situations where a team member has performed above their contracted labor category level, and what to do when backfill needs exceed the LCAT ceiling.
+- [Compliance Investigations & Data Calls](subcontract-ops/compliance-investigations.md): How Focus receives, evaluates, and responds to compliance investigations or data calls from a prime — including overseas IP flags, AI tool use, and conduct allegations. Includes a framework for scoping requests and pushing back on overbroad or culturally invasive asks.
+- [Evidence Capture from Focus Machines](subcontract-ops/evidence-capture.md): Process for handling prime requests for logs, screenshots, or configuration data from Focus-owned devices. Covers chain of custody, internal review before transmission, and what Focus will not do.
+- [Operating at Risk](subcontract-ops/operating-at-risk.md): How Focus evaluates and limits exposure when a prime is performing work without a formally executed amendment or ATP. Includes defined time and dollar thresholds, documentation requirements, and the escalation path when those thresholds are reached.
 
 ## Quarterly Program Review
 
