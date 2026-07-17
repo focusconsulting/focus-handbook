@@ -56,6 +56,8 @@
   pages:
     - label: Overview
       url: /focus-handbook/pages/delivery-operations/
+    - label: Subcontract Compliance Requirements
+      url: /focus-handbook/pages/delivery-operations/subcontract-compliance
     - subsection: Subcontracts
     - label: On-Program Escalations
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/on-program-escalations
