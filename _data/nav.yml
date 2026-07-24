@@ -58,6 +58,8 @@
       url: /focus-handbook/pages/delivery-operations/
     - label: Compliance
       url: /focus-handbook/pages/delivery-operations/compliance
+    - label: Incident Response
+      url: /focus-handbook/pages/delivery-operations/incident-response
     - subsection: Subcontracts
     - label: Subcontracts Overview
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/

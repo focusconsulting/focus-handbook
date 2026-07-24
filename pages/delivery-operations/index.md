@@ -6,7 +6,10 @@ This section covers the processes, standards, and escalation paths that govern h
 
 ## How This Section Is Organized
 
-Start with **[Compliance](compliance.md)** — the baseline requirements that apply to every delivery engagement regardless of contract structure (AI tool use, working abroad, device security, confidentiality, availability, escalation).
+Start with the two pages that apply to every delivery engagement regardless of contract structure:
+
+- **[Compliance](compliance.md)** — the baseline requirements (AI tool use, working abroad, device security, confidentiality, availability, escalation).
+- **[Incident Response](incident-response.md)** — how to report and investigate program incidents, including severity levels and the incident-report process.
 
 Everything else is organized by **engagement type**, because the contacts, notification requirements, and contractual levers differ across each:
 
