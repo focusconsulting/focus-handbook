@@ -4,7 +4,7 @@ _Focus is organized into three practice areas: Engineering, Delivery, and Design
 
 ## How Practices Work
 
-Focus uses a hybrid matrix structure. Your **practice lead** is your direct career manager: they own your performance reviews, professional development, and career growth within your discipline. Your **project or portfolio lead** manages your day-to-day project work, delivery outcomes, and P&L.
+Focus uses a hybrid matrix structure. Your **practice lead** is your direct career manager and owns your performance reviews, professional development, and career growth within your discipline. Your **project or portfolio lead** manages your day-to-day project work, delivery outcomes, and P&L.
 
 | Practice Lead | Project / Portfolio Lead |
 | --- | --- |
@@ -46,7 +46,7 @@ Standards & Expectations
 DeliveryCoordinating people, process, and product to ship services that work for the people who need them most.Practice LeadPhedra Arthur IrukeWhat We Do
 The Delivery practice is at the center of how Focus operates. It spans the roles that define, manage, and sustain great government digital services, from product strategy and roadmapping to day-to-day project coordination, requirements, and documentation.
 
-As Focus scales, how we define and grow these disciplines directly shapes how we hire, how we deliver for our government partners, and how we build trust through consistent excellence.
+As Focus scales, how we define and grow these disciplines directly shapes how we hire and how we deliver for our government partners.
 Disciplines
 - Product Management
 - Delivery Management
@@ -59,7 +59,7 @@ Delivery practitioners work closely with engineering and design counterparts to 
 
 The Delivery Community of Practice is an active forum for sharing learnings, building standards, and developing our collective craft. It's a key place to connect with practitioners across the portfolio and ask questions as you grow.
 Standards & Expectations
-- Maintain meaningful, accurate status updates: not just activity, but progress
+- Maintain accurate status updates that show real progress
 - Proactively surface risks, blockers, and trade-offs to stakeholders
 - Document decisions and keep project artifacts current
 - Participate in the Delivery Community of Practice
@@ -70,7 +70,7 @@ Standards & Expectations
 DesignStaying curious, showing up for each other, and being intentional about every design decision.Practice LeadAnt AddisWhat We Do
 The Design practice at Focus is a small, intentional team of designers who bring rigor and empathy to government services. We conduct user research, design service experiences end-to-end, and make sure what gets built is accessible, usable, and genuinely serves the people who depend on it.
 
-Design at Focus is embedded in delivery; we're not a separate studio. We work shoulder-to-shoulder with engineers and product managers throughout the project lifecycle, from discovery through launch.
+Design at Focus is embedded in delivery. We work shoulder-to-shoulder with engineers and product managers throughout the project lifecycle, from discovery through launch.
 Disciplines
 - User Research
 - Service Design
@@ -79,9 +79,9 @@ Disciplines
 - Content Strategy
 - Visual & UI Design
 How We Work
-Design practice syncs bring the team together regularly to discuss craft, review work, and build shared standards. Research is treated as a continuous practice, not a phase, and is embedded into every sprint cycle where possible.
+Design practice syncs bring the team together regularly to discuss craft, review work, and build shared standards. Research is a continuous practice, embedded into every sprint cycle where possible.
 
-The design practice ethos is grounded in Focus's mission: every design decision should reduce friction, improve access, and respect the people we're designing for. We hold ourselves to high standards of accessibility; WCAG compliance is a baseline, not an aspiration.
+The design practice ethos is grounded in Focus's mission: every design decision should reduce friction, improve access, and respect the people we're designing for. We hold ourselves to high standards of accessibility; WCAG compliance is our baseline.
 Standards & Expectations
 - Ground every design in research; validate assumptions early
 - Design for accessibility from the start, not as an afterthought

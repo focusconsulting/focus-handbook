@@ -25,18 +25,18 @@ Sources we benchmark against:
 
 ## How Levels Work
 
-Every practice uses the same ten levels and the same naming convention: **Associate → I → II → Senior → Staff → Principal → Director**. Levels are pegged to total years of professional experience in the discipline, and the bands widen as you go up — because a year of experience changes what someone can do dramatically early in a career, and much less later on.
+Every practice uses the same ten levels and the same naming convention: **Associate → I → II → Senior → Staff → Principal → Director**. Levels are pegged to total years of professional experience in the discipline, and the bands widen as you go up, because a year of experience changes what someone can do dramatically early in a career, and much less later on.
 
 - **One-year steps through Associate and I** (levels 1–4, years 0–4): juniors move up a level every year while growth is fastest
 - **Two-year steps from II through Staff** (levels 5–8, years 4–12)
 - **Principal is the three-year capstone of the IC arc** (level 9, years 12–15)
-- **Director begins at 15 years** (level 10). It is conferred by leadership, not automatic. Fifteen years makes you eligible; the appointment is made when the role exists and the person is ready.
+- **Director begins at 15 years** (level 10). Leadership confers it when the role exists. Fifteen years makes you eligible; the appointment is made when the role exists and the person is ready.
 
 Associate, I, and II each span two levels. The expectations for the pair are continuous — the second notch is the same role practiced with more consistency and less support.
 
 ## Additional Roles
 
-These are assignments, not promotions. They do not change base salary. They unlock eligibility for the “Helps Focus Scale” bonus pillar.
+These are assignments that don't change base salary. They unlock eligibility for the “Helps Focus Scale” bonus pillar.
 
 | Role | Description |
 | --- | --- |
@@ -58,7 +58,7 @@ Biggest leg up for contract leads, managers of people, and KPs.
 
 ### Pillar 2: Impact
 
-Impact is about what actually changed because you were on the work: outcomes delivered for users and clients, and contributions that help the business grow. It’s measured by results, not activity.
+Impact is about what actually changed because you were on the work: outcomes delivered for users and clients, and contributions that help the business grow. It’s measured by results.
 
 - Outcomes shipped that users and clients can point to
 - Work that leads to expanded scope, renewals, or follow-on opportunities
@@ -91,7 +91,7 @@ Impact is about what actually changed because you were on the work: outcomes del
 | E-9 | Principal engineer | 12–15 | $175k | Defines the engineering ceiling at Focus. Clients request by name. Full autonomy. |
 | E-10 | Engineering director | 15+ | $190k | Organizational leadership. Owns practice-level outcomes. Conferred by leadership. |
 E-1 Associate engineer 0–1 yr · $70k
-**Core:** Completes clearly scoped tasks with direct guidance. Asks questions before getting stuck rather than after. Writes readable, tested code with support from a senior. Beginning to understand the difference between a government product and a commercial one: the user didn’t choose to be here.
+**Core:** Completes clearly scoped tasks with direct guidance. Asks questions before getting stuck rather than after. Writes readable, tested code with support from a senior. Beginning to understand that a government product differs from a commercial one because the user didn’t choose to be here.
 
 **Technical expectations:** Comfortable in one language/framework. Writes and runs unit tests. Can open a PR, respond to review feedback, and ship with help.
 
@@ -107,7 +107,7 @@ E-2 Associate engineer 1–2 yrs · $80k
 
 **Moving to E-3:** Consistently delivers with low supervision. Has navigated at least one ambiguous or blocked situation and resolved it. Actively helps junior teammates when asked.
 E-3 Engineer I 2–3 yrs · $92k
-**Core:** Works independently on medium-complexity features. Spots problems before they become incidents. Communicates status and blockers proactively. Participates in discovery, not just building what they’re handed but asking whether it’s the right thing to build.
+**Core:** Works independently on medium-complexity features. Spots problems before they become incidents. Communicates status and blockers proactively. Participates in discovery, building what they’re handed and asking whether it’s the right thing to build.
 
 **Technical expectations:** Writes well-tested, maintainable code across the stack. Comfortable with accessibility requirements (WCAG), security basics, and FedRAMP-adjacent tooling. Reviews others’ PRs thoughtfully.
 
@@ -161,15 +161,15 @@ E-9 Principal engineer 12–15 yrs · $175k
 
 **Civic tech context:** Deep relationships in the civic tech ecosystem. Helps position Focus in a changing government technology landscape: AI adoption, platform shifts, changing procurement models.
 
-**The bar:** Would be recruited aggressively by Nava, USDS alums, or top civic tech players. Stays at Focus because of the mission, the autonomy, and the impact — not because they have no options.
+**The bar:** Would be recruited aggressively by Nava, USDS alums, or top civic tech players. Stays at Focus because of the mission, the autonomy, and the impact.
 E-10 Engineering director 15+ yrs · $190k
 **Core:** Organizational leadership for the engineering practice. Owns engineering quality, staffing, and growth across the whole portfolio, not a single engagement. Sets the practice’s strategic direction with leadership and is accountable for the health of the engineering team as a team: hiring, development, retention, and the standards everyone works to.
 
-**Technical expectations:** Stays close enough to the work to be credible in any technical room, but the job is leverage, not output: making every Focus engineer more effective. Evaluates technology bets at the portfolio level and represents engineering in company strategy and major pursuits.
+**Technical expectations:** Stays close enough to the work to be credible in any technical room, but the job is leverage: making every Focus engineer more effective. Evaluates technology bets at the portfolio level and represents engineering in company strategy and major pursuits.
 
-**Civic tech context:** The external face of Focus engineering, engaging agency executives, partners, and the civic tech industry. A track record of building practices and people, not just delivering projects.
+**Civic tech context:** The external face of Focus engineering, engaging agency executives, partners, and the civic tech industry. A track record of building practices and people.
 
-**The bar:** Director is conferred by leadership, not reached by tenure. Fifteen years makes you eligible; the appointment is made when the role exists and the person has demonstrated practice-level leadership.
+**The bar:** Leadership confers it when the role exists. Fifteen years makes you eligible; the appointment is made when the role exists and the person has demonstrated practice-level leadership.
 
 ## Level Expectations: Design
 
@@ -254,15 +254,15 @@ D-9 Principal designer 12–15 yrs · $165k
 
 **Craft:** Field-defining. Their work is cited, referenced, or built on by others. Can evaluate and adopt emerging methods (AI-assisted design, new accessibility standards) and bring the practice along.
 
-**The bar:** Would be recruited by Code for America, USDS alumni orgs, or top civic design teams. Stays at Focus because of the mission, the autonomy, and the scale of impact, not because they have no options.
+**The bar:** Would be recruited by Code for America, USDS alumni orgs, or top civic design teams. Stays at Focus because of the mission, the autonomy, and the scale of impact.
 D-10 Design director 15+ yrs · $180k
 **Core:** Organizational leadership for the design practice. Owns design quality, staffing, and growth across the whole portfolio, not a single engagement. Sets the practice’s strategic direction with leadership and is accountable for the health of the design team as a team: hiring, development, retention, and the critique culture everyone works in.
 
-**Craft:** Stays close enough to the work to be credible in any design room, but the job is leverage, not output: making every Focus designer more effective. Evaluates design methods and tooling bets at the portfolio level and represents design in company strategy and major pursuits.
+**Craft:** Stays close enough to the work to be credible in any design room, but the job is leverage: making every Focus designer more effective. Evaluates design methods and tooling bets at the portfolio level and represents design in company strategy and major pursuits.
 
-**Civic tech context:** The external face of Focus design, engaging agency executives, partners, and the civic design community. A track record of building practices and people, not just shipping redesigns.
+**Civic tech context:** The external face of Focus design, engaging agency executives, partners, and the civic design community. A track record of building practices and people.
 
-**The bar:** Director is conferred by leadership, not reached by tenure. Fifteen years makes you eligible; the appointment is made when the role exists and the person has demonstrated practice-level leadership.
+**The bar:** Leadership confers it when the role exists. Fifteen years makes you eligible; the appointment is made when the role exists and the person has demonstrated practice-level leadership.
 
 ## Level Expectations: Product
 
@@ -347,19 +347,19 @@ P-9 Principal product manager 12–15 yrs · $185k
 
 **Skills:** Definitional expertise. Evaluates and adopts emerging product methods (AI-assisted discovery, outcomes contracting, co-design at scale) and brings the practice along.
 
-**The bar:** Would be recruited by Code for America, USDS alumni networks, or senior product roles at top civic tech firms. Stays at Focus because of the mission, the autonomy, and the scale of impact, not because they have no options.
+**The bar:** Would be recruited by Code for America, USDS alumni networks, or senior product roles at top civic tech firms. Stays at Focus because of the mission, the autonomy, and the scale of impact.
 P-10 Product director 15+ yrs · $200k
 **Core:** Organizational leadership for the product practice. Owns product quality, staffing, and growth across the whole portfolio, not a single engagement. Sets the practice’s strategic direction with leadership and is accountable for the health of the product team as a team: hiring, development, retention, and the standards everyone works to.
 
-**Skills:** Stays close enough to the work to be credible in any product room, but the job is leverage, not output: making every Focus PM more effective. Evaluates portfolio-level bets (what to pursue, what to build, where civic tech is heading) and represents product in company strategy and major pursuits.
+**Skills:** Stays close enough to the work to be credible in any product room, but the job is leverage: making every Focus PM more effective. Evaluates portfolio-level bets (what to pursue, what to build, where civic tech is heading) and represents product in company strategy and major pursuits.
 
-**Civic tech context:** The external face of Focus product, engaging agency executives, partners, and the civic tech community. A track record of building practices and people, not just delivering engagements.
+**Civic tech context:** The external face of Focus product, engaging agency executives, partners, and the civic tech community. A track record of building practices and people.
 
-**The bar:** Director is conferred by leadership, not reached by tenure. Fifteen years makes you eligible; the appointment is made when the role exists and the person has demonstrated practice-level leadership.
+**The bar:** Leadership confers it when the role exists. Fifteen years makes you eligible; the appointment is made when the role exists and the person has demonstrated practice-level leadership.
 
 ## Focus Non-Negotiables
 
-These apply to every hire, all practices, all levels. One “no” ends the conversation.
+These apply to every hire, all practices, all levels. A single objection ends the conversation.
 
 - [Adaptability](#): Adjusts when ground shifts without losing forward momentum.
 - [Ownership](#): Treats the outcome as theirs. Doesn’t wait to be told. Closes loops.

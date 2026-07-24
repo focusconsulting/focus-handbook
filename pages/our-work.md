@@ -1,6 +1,6 @@
 # Our Work
 
-_We focus on projects that drive meaningful impact — delivering efficient services that improve access to critical programs, reduce burden on users and agency staff, improve health outcomes, and streamline access to benefits._
+_We focus on projects that deliver efficient services: improving access to critical programs, reducing burden on users and agency staff, improving health outcomes, and making benefits easier to get._
  Active Projects Active Projects OPR 3.0 Online Passport Renewal (OPR 3.0)April 2024 – PresentConsular ServicesModernizationSecurity
 Focus is supporting the Department of State launch the third iteration of their online passport renewal pilot system. Focus is leading the engineering implementation that leans heavily on recent user research and design to improve on previous versions.
 
@@ -22,11 +22,11 @@ Our staff is supporting the large modernization effort of the NJ unemployment in
  CDC ReportStream CDC ReportStreamOngoingHealthcareEnterprise Data
 As part of the pandemic response, the CDC was tasked with improving how test results were reported and delivered to public health agencies. ReportStream is responsible for receiving, routing, and delivering test results. We've worked alongside our partners to augment the application to support sending and receiving any kind of test results or orders, and delivering this data in a wide variety of health specifications including HL7 and FHIR.
  Simpler Grants.gov Simpler Grants.govOngoingHealthcarePublic InterestModernization
-This open source project is a modernization effort of the current Grants.gov website and backend systems. It aims to make seeking grants and completing applications seamless and intuitive for grant-eligible organizations, while streamlining publishing and monitoring for grantor agencies. Focus is supporting the design and implementation effort.
+This open source project is a modernization effort of the current Grants.gov website and backend systems. It aims to make seeking grants and completing applications simple for grant-eligible organizations, while simplifying publishing and monitoring for grantor agencies. Focus is supporting the design and implementation effort.
  Healthcare Marketplace Healthcare MarketplaceOngoingHealthcareBenefits
 Our staff has experience in key product and engineering leadership roles on HealthCare.gov and MyMedicare.gov projects. We are currently supporting a suite of education tools that help consumers shop for healthcare plans and understand their coverage options.
  CMS IaaS CMS Infrastructure as a ServiceOngoingHealthcareSecurity
-In 2018, the Centers for Medicare and Medicaid Services (CMS) embarked on a multi-year effort to modernize the Medicare Fee for Service (FFS) shared systems used to process Medicare fee-for-service claims. The OSRE team was created to lead this program in the areas of DevSecOps, infrastructure support, and technical coordination. Focus is providing Infrastructure Engineering and Security Documentation services.
+In 2018, the Centers for Medicare and Medicaid Services (CMS) began a multi-year effort to modernize the Medicare Fee for Service (FFS) shared systems used to process Medicare fee-for-service claims. The OSRE team was created to lead this program in the areas of DevSecOps, infrastructure support, and technical coordination. Focus is providing Infrastructure Engineering and Security Documentation services.
  Preventive Medicaid Preventive MedicaidOngoingHealthcareEnterprise Data
 Supporting a commercial partner providing preventive care for Medicaid patients across various states. Our client works with insurance providers to identify and treat patients with preventable hospitalization risk.
 
@@ -34,7 +34,7 @@ Focus provides agile software development services across engineering and cloud 
  DC Housing Insights DC Housing InsightsOngoingPublic Interest
 This open source tool provides housing advocates and government officials with insights on the state of affordable housing in Washington, DC. The project started as a Code for DC / CNHED / Greater DC initiative. The tool overlays multiple local and national data sources on top of an interactive map with various filter toggles to better visualize the data. Focus is supporting the ongoing hosting, data update, and feature development needs.
  Physician Assistant Compact Physician Assistant CompactActivePublic Interest
-Supporting the implementation of the Physician Assistant Licensure Compact, which streamlines multistate PA licensure to improve workforce mobility and expand access to care.
+Supporting the implementation of the Physician Assistant Licensure Compact, which simplifies multistate PA licensure to improve workforce mobility and expand access to care.
  ACF CORE ACF – COREActivePublic Interest
 Supporting the Administration for Children and Families (ACF) on the CORE initiative to modernize and improve delivery of critical human services programs for families and children across the country.
  Alameda County Child Care Alameda County Coordinated Child Care Eligibility & EnrollmentActivePublic Interest
@@ -44,7 +44,7 @@ Building a next-generation talent marketplace platform that uses well-defined an
  Completed Projects Completed Projects IRS Digital Transformation IRS Digital TransformationAugust 2024 – February 2025Taxpayer SystemsModernization
 Our team led an agency-wide digital transformation initiative at the Internal Revenue Service. We conducted interviews across agency divisions to identify key systemic obstacles to effective digital delivery. Outcomes resulted in a digital maturity assessment and a high-level living roadmap for enabling successful digital delivery.
 
-As part of this contract, we also identified, selected, and implemented two "beacon" pilot projects that demonstrated visible improvements and new ways of working: digitizing the paper-based W7 application form and improving compliance operations.
+As part of this contract, we also identified, selected, and implemented two flagship pilot projects that demonstrated visible improvements and new ways of working: digitizing the paper-based W7 application form and improving compliance operations.
  IRS CIO Strategic Initiatives IRS CIO Strategic InitiativesSeptember 2024 – March 2025Taxpayer SystemsModernizationAIEnterprise Data
 We supported the office of the IRS CIO to help application and business teams adopt a product-centric approach to development while providing technical guidance, prototypes, and roadmaps to assist teams modernize their applications. We were embedded on the Intake team where we provided key guidance as the team modernized a legacy COBOL system. We also served an important integration role ensuring the variety of vendor teams and IRS staff operated from a shared set of code quality standards and operational guides.
  Marriott Learning Platform Marriott Learning PlatformCompletedWorkforce Development

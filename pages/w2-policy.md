@@ -27,7 +27,7 @@ Focus operates primarily on government contracts. Most engagements require staff
 
 **Continued employment at Focus is contingent on your ability to obtain and maintain the clearances required for your assigned project.**
 
-This is not a gotcha — it is a structural reality of government contracting that we communicate explicitly so you can make an informed decision before accepting an offer.
+This is a structural reality of government contracting. We communicate it explicitly so you can make an informed decision before accepting an offer.
 
 What this means in practice:
 

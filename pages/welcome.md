@@ -12,7 +12,7 @@ This handbook provides an overview of Focus Consulting's policies, practices, pr
 
 Build modern digital services that reduce friction, simplify complex policy, and can be sustained by the agency.
 
-We focus on projects that drive meaningful impact. Success means delivering efficient services that improve access to critical programs, reduce the burden on users and agency staff, improve health outcomes, and streamline access to benefits.
+We focus on projects that deliver efficient services. Success means improving access to critical programs, reducing the burden on users and agency staff, improving health outcomes, and simplifying access to benefits.
 
 ## Leadership
 

@@ -2,7 +2,7 @@
 
 _What every Focus staff member on a subcontract program must follow to stay compliant with our contractual obligations._
 
-This page applies to all Focus employees and contractors working on programs where Focus serves as a subcontractor (currently, Nava-prime programs). These requirements are not optional — they are conditions of the contracts that fund your work. Non-compliance creates legal and financial exposure for Focus and can result in removal from the program.
+This page applies to all Focus employees and contractors working on programs where Focus serves as a subcontractor (currently, Nava-prime programs). These requirements are conditions of the contracts that fund your work. Non-compliance creates legal and financial exposure for Focus and can result in removal from the program.
 
 Topics are ordered by compliance risk, highest first.
 
@@ -70,7 +70,7 @@ Focus subcontract staff must be available and reachable during the program's cor
 
 ## Timekeeping
 
-Accurate daily time entry is a contractual obligation, not an internal preference.
+Accurate daily time entry is a contractual obligation.
 
 - Enter your hours in **Nava's Unanet system** each day you work. Nava is required by DCAA rules to maintain daily time records and will flag individuals who are not entering time daily
 - Submit your timesheet for approval on the **15th and last business day** of each calendar month. Late submissions will not be included in the monthly invoice to the client, which affects both your pay and Focus's billing

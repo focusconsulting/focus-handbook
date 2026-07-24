@@ -40,7 +40,7 @@ Source: Pregnant Workers Fairness Act, 42 U.S.C. § 2000gg (effective June 27, 2
 
 ## Progressive Discipline
 
-Focus applies a graduated approach to addressing performance or conduct issues. The goal is always correction and improvement, not punishment. Depending on the nature and severity of the issue, steps may include:
+Focus applies a graduated approach to addressing performance or conduct issues. The goal is correction and improvement. Depending on the nature and severity of the issue, steps may include:
 
 1. **Verbal warning:** documented conversation identifying the issue and expectations
 2. **Written warning:** formal documentation of the issue with a corrective action plan

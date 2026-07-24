@@ -10,7 +10,7 @@ Non-exempt employees who work beyond their regular schedule will receive overtim
 
 ## Discretionary Bonus Policy
 
-Focus offers discretionary bonuses based on measurable outcomes that directly contribute to the company's growth and success. Bonuses are not capped at a fixed percentage of base salary; they are determined by the impact of your contributions.
+Bonuses are discretionary and based on your measurable impact. Bonuses are not capped at a fixed percentage of base salary; they are determined by the impact of your contributions.
 
 ### Eligibility
 

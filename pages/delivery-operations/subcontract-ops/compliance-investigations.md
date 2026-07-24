@@ -1,7 +1,7 @@
 # SOP: Compliance Investigations & Data Calls
 
 _How Focus responds when a prime contractor or client initiates an investigation or data call involving a Focus team member — including overseas IP flags, AI tool use, and alleged contract non-compliance._
-Scope All prime subcontracts (Nava, eSimplicity, Accenture, and others)Version 1.0Owners Delivery Lead, CDOKey principle Focus cooperates with legitimate investigations — but cooperation does not mean unconditional compliance. Every request deserves scope, legal basis, and proportionality before Focus hands anything over.
+Scope All prime subcontracts (Nava, eSimplicity, Accenture, and others)Version 1.0Owners Delivery Lead, CDOKey principle Focus cooperates with legitimate investigations, but cooperation is conditional: every request must have scope, legal basis, and proportionality before Focus hands anything over.
 
 ## Purpose
 
@@ -60,17 +60,17 @@ Before complying, Focus asks the prime to confirm in writing:
 - The intended use of the information gathered
 - The timeline and format expected
 
-This is not obstruction — it is standard practice. A well-scoped request protects the prime as much as it protects Focus. Any request that cannot be scoped in writing should be treated as a signal to slow down and involve the CDO and, if needed, legal counsel.
+This is standard practice. A well-scoped request protects the prime as much as it protects Focus. Any request that cannot be scoped in writing should be treated as a signal to slow down and involve the CDO and, if needed, legal counsel.
 
 ### Step 4: Evaluate the Request Against Focus Obligations
 
-Before gathering or sharing anything, evaluate the request against three questions:
+Before gathering or sharing anything, evaluate the request against three tests:
 
-**Is it proportionate?** A foreign IP flag from a team member who traveled to Canada does not warrant full device imaging. Match the response to what the facts actually support.
+**Proportionality.** A foreign IP flag from a team member who traveled to Canada does not warrant full device imaging. Match the response to what the facts actually support.
 
-**Is it consistent with Focus's obligations to its staff?** Focus has duties to its employees and contractors: privacy, due process, and protection from retaliation. Requests that would require Focus to surveil staff without their knowledge, access personal data unrelated to the contract, or bypass Focus's own HR process require the CDO to sign off before proceeding.
+**Obligations to staff.** Focus has duties to its employees and contractors: privacy, due process, and protection from retaliation. Requests that would require Focus to surveil staff without their knowledge, access personal data unrelated to the contract, or bypass Focus's own HR process require the CDO to sign off before proceeding.
 
-**Does it conflict with Focus's engineering culture?** Some clients and primes request monitoring tools or access methods that Focus's engineering staff would experience as surveillance rather than compliance. Before agreeing to implement any persistent monitoring on Focus-owned devices or accounts, escalate to the CDO. Focus's default position is to propose less invasive alternatives (audit logs, access records, output review) and to ask for the specific risk the prime is trying to mitigate before agreeing to the monitoring approach they've proposed.
+**Fit with engineering culture.** Some clients and primes request monitoring tools or access methods that Focus's engineering staff would experience as surveillance rather than compliance. Before agreeing to implement any persistent monitoring on Focus-owned devices or accounts, escalate to the CDO. Focus's default position is to propose less invasive alternatives (audit logs, access records, output review) and to ask for the specific risk the prime is trying to mitigate before agreeing to the monitoring approach they've proposed.
 
 ### Step 5: Pushing Back Thoughtfully
 

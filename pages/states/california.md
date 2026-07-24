@@ -1,6 +1,6 @@
 # California State Policies
 
-_Comprehensive state-specific employment policies for Focus employees working in California._
+_State-specific employment policies for Focus employees working in California._
 
 > **Note:** California has some of the most extensive employment protections in the nation. Employees in certain cities (Berkeley, Emeryville, Long Beach, Los Angeles, Oakland, San Diego, San Francisco, Santa Monica, West Hollywood) may have additional local requirements.
 
@@ -97,7 +97,7 @@ Source: Cal. Elec. Code § 14000
 
 ## Jury Duty
 
-Employees summoned for jury duty are encouraged to fulfill their civic duty. Employers may not discharge or penalize employees for jury service.
+Employers may not discharge or penalize employees for jury service.
 
 Source: Cal. Lab. Code § 230
 

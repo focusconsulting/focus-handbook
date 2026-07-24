@@ -4,7 +4,7 @@ _How we communicate, manage our time, and collaborate across distributed teams._
 
 ## Communication Norms
 
-Clear, professional, and timely communication is foundational to how Focus operates. As a distributed consulting firm working with government clients, communication quality directly affects our delivery and client relationships.
+At Focus, we communicate clearly, professionally, and on time. As a distributed consulting firm working with government clients, communication quality directly affects our delivery and client relationships.
 
 - **Slack** is our primary internal communication tool. Respond to messages in a timely manner, especially from project leads and clients. Your Slack profile must have a recent, professional headshot, as this is essential for a remote team where a profile photo is often the first impression you make.
 - **Email** is used for formal client communication and external correspondence.

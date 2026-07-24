@@ -4,7 +4,7 @@ _Effective October 2025  ·  Approved by the Executive Team_
 
 ## Client-Site Travel
 
-Focus is remote-first, not remote-only. As consultants, our work happens in partnership with government stakeholders, and that occasionally means being in the room with them. Client-site travel is a normal and expected part of working at Focus.
+Focus is remote-first, and travel is part of the job. As consultants, our work happens in partnership with government stakeholders, and that occasionally means being in the room with them. Client-site travel is a normal and expected part of working at Focus.
 
 This is tied directly to delivery success and client relationships, which is what keeps contracts healthy and the business running.
 
@@ -18,13 +18,13 @@ Travel frequency varies by contract and client:
 
 ### Why It Matters
 
-Some things don't translate well over Slack or a video call: trust-building, reading a room, catching what a client isn't saying directly. Physical presence is sometimes the fastest way to solve a problem or strengthen a relationship that benefits the whole team. When client relationships weaken, it directly affects contract continuity.
+Some things don't translate well over Slack or a video call, including trust-building, reading a room, and catching what a client isn't saying directly. Physical presence is sometimes the fastest way to solve a problem or strengthen a relationship that benefits the whole team. When client relationships weaken, it directly affects contract continuity.
 
 ### What We Ask
 
 - **At staffing time:** If a contract involves more frequent travel, that should be made clear up front. It is fair to ask about expected travel cadence during staffing conversations.
 - **If real constraints exist:** Health, caregiving, or other family circumstances are real constraints. Talk to your contract lead or People Operations and we will work with you.
-- **On discomfort vs. constraint:** General discomfort with travel or in-person work is understandable, but it is not the same as a hard constraint. As a business with client obligations, we need staff who can flex when the work calls for it.
+- **On discomfort vs. constraint:** General discomfort with travel or in-person work is understandable, but it is not a hard constraint. As a business with client obligations, we need staff who can flex when the work calls for it.
 
 ---
 

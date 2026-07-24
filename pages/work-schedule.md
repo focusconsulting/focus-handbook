@@ -2,13 +2,13 @@
 
 _Effective October 2025  ·  Approved by the Executive Team_
 
-## Our Philosophy: Excellence Through Balance
+## Our Standard: A 40-Hour Week
 
-At Focus Consulting, we believe that exceptional work comes from well-rested, engaged professionals who bring their best selves to client challenges. Our commitment to delivery excellence is built on the principle that a sustainable 40-hour work week enables our team to consistently produce high-quality outcomes for government clients while maintaining the personal well-being that fuels long-term success.
+Focus works a 40-hour week.
 
-We recognize that government contracting occasionally requires flexibility beyond standard hours. These periods of extended effort are the exception, not the rule, and are essential to maintaining our reputation for reliability and mission-critical delivery.
+We recognize that government contracting occasionally requires flexibility beyond standard hours. These periods of extended hours are the exception, not the rule.
 
-> **Consistent Overwork Is a Signal, Not a Standard:** If any team member finds themselves consistently working over 40 hours per week, this signals a systemic challenge requiring immediate attention: resource constraints, scope creep, unrealistic timelines, or process inefficiencies. These issues should be addressed through retrospectives, program health checks, and escalation to Focus leadership.
+> **Consistent overtime usually means understaffing or scope creep:** If any team member finds themselves consistently working over 40 hours per week, address the underlying cause: resource constraints, scope creep, unrealistic timelines, or process inefficiencies. Raise these issues through retrospectives, program health checks, and escalation to Focus leadership.
 
 ## Standard Work Week
 
@@ -52,8 +52,8 @@ Government contracting requires flexibility. Exempt employees should expect to o
 
 ### Work-Life Balance Commitments
 
-- Providing as much advance notice as possible for known extended work periods
-- Distributing extended work requirements across team members when possible
+- Providing as much advance notice as possible for known extended hours
+- Distributing extended hours across team members when possible
 - Allowing reduced hours or flexible scheduling during non-critical periods
 - Protecting allocated professional development and training time
 
@@ -97,7 +97,7 @@ During government-declared emergencies or critical system failures, standard app
 
 ### Manager Responsibilities
 
-- Judiciously approve extended work and overtime
+- Approve overtime only when justified.
 - Regularly monitor employee work hours and well-being
 - Maintain proper records of all extended work approvals and justifications
 - Clearly communicate expectations and deadlines in advance

@@ -17,7 +17,7 @@ These terms are not synonymous and should not be used interchangeably.
 
 This phase sits with the CDO until Focus has a dedicated program management office or practice. Once that exists, this phase transitions there.
 
-**BD-to-Delivery Handoff Meeting.** Triggered at notice of award. BD walks the assigned key personnel through the market research that informed the proposal, the proposal itself, assumptions made during the bid, and the staffing plan as proposed. This is the one chance to surface gaps between what was promised and what's realistic before staffing decisions get made.
+**BD-to-Delivery Handoff Meeting.** Triggered at notice of award. BD walks the assigned key personnel through the market research that informed the proposal, the proposal itself, assumptions made during the bid, and the staffing plan as proposed. Surface promise-vs-reality gaps here, before staffing decisions.
 
 **Staffing and Recruiting Sync.** If new hiring is needed:
 
@@ -137,7 +137,7 @@ Put your objection in writing: the recommended approach, the reasons against it,
 
 ### A contract lead isn't sure if something is cost-adjacent or just an operational decision. What should I do?
 
-Default to escalating, particularly while the leads team doesn't yet have contract ops training. A quick flag costs nothing; an unflagged cost decision can.
+Default to escalating, particularly while the leads team doesn't yet have contract ops training.
 
 ### One contract lead disagrees with another contract lead on a delivery decision. What should I do?
 

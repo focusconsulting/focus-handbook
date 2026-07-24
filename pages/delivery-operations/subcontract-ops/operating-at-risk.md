@@ -103,7 +103,7 @@ When either threshold (30 days or one month of contract value) is reached withou
 - **Reduce scope.** Focus limits the work to a maintainable minimum (e.g., one part-time FTE) while execution is pending, reducing further exposure while preserving the program relationship.
 - **Pause.** Focus staff stop billing. The CDO notifies the prime that Focus cannot continue at risk beyond the current threshold, and communicates clearly what it would take to resume (executed amendment or ATP).
 
-A pause is not a breach of the subcontract — Focus is not obligated to work without authorization. The CDO handles the prime-facing conversation directly.
+A pause is not a breach; Focus is not obligated to work without authorization. The CDO handles the prime-facing conversation directly.
 
 ### Step 6: Document the Resolution
 

@@ -10,7 +10,7 @@ Establish clear notification windows and process steps when a Focus team member 
 
 Two distinct staffing transition problems have surfaced on Nava engagements. First, when Focus wins new work and moves a top performer into a new contract lead role, Nava program teams have needed more ramp-down time than Focus was planning for. Second, in cases of involuntary separation, access revocations have happened without parallel notification to the Focus Delivery Lead, creating situations where leadership was uninformed until after the fact.
 
-Staffing assignment is a strategic management function, not an administrative one. How transitions are handled is a direct reflection of firm quality and is slow and expensive to recover from when handled poorly.
+Staffing assignment is a strategic management function. How transitions are handled is a direct reflection of firm quality and is slow and expensive to recover from when handled poorly.
 
 ## Contracts Team on All Prime Communications
 

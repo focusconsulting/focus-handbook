@@ -4,7 +4,7 @@ _How to identify, route, and resolve delivery concerns, personnel issues, and cl
 Scope Nava subcontracts (Focus as subcontractor)Version 1.0Owners Delivery Lead, Contracts Lead
 ## Purpose
 
-Ensure that delivery concerns, personnel issues, and client complaints surfaced on a Nava subcontract are routed, communicated, and resolved through a defined process that protects all parties and prevents information gaps. Escalation discipline is not bureaucracy. It is how the right people stay informed at the right moment.
+Ensure that delivery concerns, personnel issues, and client complaints surfaced on a Nava subcontract are routed, communicated, and resolved through a defined process that protects all parties and prevents information gaps. Escalation discipline keeps the right people informed at the right moment.
 
 ## Background
 
@@ -49,7 +49,7 @@ The designated Focus contact reaches out to the appropriate Nava contact per the
 
 ### Step 4: Constructive Resolution
 
-When Focus and Nava reach an impasse on a personnel or delivery matter, either party may request a cosigned summary of the issue, the options considered, and the trade-offs. This document is then escalated to the mutual decision-maker. This is a clarity tool, not an adversarial one.
+When Focus and Nava reach an impasse on a personnel or delivery matter, either party may request a cosigned summary of the issue, the options considered, and the trade-offs. This document is then escalated to the mutual decision-maker. Use it for clarity, not as a weapon.
 
 ### Step 5: Close the Loop Internally
 

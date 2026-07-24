@@ -28,7 +28,7 @@ Reviews consider:
 Focus uses active coaching to address performance concerns early. The following are examples of behaviors that may trigger a coaching conversation:
 
 - **Lack of visible task progress** without seeking help or surfacing blockers
-- **Missing meaningful status updates:** updates should reflect real progress, not just activity
+- **Missing meaningful status updates:** updates should show real progress
 - **Unexcused meeting absences:** if you can't attend, communicate in advance
 - **Chronic lateness** to meetings or deliverables
 - **Repeated failure to follow team norms** after they've been communicated
@@ -38,14 +38,14 @@ Focus uses active coaching to address performance concerns early. The following 
 
 ## Productivity Impact Protocol
 
-Life happens. If you anticipate or are experiencing a productivity impact, the expectation is that you proactively communicate this to your manager. Examples include:
+If you anticipate or are experiencing a productivity impact, proactively communicate this to your manager. Examples include:
 
 - Illness (physical or mental health)
 - Family matters or caregiving responsibilities
 - Burnout or sustained low motivation
 - Personal circumstances affecting your ability to work
 
-This is not punitive; it's how we support each other. Waiting until a productivity drop is visible in your work creates larger problems for you, your team, and your client.
+This helps us support you. Waiting until a productivity drop is visible in your work creates larger problems for you, your team, and your client.
 
 ## Timekeeping & Attendance
 

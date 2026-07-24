@@ -1,7 +1,7 @@
 # SOP: Evidence Capture from Focus Machines
 
 _What to do when a prime contractor requests logs, screenshots, configuration settings, or other data from a Focus-owned device._
-Scope All prime subcontracts (Nava, eSimplicity, Accenture, and others)Version 1.0Owners Delivery Lead, CDO, IT SupportKey principle Legal review is a hard gate — not a suggestion — before Focus collects or shares any device-level data. Focus reviews everything before it leaves, and no data is transmitted to a prime directly from a team member's machine without that review.
+Scope All prime subcontracts (Nava, eSimplicity, Accenture, and others)Version 1.0Owners Delivery Lead, CDO, IT SupportKey principle Legal review is a hard gate, not a suggestion, before Focus collects or shares any device-level data. Focus reviews everything before it leaves, and no data is transmitted to a prime directly from a team member's machine without that review.
 
 ## Purpose
 
@@ -9,15 +9,15 @@ Establish a consistent process for handling requests from prime contractors for 
 
 This SOP applies to all primes, not only Nava. Any prime contractor directing Focus to produce device-level data must go through this process.
 
-## Is This Even Legal?
+## Legal Review Required Before Collection
 
-This is not a rhetorical question. Before Focus collects or shares any device-level data from a Focus-owned machine, the legality must be confirmed. Employee device privacy is governed by state law, and the rules vary significantly across Focus's operating footprint:
+Before Focus collects or shares any device-level data from a Focus-owned machine, the legality must be confirmed. Employee device privacy is governed by state law, and the rules vary significantly across Focus's operating footprint:
 
 - **California** has some of the strongest employee monitoring protections in the country. Employers generally must notify employees of any monitoring, and collecting data from a personally-owned or Focus-owned device without consent raises CCPA and Labor Code issues.
 - **New York, Illinois, and other states** Focus operates in have their own notice and consent requirements for electronic monitoring.
 - **Federal law** (the Electronic Communications Privacy Act and the Computer Fraud and Abuse Act) may also apply depending on the type of data and the method of collection.
 
-A prime contractor requesting data from a Focus device does not give Focus legal authority to collect it. The prime's contractual relationship is with Focus as an entity — not with individual Focus employees' devices or personal data.
+A prime contractor requesting data from a Focus device does not give Focus legal authority to collect it. The prime's contractual relationship is with Focus as an entity, not with individual Focus employees' devices or personal data.
 
 **Legal counsel must be consulted before Focus complies with any request that involves collecting data from a Focus-owned device.** The CDO initiates that consultation. This is a hard gate, not a judgment call the Delivery Lead makes alone.
 

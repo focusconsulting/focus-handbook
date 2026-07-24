@@ -12,7 +12,7 @@ Focus pays discretionary bonuses twice a year. Bonuses are not guaranteed and ar
 
 If you want to be considered for a bonus, you submit a written justification to your manager. Your manager reviews it, adds their perspective, and it goes to leadership for final determination. If you do not submit, you are not considered. There is no back-channel process where managers nominate people without their knowledge.
 
-This is intentional. It puts the responsibility on you to know what you contributed and to make the case. It also forces you to think about your work in terms of company impact — not just project output — which is the kind of thinking we want everyone developing.
+This is intentional. It puts the responsibility on you to know what you contributed and to make the case. It also forces you to think about your work on company impact, not just project output.
 
 **Eligibility:**
 
@@ -40,7 +40,7 @@ Examples:
 
 ### 2. Project Delivery
 
-Outcomes you drove on your project that exceeded what was expected for your level and role. This is not “I shipped my tickets.” It is “here is something that happened on this project because of my specific contribution.”
+Outcomes you drove on your project that exceeded what was expected for your level and role. The standard is “here is something that happened on this project because of my specific contribution,” not “I shipped my tickets.”
 
 Examples:
 
@@ -93,7 +93,7 @@ If the answer to most of those is yes, it probably counts.
 - Work that only your manager can see and that has no external trace or outcome.
 - Being available, responsive, or professional. These are baseline expectations, not differentiators.
 
-This may feel strict. It is. The bar is intentional. Bonuses at Focus are for impact that grows the company or meaningfully advances a client's mission. That bar is reachable; many people clear it every cycle, but it requires doing things beyond the minimum.
+This may feel strict, and the bar is intentional. Bonuses at Focus are for impact that grows the company or meaningfully advances a client's mission. That bar is reachable; many people clear it every cycle, but it requires doing things beyond the minimum.
 
 ## How to Write Your Submission
 
@@ -147,7 +147,7 @@ Not everyone is equally comfortable making the case for themselves. Research con
 
 What we ask:
 
-- Talk to your manager before the window closes, not after. Show them a draft. Ask if your framing makes sense. That is what managers are for.
+- Talk to your manager before the window closes. Show them a draft. Ask if your framing makes sense. That is what managers are for.
 - If you are not sure whether something counts, ask. The answer is almost always more useful than the guess.
 - If you contributed to something collectively, you can still claim your specific part. “I led the research portion of the case study” is a legitimate claim even if five people worked on the case study.
 - Screenshot client appreciation when you receive it. Build the habit now. Do not try to reconstruct evidence at submission time.

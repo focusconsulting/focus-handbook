@@ -65,7 +65,7 @@ SOPs for Focus engagements where Focus serves as a subcontractor. Current proced
 
 ## Quarterly Program Review
 
-Once a quarter, delivery leads, practice leads, and the executive team meet to review the health and status of all active Nava subcontracts. Separate quarterly reviews are held for prime contract and joint venture engagements. The meeting is not a status report; it is a structured conversation about what leadership needs to know and act on.
+Once a quarter, delivery leads, practice leads, and the executive team meet to review the health and status of all active Nava subcontracts. Separate quarterly reviews are held for prime contract and joint venture engagements. The meeting is a structured conversation about what leadership needs to know and act on.
 
 ### Attendees
 

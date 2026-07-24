@@ -6,7 +6,7 @@ _Effective October 2025  ·  Approved by the Executive Team_
 
 Focus recognizes that the loss of a loved one is one of life's most difficult experiences. This policy provides paid bereavement leave so that employees can grieve, attend services, and handle personal matters without the added stress of lost income.
 
-We approach bereavement with humanity and flexibility. If your circumstances require additional time or if a situation arises that is not explicitly covered below, please speak with your manager or People Operations — we will work with you.
+We approach bereavement with humanity and flexibility. If your circumstances require additional time or if a situation arises that is not explicitly covered below, please speak with your manager or People Operations. We will work with you.
 
 ## Eligibility
 
@@ -39,7 +39,7 @@ Five paid days off following a miscarriage, stillbirth, or other pregnancy loss.
 
 One paid day off for the loss of a pet. Focus recognizes that companion animals are deeply important members of many families.
 
-> **Flexibility for Unique Circumstances:** These categories are guides, not limits. Loss doesn't always fit neatly into defined relationships. If someone important to you has died and you need time, please reach out to your manager or People Operations. We will do our best to accommodate your needs.
+> **Flexibility for Unique Circumstances:** These categories are starting points. Loss doesn't always fit neatly into defined relationships. If someone important to you has died and you need time, please reach out to your manager or People Operations. We will do our best to accommodate your needs.
 
 ## Requesting Leave
 

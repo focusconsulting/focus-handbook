@@ -36,7 +36,7 @@ Source: Fla. Stat. § 40.271
 
 ## Voting Leave
 
-Florida does not have a specific state law mandating time off to vote. However, Florida offers extensive early voting and vote-by-mail options. Focus encourages all employees to exercise their right to vote and will work with employees to accommodate reasonable requests for voting time.
+Florida does not have a specific state law mandating time off to vote. However, Florida offers extensive early voting and vote-by-mail options. Focus accommodates reasonable requests for voting time.
 
 ## Military Leave
 

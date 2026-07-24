@@ -34,11 +34,11 @@ Every staff member at Focus has access to mentorship. Mentors help with:
 - Technical or discipline-specific guidance
 - Preparing for promotion and expanded responsibilities
 
-Mentorship at Focus is primarily async, with regular check-ins supplemented by ad-hoc conversations as needed. Your mentor is not your evaluator; they are your advocate.
+Mentorship at Focus is primarily async, with regular check-ins supplemented by ad-hoc conversations as needed. Your mentor advocates for you and does not evaluate you.
 
 ## How We Evaluate
 
-Performance evaluation at Focus is based on observable outcomes, not subjective impressions. We use three primary inputs:
+We evaluate on observable outcomes. We use three primary inputs:
 
 1. **Colleague feedback:** regular input from people who work directly with you
 2. **Async check-ins:** documented progress and growth conversations over time

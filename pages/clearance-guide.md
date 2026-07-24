@@ -8,7 +8,7 @@ _What clearances are, how the process works, and how to navigate it successfully
 
 Federal government contracts require that staff who access agency systems, data, or facilities hold an appropriate clearance. Most Focus projects require at minimum a public trust clearance. Some require higher levels.
 
-Clearances are issued by the sponsoring agency — not by Focus. We initiate the process, but we do not control the timeline or outcome. What we can control is how well you are prepared going in. Delays are almost always caused by things candidates could have prevented with better preparation. This guide exists to help you prevent them.
+The sponsoring agency issues clearances, not Focus. We initiate the process, but we do not control the timeline or outcome. What we can control is how well you are prepared going in. Delays are almost always caused by things candidates could have prevented with better preparation. This guide exists to help you prevent them.
 
 **You will be asked to sign an acknowledgment confirming you have read this guide before your clearance package is submitted.**
 
@@ -96,7 +96,7 @@ Significant unresolved debt, delinquent accounts, or financial circumstances tha
 - Contact past employers before submitting to alert them of the upcoming verification call.
 - Respond promptly to any requests from the investigator or agency.
 - Notify your Focus contact immediately if your clearance package is denied at interim or if you receive any communication indicating a problem.
-- Do not wait and hope. If something comes up, surface it early.
+- Surface any problem early.
 
 ## What Happens If Clearance Is Delayed
 
@@ -104,7 +104,7 @@ If your clearance is taking longer than expected through no fault of your own (a
 
 This window is approximately **6 weeks from your start date**, which accounts for roughly 2 weeks of onboarding before billing would typically begin. This is not a hard cutoff; decisions are made on a case-by-case basis by leadership, taking into account the reason for the delay, whether other project placement is available, and business capacity.
 
-If we reach this window, your manager and People Operations will have an explicit conversation with you about options. You will not be left wondering.
+If we reach this window, your manager and People Operations will have an explicit conversation with you about options.
 
 ## What Happens If Clearance Is Denied
 
