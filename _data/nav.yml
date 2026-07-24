@@ -56,9 +56,15 @@
   pages:
     - label: Overview
       url: /focus-handbook/pages/delivery-operations/
-    - label: Subcontract Compliance Requirements
-      url: /focus-handbook/pages/delivery-operations/subcontract-compliance
+    - label: Compliance
+      url: /focus-handbook/pages/delivery-operations/compliance
     - subsection: Subcontracts
+    - label: Subcontracts Overview
+      url: /focus-handbook/pages/delivery-operations/subcontract-ops/
+      indent: true
+    - label: Subcontract Compliance
+      url: /focus-handbook/pages/delivery-operations/subcontract-ops/compliance
+      indent: true
     - label: On-Program Escalations
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/on-program-escalations
       indent: true
@@ -78,10 +84,16 @@
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/operating-at-risk
       indent: true
     - subsection: Prime Contracts
-    - label: CDO Engagement Model for Prime Contracts
+    - label: Prime Contracts Overview
+      url: /focus-handbook/pages/delivery-operations/prime-contract-ops/
+      indent: true
+    - label: CDO Engagement Model
       url: /focus-handbook/pages/delivery-operations/prime-contract-ops/cdo-engagement-model
       indent: true
     - subsection: Joint Ventures
+    - label: Joint Ventures Overview
+      url: /focus-handbook/pages/delivery-operations/joint-venture-ops/
+      indent: true
 
 - title: Business Operations
   pages:
