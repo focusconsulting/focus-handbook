@@ -1,37 +1,37 @@
 # Subcontracts
 
-_How Focus operates on engagements where it serves as a subcontractor. Current procedures are scoped to Nava as the prime._
+_How Focus operates on engagements where it serves as a subcontractor. These procedures apply across all of Focus's primes (currently Nava and eSimplicity, with Accenture anticipated)._
 
-On subcontract engagements, the general [Compliance](../compliance.md) baseline applies to everyone, plus the [Subcontract Compliance](compliance.md) rules specific to Nava programs. This page covers the delivery-lead role, the current portfolio, the operating SOPs, and the quarterly review.
+On subcontract engagements, the general [Compliance](../compliance.md) baseline applies to everyone, plus the [Subcontract Compliance](compliance.md) rules that adapt to each prime. This page covers the delivery-lead role, the current portfolio, the operating SOPs, and the quarterly review.
 
 ## Delivery Lead Role
 
-Senior delivery leads on the Nava state portfolio carry both account management and program operations responsibilities. One person owns the full picture for each account: the Nava contracts relationship, the program relationship, and the operational discipline that keeps staffing and delivery on track.
+Senior delivery leads carry both account management and program operations responsibilities for their accounts. One person owns the full picture for each account: the prime contracts relationship, the program relationship, and the operational discipline that keeps staffing and delivery on track.
 
 ### Account Ownership
 
-- Own the working relationship with the Nava contracts lead for the account. This is the channel for contract questions, modifications, KP notifications, and any issue with contractual implications.
-- Own the working relationship with the Nava program manager for the account. This covers delivery status, team performance, and day-to-day program communication.
+- Own the working relationship with the prime's contracts lead for the account. This is the channel for contract questions, modifications, KP notifications, and any issue with contractual implications.
+- Own the working relationship with the prime's program manager for the account. This covers delivery status, team performance, and day-to-day program communication.
 - Serve as the single Focus point of contact for escalations originating at the program level. Program staff surface contractual or personnel issues to the Delivery Lead rather than resolving them directly.
 
 ### Program Operations
 
-- **On-program escalations.** Identify, log, and route delivery concerns, personnel issues, and client complaints before any external communication goes to Nava. See the [On-Program Escalations SOP](on-program-escalations.md).
-- **Staffing transitions and KP notifications.** Manage notification windows when a Focus team member transitions off a Nava program, whether voluntary or involuntary. See the [Staffing Transitions SOP](staffing-transitions.md).
+- **On-program escalations.** Identify, log, and route delivery concerns, personnel issues, and client complaints before any external communication goes to the prime. See the [On-Program Escalations SOP](on-program-escalations.md).
+- **Staffing transitions and KP notifications.** Manage notification windows when a Focus team member transitions off a subcontract program, whether voluntary or involuntary. See the [Staffing Transitions SOP](staffing-transitions.md).
 - **LCAT management and backfill alignment.** Track scope drift against contracted labor categories and flag misalignment before backfill time. See the [LCAT Management SOP](lcat-management.md).
 
 ### Staffing and Recruiting
 
 When a role needs to be filled (new position, backfill, or KP replacement), the Delivery Lead owns the process end to end in partnership with the practice lead.
 
-- Coordinate with the practice lead to develop or review the job description before it goes to Nava or recruiting.
+- Coordinate with the practice lead to develop or review the job description before it goes to the prime or recruiting.
 - Drive recruiting with the practice lead: sourcing, outreach, and pipeline management.
 - Practice staff conduct interviews. The Delivery Lead keeps the process moving at pace and ensures candidates are evaluated against both program need and LCAT requirements.
-- Finalize the assignment in coordination with the practice lead and CDO before communicating to Nava.
+- Finalize the assignment in coordination with the practice lead and CDO before communicating to the prime.
 
 ## Subcontract Portfolio
 
-Current account assignments across the Nava subcontract portfolio. The Focus PoC is the Delivery Lead responsible for the account relationship and program operations described above.
+Current account assignments across the subcontract portfolio. The Focus PoC is the Delivery Lead responsible for the account relationship and program operations described above.
 
 | Program | Program Contact | Contract Lead | Focus POC |
 | --- | --- | --- | --- |
@@ -48,9 +48,10 @@ Current account assignments across the Nava subcontract portfolio. The Focus PoC
 
 ## Operating SOPs
 
-- [Subcontract Compliance](compliance.md): Nava-specific rules layered on the general compliance baseline, covering Unanet timekeeping, overtime pre-approval, client communication, Slack workspaces, and travel.
-- [On-Program Escalations](on-program-escalations.md): How to identify, route, and resolve delivery concerns, personnel issues, and client complaints on a Nava subcontract. Includes the escalation matrix and communication rules.
-- [Staffing Transitions & KP Notifications](staffing-transitions.md): Notification windows and process steps when a Focus team member transitions off a Nava program, including key personnel designation and involuntary removal procedures.
+- [Delivery Lead Rollout Plan](rollout.md): The ADKAR change management plan for standing up the Delivery Lead role across subcontract accounts, including a day-one readiness checklist.
+- [Subcontract Compliance](compliance.md): Prime-specific rules layered on the general compliance baseline, covering the prime's timekeeping system, overtime pre-approval, client communication, Slack workspaces, and travel.
+- [On-Program Escalations](on-program-escalations.md): How to identify, route, and resolve delivery concerns, personnel issues, and client complaints on a subcontract. Includes the escalation matrix and communication rules.
+- [Staffing Transitions & KP Notifications](staffing-transitions.md): Notification windows and process steps when a Focus team member transitions off a subcontract program, including key personnel designation and involuntary removal procedures.
 - [LCAT Management & Backfill Alignment](lcat-management.md): How to handle a team member who has performed above their contracted labor category level, and what to do when backfill needs exceed the LCAT ceiling.
 - [Compliance Investigations & Data Calls](compliance-investigations.md): How Focus receives, evaluates, and responds to compliance investigations or data calls from a prime, including overseas IP flags, AI tool use, and conduct allegations. Includes a framework for scoping requests and pushing back on overbroad asks.
 - [Evidence Capture from Focus Machines](evidence-capture.md): How to handle prime requests for logs, screenshots, or configuration data from Focus-owned devices. Covers chain of custody, internal review before transmission, and what Focus will not do.
@@ -58,7 +59,7 @@ Current account assignments across the Nava subcontract portfolio. The Focus PoC
 
 ## Quarterly Program Review
 
-Once a quarter, delivery leads, practice leads, and the executive team review the health and status of all active Nava subcontracts. The meeting is a structured conversation about what leadership needs to know and act on.
+Once a quarter, delivery leads, practice leads, and the executive team review the health and status of all active subcontract accounts across primes. The meeting is a structured conversation about what leadership needs to know and act on.
 
 ### Attendees
 

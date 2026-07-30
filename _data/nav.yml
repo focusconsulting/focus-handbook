@@ -85,6 +85,9 @@
     - label: Operating at Risk
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/operating-at-risk
       indent: true
+    - label: Delivery Lead Rollout Plan
+      url: /focus-handbook/pages/delivery-operations/subcontract-ops/rollout
+      indent: true
     - subsection: Prime Contracts
     - label: Prime Contracts Overview
       url: /focus-handbook/pages/delivery-operations/prime-contract-ops/
