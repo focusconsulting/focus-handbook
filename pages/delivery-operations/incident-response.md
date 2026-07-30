@@ -6,6 +6,8 @@ This SOP applies to all Focus delivery engagements (subcontract, prime, and join
 
 **What's changing:** Focus now documents every qualifying incident in a written **incident report** and runs a **formal investigation** for serious ones. The goal is a consistent record of what happened, what we did, and what we changed, so we learn from incidents and can answer for them if a client or prime asks.
 
+//Program incidents really should handle client/prime facing incidents, contract compliance, etc - revisit internal vs external 
+
 ---
 
 ## What Counts as a Program Incident
