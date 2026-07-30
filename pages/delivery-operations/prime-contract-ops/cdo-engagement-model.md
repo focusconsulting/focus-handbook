@@ -47,17 +47,21 @@ This phase sits with the CDO until Focus has a dedicated program management offi
 
 **Client Kickoff.** Ownership of leading the kickoff with the new client, on whatever date is set, sits with the contract lead team, not the CDO or CEO. By kickoff, key personnel need enough context (from the BD handoff, staffing decisions, and transition work above) to run it credibly themselves.
 
-## CDO's Role on a Mature Prime Contract
+## Steady State: Roles on a Mature Prime Contract
 
-As a prime contract matures past initial kickoff, the CDO transitions out of day-to-day delivery operations into an Account Lead role for that contract. Going forward, the CDO owns:
+As a prime contract matures past initial kickoff, the **delivery lead or program manager** for that contract transitions into an **account manager** role. They own the ongoing client relationship and account, in addition to delivery. The CDO steps back from day-to-day involvement and re-engages at defined lifecycle moments (see [Option Years and Recompetes](#contract-lifecycle-triggers-option-years-and-recompetes)).
+
+The **account manager** (delivery lead or program manager) owns:
+
+- The client relationship and the accounts function for the contract
+- Focus representation in product demos, client stakeholder meetings, and customer-facing sessions
+- Day-to-day delivery operations
+
+The **CDO** retains, in a lighter oversight capacity:
 
 - All contract negotiations with the contracting officer
 - Identifying and pursuing business expansion opportunities with the client
-- Focus leadership representation in product demos, client stakeholder meetings, and customer-facing sessions
 - Performance-evaluation perspective input (e.g. CPARS for federal contracts, or the contract's equivalent performance mechanism), injected proactively into planning conversations the CDO is not part of, particularly around performance evaluation periods
-- The client relationship and accounts lead function overall
-
-Day-to-day delivery operations transition to the named Contract Leads for that contract.
 
 Where Focus subcontracts pieces of a prime contract out to other vendors, the CDO retains ownership of that sub-vendor relationship and its contractual terms. This is distinct from Focus's own subcontract work under another prime (e.g. Nava); here Focus is prime and managing a sub beneath it. [Note: flagging this as a placeholder section. If this isn't a near-term scenario for current prime contracts, this can stay light until it becomes relevant.]
 
@@ -96,7 +100,7 @@ Where the contract leads team has not yet been trained in contract operations or
 
 ## Contract Lifecycle Triggers: Option Years and Recompetes
 
-Once a contract reaches steady-state operations, the CDO's involvement is intentionally lighter (per the Account Lead role above). That changes at defined lifecycle moments, when CDO involvement should temporarily increase:
+Once a contract reaches steady-state operations, the CDO's involvement is intentionally lighter (per the steady-state roles above). That changes at defined lifecycle moments, when CDO involvement should temporarily increase:
 
 - **Option year exercise window.** A defined period before the government's (or client's) option year decision point, the CDO re-engages directly with the contracting officer to confirm intent to exercise, and internally to prep the contract leads and broader team for what continuation or change looks like.
 - **Recompete window.** A defined period before a recompete deadline, the CDO re-engages with BD to shape the recompete strategy, drawing on lessons and relationship context the contract leads have accumulated during steady-state delivery.
