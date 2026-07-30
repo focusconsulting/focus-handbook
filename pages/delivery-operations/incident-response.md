@@ -42,16 +42,120 @@ Before writing anything up, take the first steps that limit harm:
 
 - **Who:** the person who identifies the incident, or the Delivery Lead on their behalf
 - **When:** within the window in the severity table
-- **Where:** the incident report form _[link to the incident register/form — to be added]_
-- **What to capture:**
-  - Date, time, and program or engagement
-  - People involved and who identified it
-  - What happened, in facts rather than conclusions
-  - Systems or data affected
-  - Immediate actions already taken
-  - Assigned severity
+- **Where:** the incident register _[link to the register/form — to be added]_. Use the template below for the write-up.
+- **What to capture:** use the [Incident Report Template](#incident-report-template).
 
-Write down what you know. Record facts and label anything uncertain as uncertain. Do not speculate about cause or blame in the report.
+Write down what you know. Record facts and label anything uncertain as uncertain. Sev-1 and Sev-2 incidents get the full report below; Sev-3 can use a short version (Summary, Impact, Timeline, Action Items).
+
+### Incident Report Template
+
+Adapted from Google SRE's [example postmortem](https://sre.google/sre-book/example-postmortem/). Reports are **blameless**: describe systems and decisions, not individuals at fault. The goal is to fix causes, not assign blame.
+
+```
+Incident: <short descriptive title>
+ID: <e.g. INC-2026-014>       Severity: <Sev-1 | Sev-2 | Sev-3>
+Program / engagement: <account and prime>
+Date(s): <when it occurred>   Status: <investigating | resolved | closed>
+Report authors: <names>       Owner: <Delivery Lead or CDO>
+
+Summary
+  One or two sentences: what happened, impact, and current status.
+
+Impact
+  Who and what was affected — client, users, data, delivery, the contract.
+  Quantify where possible (records exposed, hours of delay, meetings missed).
+
+Detection
+  How and when we found out (alert, client report, teammate, audit).
+
+Trigger
+  The specific change or event that set the incident off.
+
+Root cause(s)
+  The underlying reason(s). Ask "why" until you reach something we can fix.
+
+Resolution
+  What we did to contain and resolve it.
+
+Action Items
+  | Action | Type (mitigate / prevent / process) | Owner | Status |
+  | ------ | ----------------------------------- | ----- | ------ |
+  |        |                                     |       |        |
+
+Lessons Learned
+  What went well:
+  What went wrong:
+  Where we got lucky:
+
+Timeline
+  All times in ET.
+  HH:MM — event
+  HH:MM — event
+
+Supporting information
+  Links to logs, screenshots, tickets, and related records.
+```
+
+### Worked Example
+
+A short, illustrative Sev-2 report. Names are roles rather than individuals, in keeping with the blameless standard.
+
+```
+Incident: Client records emailed to the wrong external recipient
+ID: INC-2026-014            Severity: Sev-2
+Program / engagement: State benefits portal (prime: [prime])
+Date(s): 2026-06-18         Status: closed
+Report authors: Delivery Lead    Owner: CDO
+
+Summary
+  A weekly status export containing 42 applicant records was sent to an
+  outdated distribution list that included one former client contact.
+  Contained within 3 hours; no evidence of onward sharing.
+
+Impact
+  42 applicant records (name, case ID, status) exposed to one out-of-scope
+  external address. No financial or SSN data included. One weekly report
+  reissued to the correct list.
+
+Detection
+  A teammate noticed the stale address on the sent email and flagged it in
+  the program channel within the hour.
+
+Trigger
+  A saved distribution list had not been updated after a client staffing
+  change three weeks earlier.
+
+Root cause(s)
+  No owner or review step for keeping client distribution lists current;
+  the export relied on a manually maintained address group.
+
+Resolution
+  Recalled where possible; requested deletion from the recipient and
+  received written confirmation; corrected the distribution list; notified
+  the prime and client per the 24-hour window.
+
+Action Items
+  | Action | Type | Owner | Status |
+  | ------ | ---- | ----- | ------ |
+  | Move status distribution to a client-owned group | prevent | Delivery Lead | done |
+  | Add a quarterly distribution-list review | process | Delivery Lead | open |
+  | Confirm recipient deletion in writing | mitigate | Delivery Lead | done |
+
+Lessons Learned
+  What went well: caught fast; clear notification path to the prime.
+  What went wrong: no owner for keeping the distribution list current.
+  Where we got lucky: the export happened to exclude SSNs this cycle.
+
+Timeline
+  All times in ET.
+  09:12 — status export sent to stale list
+  09:58 — teammate flags the out-of-scope recipient
+  10:20 — Delivery Lead notifies CDO; deletion requested
+  12:05 — written deletion confirmation received; prime notified
+
+Supporting information
+  Sent-email record, corrected distribution list, prime notification thread.
+```
 
 ## Investigation
 
