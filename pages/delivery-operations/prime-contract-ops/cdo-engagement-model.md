@@ -15,6 +15,8 @@ These terms are not synonymous and should not be used interchangeably.
 
 "Substantial" effort, as referenced throughout this document, means roughly more than a sprint or two of work. Anything at or above that threshold requires CDO/contracts involvement before commitment, not just internal team scoping.
 
+//Onboarding
+
 ## Pre-Kickoff: Notice of Award Through Contract Start
 
 This phase sits with the CDO until Focus has a dedicated program management office or practice. Once that exists, this phase transitions there.
