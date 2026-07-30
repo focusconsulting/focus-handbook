@@ -1,7 +1,11 @@
 # SOP: Evidence Capture from Focus Machines
 
 _What to do when a prime contractor requests logs, screenshots, configuration settings, or other data from a Focus-owned device._
-Scope All prime subcontracts (Nava, eSimplicity, Accenture, and others)Version 1.0Owners Delivery Lead, CDO, IT SupportKey principle Legal review is a hard gate, not a suggestion, before Focus collects or shares any device-level data. Focus reviews everything before it leaves, and no data is transmitted to a prime directly from a team member's machine without that review.
+
+**Scope:** All prime subcontracts (Nava, eSimplicity, Accenture, and others)
+**Owners:** Delivery Lead, CDO, IT Support
+**Version:** 1.0
+**Key principle:** Legal review is a hard gate, not a suggestion, before Focus collects or shares any device-level data. Focus reviews everything before it leaves, and no data is transmitted to a prime directly from a team member's machine without that review.
 
 ## Purpose
 
@@ -23,7 +27,9 @@ A prime contractor requesting data from a Focus device does not give Focus legal
 
 ## Background
 
-Focus team members work on their own machines. Unlike a staffing firm that provisions client-owned hardware, Focus staff use Focus-owned (or personally-owned) laptops, which may also contain personal data, credentials to non-client systems, and confidential information from other Focus engagements. A request for "all logs from that machine" is therefore not equivalent to a request for a client-owned system image, and should not be treated as one.
+Focus issues and manages company laptops, and a Focus-issued device is the default for all program work (see [Compliance](../compliance.md#personal-devices)). These are managed devices: Focus can perform system monitoring and collect device-level data centrally through **Rippling**, Focus's device management platform. In most cases IT can gather the requested logs or configuration data through Rippling rather than physically handling the machine.
+
+That capability does not change the analysis. A Focus laptop still holds personal data, credentials to non-client systems, and confidential information from other Focus engagements, so a prime's request for "all logs from that machine" is not equivalent to a request for a client-owned system image and should not be treated as one. Having the technical ability to collect is also not the same as having the legal authority to collect it or share it with a prime, which is what the legal-review gate above protects.
 
 The goal is to cooperate with legitimate requests while protecting staff privacy, Focus confidentiality across programs, and the integrity of any investigation by maintaining a documented chain of custody.
 
@@ -98,7 +104,7 @@ If the prime has requested that the team member not be notified in advance, that
 
 ### Step 6: Collect Only What Was Approved
 
-The Delivery Lead coordinates the collection with the team member and the IT support contact. Collection is limited strictly to the legally approved and agreed scope. If during collection additional potentially relevant data is discovered that was not in scope, do not include it — flag it to the CDO first.
+The Delivery Lead coordinates the collection with the IT support contact, who can pull managed-device data through Rippling where applicable, involving the team member as needed. Collection is limited strictly to the legally approved and agreed scope. If during collection additional potentially relevant data is discovered that was not in scope, do not include it — flag it to the CDO first.
 
 All collected data is stored in a Focus-controlled location (not transmitted to the prime yet) and logged with:
 
