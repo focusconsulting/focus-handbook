@@ -22,6 +22,7 @@ The operating procedures below are organized by **engagement type**, because the
 [Job Aids for People Managers & Contract Leads](job-aids/) provide practical tools for managing people and delivery situations across Focus contracts.
 
 - **[Job Aid 01: Coaching vs. Performance vs. Systemic Issues](job-aids/coaching-performance-systemic-issues.md)** — Diagnose delivery concerns, establish evidence before applying labels, and determine when to coach, address performance, or fix systemic constraints.
+- **[Job Aid 02: Giving Effective Feedback](job-aids/giving-effective-feedback.md)** — Understand why feedback matters and turn observations into useful conversations and follow-through.
 
 ## Principles That Apply Across the Board
 

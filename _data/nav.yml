@@ -67,6 +67,9 @@
     - label: "Job Aid 01: Coaching vs. Performance vs. Systemic Issues"
       url: /focus-handbook/pages/delivery-operations/job-aids/coaching-performance-systemic-issues
       indent: true
+    - label: "Job Aid 02: Giving Effective Feedback"
+      url: /focus-handbook/pages/delivery-operations/job-aids/giving-effective-feedback
+      indent: true
     - subsection: Subcontracts
     - label: Subcontracts Overview
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/

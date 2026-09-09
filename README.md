@@ -48,6 +48,7 @@ Your guide to policies, benefits, and how we work together to deliver impactful 
   - [LCAT Management & Backfill Alignment](pages/delivery-operations/subcontract-ops/lcat-management.md) — Managing labor category alignment and backfill.
   - [Job Aids for People Managers & Contract Leads](pages/delivery-operations/job-aids/index.md) — Practical tools for managing people and delivery situations across Focus contracts.
     - [Job Aid 01: Coaching vs. Performance vs. Systemic Issues](pages/delivery-operations/job-aids/coaching-performance-systemic-issues.md) — Diagnose concerns and choose the appropriate response.
+    - [Job Aid 02: Giving Effective Feedback](pages/delivery-operations/job-aids/giving-effective-feedback.md) — Give clear feedback and agree on practical next steps.
 
 ## Business Operations
 
