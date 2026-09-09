@@ -11,11 +11,17 @@ Start with the two pages that apply to every delivery engagement regardless of c
 - **[Compliance](compliance.md)** — the baseline requirements (AI tool use, working abroad, device security, confidentiality, availability, escalation).
 - **[Incident Response](incident-response.md)** — how to report and investigate program incidents, including severity levels and the incident-report process.
 
-Everything else is organized by **engagement type**, because the contacts, notification requirements, and contractual levers differ across each:
+The operating procedures below are organized by **engagement type**, because the contacts, notification requirements, and contractual levers differ across each:
 
 - **[Subcontracts](subcontract-ops/)** — Focus serves as a subcontractor. Current procedures are scoped to Nava as the prime. Covers the delivery-lead role, the account portfolio, subcontract-specific compliance, and the operating SOPs.
 - **[Prime Contracts](prime-contract-ops/)** — Focus holds the prime contract. Covers client relationship management, subcontractor oversight, and prime-side reporting.
 - **[Joint Ventures](joint-venture-ops/)** — Focus participates as a JV partner. Governance, work allocation, and shared staffing (in development).
+
+## Job Aids for People Managers & Contract Leads
+
+[Job Aids for People Managers & Contract Leads](job-aids/) provide practical tools for managing people and delivery situations across Focus contracts.
+
+- **[Job Aid 01: Coaching vs. Performance vs. Systemic Issues](job-aids/coaching-performance-systemic-issues.md)** — Diagnose delivery concerns, establish evidence before applying labels, and determine when to coach, address performance, or fix systemic constraints.
 
 ## Principles That Apply Across the Board
 

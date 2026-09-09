@@ -60,6 +60,13 @@
       url: /focus-handbook/pages/delivery-operations/compliance
     - label: Incident Response
       url: /focus-handbook/pages/delivery-operations/incident-response
+    - subsection: Job Aids for People Managers & Contract Leads
+    - label: Job Aids Overview
+      url: /focus-handbook/pages/delivery-operations/job-aids/
+      indent: true
+    - label: "Job Aid 01: Coaching vs. Performance vs. Systemic Issues"
+      url: /focus-handbook/pages/delivery-operations/job-aids/coaching-performance-systemic-issues
+      indent: true
     - subsection: Subcontracts
     - label: Subcontracts Overview
       url: /focus-handbook/pages/delivery-operations/subcontract-ops/

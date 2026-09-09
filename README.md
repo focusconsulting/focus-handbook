@@ -46,6 +46,8 @@ Your guide to policies, benefits, and how we work together to deliver impactful 
   - [On-Program Escalations](pages/delivery-operations/subcontract-ops/on-program-escalations.md) — How to identify, route, and resolve delivery concerns on a Nava subcontract.
   - [Staffing Transitions & KP Notifications](pages/delivery-operations/subcontract-ops/staffing-transitions.md) — Notification windows and process steps when a team member transitions off a program.
   - [LCAT Management & Backfill Alignment](pages/delivery-operations/subcontract-ops/lcat-management.md) — Managing labor category alignment and backfill.
+  - [Job Aids for People Managers & Contract Leads](pages/delivery-operations/job-aids/index.md) — Practical tools for managing people and delivery situations across Focus contracts.
+    - [Job Aid 01: Coaching vs. Performance vs. Systemic Issues](pages/delivery-operations/job-aids/coaching-performance-systemic-issues.md) — Diagnose concerns and choose the appropriate response.
 
 ## Business Operations
 
