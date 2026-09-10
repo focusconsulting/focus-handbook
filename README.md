@@ -49,6 +49,7 @@ Your guide to policies, benefits, and how we work together to deliver impactful 
   - [Job Aids for People Managers & Contract Leads](pages/delivery-operations/job-aids/index.md) — Practical tools for managing people and delivery situations across Focus contracts.
     - [Job Aid 01: Coaching vs. Performance vs. Systemic Issues](pages/delivery-operations/job-aids/coaching-performance-systemic-issues.md) — Diagnose concerns and choose the appropriate response.
     - [Job Aid 02: Giving Effective Feedback](pages/delivery-operations/job-aids/giving-effective-feedback.md) — Give clear feedback and agree on practical next steps.
+    - [Job Aid 03: Conducting Exit Interviews](pages/delivery-operations/job-aids/exit-interviews.md) — Run a structured exit interview and turn feedback into practical improvements.
 
 ## Business Operations
 
