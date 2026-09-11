@@ -87,7 +87,7 @@
 
     <!-- Content -->
     <div class="hb-content-wrap">
-      <div class="hb-content">
+      <div class="hb-content{% if page.class %} hb-content--{{ page.class }}{% endif %}">
         {{ content }}
       </div>
     </div>
