@@ -57,6 +57,38 @@ Government contracting requires flexibility. Exempt employees should expect to o
 - Allowing reduced hours or flexible scheduling during non-critical periods
 - Protecting allocated professional development and training time
 
+## Compensatory Time (Comp Time)
+
+Comp time exists to offset periods of unusually large amounts of work and sustained long hours. Comp time should be relied on rarely, and regular use of comp time indicates that more structural changes are needed on a project.
+
+### Eligibility
+
+- **You must work as an exempt employee on a Time & Materials (T&M) contract** where your time is billable to a client. You are not eligible for comp time if you work on a Firm Fixed Price (FFP) contract or on internal work.
+- **Clients (and primes) must specifically request that Focus employees work more than 40 hours** in a given week (or more than an average of 8 hrs/day for shorter weeks).
+- **Focus employees must bill 44 or more hours in a given week** to be eligible for comp time that week (or more than an average of 9 hrs/day for shorter weeks).
+  - This means 44 hours actually worked. Holidays, PTO, and sick time are not included in the total hours worked for the week.
+- **Focus employees must inform personnel managers prior to the week** they are requesting comp time for. Personnel managers will relay the request to Focus executives (CEO/CTO/CPO).
+- **Focus executives are the sole authorities for approving comp time.**
+
+### Requesting Comp Time
+
+- Inform your personnel manager in writing (Slack, email, etc.) of your intent to work more than 44 hours in a week before that week begins. Include the client's request in that message, along with your estimate of how many hours you anticipate working.
+  - When additional work cannot be reasonably anticipated before the week has begun, seek approval as soon as the need arises. Retroactive approval is not guaranteed.
+- Your personnel manager will relay the message to the appropriate Focus executive, who will approve or deny the request.
+- Your personnel manager will inform you of the decision and any stipulations (for example, no more than 48 hours in a week).
+  - If your comp time request is denied, inform your project team and the client and limit yourself to 40 hours of project work that week.
+- If approved, enter your hours worked as normal in your timesheet.
+- After your billing period has ended, you have submitted your timesheet, and your timesheet has been approved, let your personnel manager know how many hours over a full load you worked (hours beyond 8 hrs/day × days in the billing period).
+  - Once you meet the eligibility threshold, comp time is granted at a 1:1 rate for eligible hours worked. For example, 44 hours in a week → 4 hours of comp time, 45 hours → 5 hours, and so on.
+- Your personnel manager will share your request with HR (cc'ing you and the relevant executive).
+- HR will grant you comp time in Rippling.
+
+### Using Comp Time
+
+- Comp time appears as a category in Rippling, so you can use it when requesting time off if you have comp time available.
+- Comp time accrual is capped at 80 hours. If you have accrued 80 hours of comp time, you must use comp time before you can accrue any more. There is no limit to the cumulative amount of comp time you accrue over any given period of time.
+- Accrued comp time expires at the end of each calendar year and is not paid out upon separation from Focus, except where payout is required by applicable state law.
+
 ## Time Tracking & Documentation
 
 ### All Employees

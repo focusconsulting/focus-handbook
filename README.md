@@ -55,6 +55,14 @@ Your guide to policies, benefits, and how we work together to deliver impactful 
 
 - [Invoicing & Timekeeping](pages/invoicing.md) — DCAA-compliant timekeeping standards, biz ops checklists, and invoice review.
 
+## IT Operations
+
+- [IT Operations Overview](pages/it-operations/index.md) — Standards and policies for the tools and systems Focus staff use to deliver work.
+  - [AI Policy (Company)](pages/it-operations/ai-policy/index.md) — Company-wide policy for using, deploying, and managing AI tools and agents, including approved tooling and the new-tool approval process.
+    - [AI Policy Addendum Template](pages/it-operations/ai-policy/addendum-template.md) — Reusable template for tightening the company policy on a specific engagement.
+    - [Addendum: NJ UI](pages/it-operations/ai-policy/nj-ui.md) — Project-specific AI policy for the NJ UI engagement.
+    - [Addendum: MN Paid Leave](pages/it-operations/ai-policy/mn-paid-leave.md) — Project-specific AI policy for the MN Paid Leave engagement.
+
 ## People Strategy
 
 - [People Strategy](pages/people-strategy.md) — Recruiting, workforce planning, and how we grow the team.
