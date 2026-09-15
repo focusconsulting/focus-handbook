@@ -17,7 +17,7 @@ These terms are not synonymous and should not be used interchangeably.
 
 ## Stand-Up Operations: Award Through Kickoff
 
-[Prime Contract Lifecycle](index.md) phases 0–5 describe what happens from capture through team formation, and who owns each step. This section is the CDO- and PM-owned operational detail inside that window: the checklist that has to be true before the client kickoff. It sits with the CDO until Focus has a dedicated program management office or practice, then transitions there.
+[Prime Contract Lifecycle](index.md) phases 0–5 describe what happens from capture through the client kickoff, and who owns each step. Stand-up is owned by the CDO and the contract leads together. This section is the operational detail inside that window: the checklist that has to be true before the client kickoff. It sits with the CDO until Focus has a dedicated program management office or practice, then transitions there.
 
 **Who owns transition planning.** The contract's delivery lead owns transition planning and runs the internal pre-kickoff, and that lead should be a program manager (see [phase 3](index.md#3-transition-planning--internal-pre-kickoff)). Focus is moving to a model where we hire dedicated PMs to run delivery on prime contracts, rather than stretching a practitioner into the role.
 
@@ -45,18 +45,19 @@ These terms are not synonymous and should not be used interchangeably.
 
 ## Steady State: Roles on a Mature Prime Contract
 
-As a prime contract matures past initial kickoff (see [phase 6](index.md#6-steady-state-delivery)), the **delivery lead or program manager** for that contract transitions into an **account manager** role. They own the ongoing client relationship and account, in addition to delivery. The CDO steps back from day-to-day involvement and re-engages at defined lifecycle moments (see [Option Years and Recompetes](#contract-lifecycle-triggers-option-years-and-recompetes)).
+As a prime contract matures past the first-90-day plan (see [phase 7](index.md#7-steady-state-delivery)), the **delivery lead or program manager** for that contract transitions into an **account manager** role. They own the account: the ongoing client relationship, delivery, and the growth of the engagement. The CDO steps back from day-to-day involvement and supports at defined lifecycle moments (see [Option Years and Recompetes](#contract-lifecycle-triggers-option-years-and-recompetes)).
 
 The **account manager** (delivery lead or program manager) owns:
 
 - The client relationship and the accounts function for the contract
 - Focus representation in product demos, client stakeholder meetings, and customer-facing sessions
 - Day-to-day delivery operations
+- Delivery-led growth of the account: option-year and recompete strategy, and expansion opportunities with the client. This is core to the role and to how the PM's success is measured, not something handed back to the CDO or BD.
 
-The **CDO** retains, in a lighter oversight capacity:
+The **CDO** retains, in a lighter oversight and support capacity:
 
 - All contract negotiations with the contracting officer
-- Identifying and pursuing business expansion opportunities with the client
+- Support on business expansion and recompete strategy, with the account manager in the lead
 - Performance-evaluation perspective input (e.g. CPARS for federal contracts, or the contract's equivalent performance mechanism), injected proactively into planning conversations the CDO is not part of, particularly around performance evaluation periods
 
 Where Focus subcontracts pieces of a prime contract out to other vendors, the CDO retains ownership of that sub-vendor relationship and its contractual terms. This is distinct from Focus's own subcontract work under another prime (e.g. Nava); here Focus is prime and managing a sub beneath it. [Note: flagging this as a placeholder section. If this isn't a near-term scenario for current prime contracts, this can stay light until it becomes relevant.]
@@ -96,18 +97,18 @@ Where the contract leads team has not yet been trained in contract operations or
 
 ## Contract Lifecycle Triggers: Option Years and Recompetes
 
-[Phase 7](index.md#7-option-years--recompetes) sets the framework and the timing (option years at least six months out, recompetes a full year out). This is what the CDO specifically does inside those windows, when the intentionally light steady-state involvement temporarily increases:
+[Phase 8](index.md#8-option-years--recompetes) sets the framework and the timing (option years at least six months out, recompetes a full year out) and makes the ownership clear: this is delivery-led growth, owned by the account-owning program manager. The CDO supports; it does not take the work back. Inside those windows:
 
-- **Option year window.** The CDO re-engages with the contracting officer to confirm intent to exercise, and internally to prep the contract leads and team for what continuation or change looks like.
-- **Recompete window.** The CDO re-engages with BD to shape the recompete strategy, drawing on the lessons and relationship context the contract leads have accumulated during steady-state delivery.
+- **Option year window.** The account manager drives the readiness check and the client conversation. The CDO supports with the contracting officer to confirm intent to exercise, and helps prep the team for what continuation or change looks like.
+- **Recompete window.** The account manager owns the recompete strategy, drawing on the lessons and relationship context accumulated during delivery. The CDO and BD support on shaping and pursuit.
 
 ACF is the live example: we're in the second option year (option year start October 1, 2026) and the contract may recompete within a year, so recompete work starts now.
 
 ## Contract Closeout / Off-Ramp
 
-[Phase 8](index.md#8-closeout--continuity) sets the framework: a roughly six-month runway, continuity planning for our people, client continuity, and knowledge transfer to whoever comes next. This is the CDO's role within it, whether the contract ends on schedule, isn't recompeted, or Focus loses a recompete.
+[Phase 9](index.md#9-closeout--continuity) sets the framework: a roughly six-month runway, continuity planning for our people, client continuity, and knowledge transfer to whoever comes next. The program manager owns the wind-down; this is the CDO's role within it, whether the contract ends on schedule, isn't recompeted, or Focus loses a recompete.
 
-**Closeout notification.** Once it's known a contract is ending, the CDO notifies affected contract leads and staff as early as possible. The staffing lead times in Focus's operating model (60 days for redeployment, 90 days for reductions) are the formal-notice floor; the six-month runway in phase 8 is when the thinking should start.
+**Closeout notification.** Once it's known a contract is ending, the CDO and the account manager notify affected staff as early as possible. The staffing lead times in Focus's operating model (60 days for redeployment, 90 days for reductions) are the formal-notice floor; the six-month runway in phase 9 is when the thinking should start.
 
 **Client exit and relationship preservation.** The CDO manages the client-facing exit conversation, regardless of why the contract is ending, with an eye toward preserving the relationship for future business. Losing a recompete is not a reason to burn the relationship; Focus may bid again or work with the client elsewhere.
 

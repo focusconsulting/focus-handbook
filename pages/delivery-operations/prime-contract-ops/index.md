@@ -14,7 +14,7 @@ We are writing this down now because we are entering a new phase. Focus is winni
 
 ## Prime Contract Lifecycle
 
-The lifecycle has nine phases. The first begins during capture, before award; the last begins six months before the contract ends. Each names its trigger and its owner.
+The lifecycle has ten phases. The first begins during capture, before award; the last begins six months before the contract ends. Each names its trigger and its owner. Ownership shifts as the contract matures: the CDO and contract leads stand it up together, and once it's running, the contract leads (the program manager who owns the account) own it through delivery, growth, and wind-down.
 
 ### 0. Capture & Key-Personnel Notification (BD)
 
@@ -51,42 +51,48 @@ Focus is moving to a model where a dedicated program manager leads delivery on p
 - The deliverables the contract requires in the first 90 days, and a concrete plan to hit them
 - Knowledge transfer off current assignments, completed before people start on the new one
 
-### 4. Client Kickoff Preparation
+### 4. Internal Kickoff & Team Formation
 
-_Trigger: internal pre-kickoff done. Owner: contract leads._
+_Trigger: internal pre-kickoff done, the team is assembling. Owner: contract leads and key personnel._
 
-The contract leads run the client kickoff, not the CDO or CEO. That only works if there's enough lead time between notice of award and the client kickoff for the leads to get through transition and into a rhythm where they can genuinely prepare. Protect that runway when negotiating the start date; a rushed kickoff is a bad first impression the client remembers.
-
-### 5. Client Kickoff & Team Formation
-
-_Trigger: client kickoff. Owner: contract leads and key personnel._
-
-The kickoff starts the team, and a new team forms, storms, and norms before it performs (Tuckman's model is the shorthand). Rather than let that happen by accident, the contract leads and key personnel invest in it deliberately:
+Before Focus sits down with the client, the team comes together as a team. A new team forms, storms, and norms before it performs (Tuckman's model is the shorthand), and we would rather run that deliberately than let it play out live in front of the client. This is an internal kickoff, held ahead of the client kickoff:
 
 - Team building, and explicit agreement on how the team makes decisions (RACI or DACI) and how it works together
 - Establishing the delivery operations methodology for this contract
 - The AI and tooling conversation, up front: can we use AI on this engagement, does everyone have a cloud license, is everyone comfortable using it
 
-Have these conversations early. They are far cheaper to have in week one than to retrofit in month three.
+Have these conversations now. They are far cheaper to settle here than to retrofit in month three.
 
-### 6. Steady-State Delivery
+### 5. Client Kickoff
 
-_Trigger: the team is performing. Owner: delivery lead / program manager, transitioning into account manager._
+_Trigger: the team is formed. Owner: contract leads._
 
-Most government contracts run on Scrum or SAFe, and in most cases we assimilate into the client's existing methodology, ceremonies, and practices rather than importing our own. As the contract matures, the delivery lead takes on the account manager role, owning the client relationship alongside delivery, and the CDO steps back to a lighter oversight cadence (see the [CDO Engagement Model](cdo-engagement-model.md)).
+The client kickoff is a major milestone, and the contract leads run it, not the CDO or CEO. That only works with enough lead time between notice of award and the kickoff for the leads to get through transition and team formation and into a rhythm where they can genuinely prepare. Protect that runway when negotiating the start date; a rushed kickoff is a bad first impression the client remembers.
 
-### 7. Option Years & Recompetes
+### 6. First 90-Day Plan
 
-_Trigger: the option-year and recompete windows. Owner: a delivery, practice, or executive leader._
+_Trigger: client kickoff done. Owner: delivery lead / program manager with contract leads._
 
-These are the moments to stop coasting and re-engage:
+The first 90 days are the most critical stretch of a new contract, and they run on their own plan rather than dropping straight into steady-state cadence. This is when we build the working relationships and map the stakeholder ecosystem: who holds influence, who signs off, who to keep close. It's also where the earliest contract deliverables come due, often at 30 and 60 days. Name those deliverables (building on what was identified in transition planning), own the dates, and work a concrete plan to hit them. How these 90 days go shapes how the client judges Focus for the rest of the contract.
+
+### 7. Steady-State Delivery
+
+_Trigger: the first-90-day plan is delivered and the team is performing. Owner: the program manager, now the account owner._
+
+Most government contracts run on Scrum or SAFe, and in most cases we assimilate into the client's existing methodology, ceremonies, and practices rather than importing our own. As the contract matures, the delivery lead / program manager takes on the account manager role and owns the account: the client relationship, delivery, and the growth of the engagement. The CDO steps back to a lighter oversight cadence, supporting on contracts and negotiations (see the [CDO Engagement Model](cdo-engagement-model.md)).
+
+### 8. Option Years & Recompetes
+
+_Trigger: the option-year and recompete windows. Owner: the program manager who owns the account, with the CDO on contracts._
+
+Option years and recompetes are delivery-led growth, and they are the account-owning program manager's job, not something that gets handed off. This is part of how a PM's success is measured. Escalate to practice or executive leadership as needed, but the PM drives it:
 
 - **Option years: at least six months out.** Start checking whether the contract is on track, whether the client intends to exercise, and whether anything needs attention before the decision point.
 - **Recompetes: a full year out.** A recompete needs a strategy a year in advance. ACF is a live example: we're in the second option year and the contract may recompete within a year, so the work starts now, client intimacy, on-site visits, understanding agency priorities and strategy, so we can position for a sole-source continuation or, if it's competed, help shape the solicitation.
 
-### 8. Closeout & Continuity
+### 9. Closeout & Continuity
 
-_Trigger: roughly six months before the contract ends or changes. Owner: CDO with practice leads._
+_Trigger: roughly six months before the contract ends or changes. Owner: the program manager, with the CDO on the client-facing exit._
 
 Whether a contract ends on schedule, isn't recompeted, or we lose a recompete, give it a six-month runway:
 
