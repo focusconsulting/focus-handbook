@@ -16,7 +16,7 @@ The stakes are real. Incumbents win roughly 70 to 80 percent of recompetes, but 
 
 - **Option years: start at least six months out.** Check whether the contract is on track, whether the client intends to exercise, and whether anything needs attention before the decision point. The account manager drives the readiness check and the client conversation; the CDO supports with the contracting officer to confirm intent to exercise.
 - **Recompetes: start a full year out.** A recompete needs a strategy a year in advance. The account manager owns it, drawing on the lessons and relationship context accumulated during delivery: client intimacy, on-site visits, and a real read on agency priorities. The CDO and BD support on shaping and pursuit.
-- **ACF is the live example.** We're in the second option year (option-year start October 1, 2026) and the contract may recompete within a year, so recompete work starts now: understanding agency strategy so we can position for a sole-source continuation or, if it's competed, help shape the solicitation.
+- **The case to plan for.** When a contract is in an option year and a recompete may land within roughly a year, recompete work should already be underway: understanding agency strategy so we can position for a sole-source continuation or, if it's competed, help shape the solicitation.
 
 ## Principles we're applying
 

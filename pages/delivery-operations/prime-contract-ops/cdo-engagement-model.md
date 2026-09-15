@@ -3,7 +3,7 @@
 _The CDO's operating model for a Focus prime contract: how the CDO's role evolves, the operational checklist for standing a contract up, the meeting cadence, the escalation model, and the FAQs contract leads rely on. The [Prime Contract Lifecycle](index.md) is the map of what happens across a prime and when; this page is how the CDO runs it. Read the lifecycle first._
 
 **Owner:** Chief Delivery Officer (CDO)
-**Applies to:** Focus prime contracts. Initial application is ACF; this is intended as the template for future prime engagements (e.g. Alameda County).
+**Applies to:** All Focus prime contracts. This is the template for how we stand up and run any prime engagement.
 
 ## Terminology
 
@@ -23,7 +23,7 @@ These terms are not synonymous and should not be used interchangeably.
 
 **Staffing kickoff (CDO-run).** The staffing kickoff in [phase 2](index.md#2-staffing--recruiting) is worked by the practice lead(s) with the CDO, even when the intended person is already a Focus employee. Everyone considered for a KP or lead seat is evaluated against the role's competencies before we commit them, and we hire outside when an internal person doesn't meet the role. The CDO owns this because staffing decisions are cost- and contract-adjacent (see the escalation model below).
 
-**Clearance requirements.** [Placeholder, need specifics: what clearance level does this contract require, what's the lead time to get someone cleared, and who initiates that process, recruiting, the practice lead, or the CDO.]
+**Clearance requirements.** Determine the vetting level the contract requires and have the practice lead and recruiting initiate it during the staffing kickoff. The level varies by client agency, and it gates start dates. Most of this work needs a Public Trust or Moderate Risk Public Trust (MRPT) determination rather than a national security clearance, and some contracts need none at all. Public Trust and MRPT investigations are filed on the SF-85P and take weeks, so start early, and line up a backstop candidate where a required determination is at risk.
 
 **Leads notification and transition cadence.** Once key personnel are identified, they begin meeting on a defined cadence even while still on current assignments, to start transition planning early rather than waiting for the new contract's actual start date.
 
@@ -60,7 +60,7 @@ The **CDO** retains, in a lighter oversight and support capacity:
 - Support on business expansion and recompete strategy, with the account manager in the lead
 - Performance-evaluation perspective input (e.g. CPARS for federal contracts, or the contract's equivalent performance mechanism), injected proactively into planning conversations the CDO is not part of, particularly around performance evaluation periods
 
-Where Focus subcontracts pieces of a prime contract out to other vendors, the CDO retains ownership of that sub-vendor relationship and its contractual terms. This is distinct from Focus's own subcontract work under another prime (e.g. Nava); here Focus is prime and managing a sub beneath it. [Note: flagging this as a placeholder section. If this isn't a near-term scenario for current prime contracts, this can stay light until it becomes relevant.]
+Where Focus subcontracts pieces of a prime contract out to other vendors, the CDO retains ownership of that sub-vendor relationship and its contractual terms. This is distinct from Focus's own subcontract work under another prime; here Focus is prime and managing a sub beneath it. Focus is not subcontracting current prime work out, so this stays light until a prime actually does.
 
 ## Meeting Cadence
 
@@ -102,7 +102,7 @@ Where the contract leads team has not yet been trained in contract operations or
 - **Option year window.** The account manager drives the readiness check and the client conversation. The CDO supports with the contracting officer to confirm intent to exercise, and helps prep the team for what continuation or change looks like.
 - **Recompete window.** The account manager owns the recompete strategy, drawing on the lessons and relationship context accumulated during delivery. The CDO and BD support on shaping and pursuit.
 
-ACF is the live example: we're in the second option year (option year start October 1, 2026) and the contract may recompete within a year, so recompete work starts now.
+For example, a contract in an option year that may recompete within roughly a year means recompete work should already be underway.
 
 ## Contract Closeout / Off-Ramp
 

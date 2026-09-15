@@ -17,7 +17,7 @@ Run this as a kickoff meeting, not a hallway decision. The practice lead(s) meet
 - **Assess the bench, decide where to hire.** Measure current bench strength against what the contract requires, and decide which seats we fill internally and which we recruit for.
 - **Evaluate everyone against the role's competencies.** Current employees and outside candidates alike are measured against what the role actually needs: mission fit, technical capability, consulting know-how, and AI fluency, not just a technical skill match. Someone on a subcontract today whom we hoped to move into a KP or lead slot may, on evaluation, not meet the role. When that happens, we hire outside. Say it plainly and early.
 - **Write the role down.** Anyone changing roles gets a job description written for the new role and the support to carry it out.
-- **Start clearances now.** Kick off any required security clearances immediately. Federal adjudications run months (a Top Secret adjudication has averaged around 144 days), so clearance timelines drive start dates more than almost anything else. Where a cleared seat is at risk, line up a letter of intent or teaming arrangement as a backstop.
+- **Start clearances now.** Determine the vetting level the contract requires and initiate it immediately; it varies by client agency and it gates start dates. Most of this work needs a Public Trust or Moderate Risk Public Trust (MRPT) determination rather than a national security clearance, and some contracts need none. Public Trust and MRPT investigations are filed on the SF-85P and take weeks, so start early and line up a backstop candidate where a required determination is at risk.
 
 ## Principles we're applying
 
