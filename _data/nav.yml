@@ -118,6 +118,24 @@
     - label: Invoicing & Timekeeping
       url: /focus-handbook/pages/invoicing
 
+- title: IT Operations
+  pages:
+    - label: Overview
+      url: /focus-handbook/pages/it-operations/
+    - subsection: AI Policy
+    - label: AI Policy (Company)
+      url: /focus-handbook/pages/it-operations/ai-policy/
+      indent: true
+    - label: Addendum Template
+      url: /focus-handbook/pages/it-operations/ai-policy/addendum-template
+      indent: true
+    - label: "Addendum: NJ UI"
+      url: /focus-handbook/pages/it-operations/ai-policy/nj-ui
+      indent: true
+    - label: "Addendum: MN Paid Leave"
+      url: /focus-handbook/pages/it-operations/ai-policy/mn-paid-leave
+      indent: true
+
 - title: People Strategy
   pages:
     - label: People Strategy
