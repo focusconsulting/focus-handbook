@@ -4,7 +4,7 @@ _How Focus operates on engagements where it holds the prime contract._
 
 On prime engagements, the general [Compliance](../compliance.md) baseline applies to everyone. As the prime, Focus also carries obligations a subcontractor does not: the direct client relationship, subcontractor oversight, and reporting to the contracting officer. This page maps the full lifecycle of a Focus prime contract, from the moment we name someone key personnel in a bid through closeout. Each phase links to its own page with the full guidance. The [CDO Engagement Model](cdo-engagement-model.md) carries the operating detail (meeting cadence, escalation, FAQs) that sits underneath it.
 
-We are writing this down now because we are entering a new phase. Focus is winning and running its own prime work (starting with ACF), and the way we staff and stand up a prime decides whether it succeeds. Most of our hard lessons come from moving people onto new work without setting them up to do it well. The framework below is built to stop that from happening again.
+We are writing this down now because we are entering a new phase. Focus is winning and running its own prime work, and the way we staff and stand up a prime decides whether it succeeds. Most of our hard lessons come from moving people onto new work without setting them up to do it well. The framework below is built to stop that from happening again.
 
 ## Two principles that run through the whole lifecycle
 
@@ -16,7 +16,7 @@ We are writing this down now because we are entering a new phase. Focus is winni
 
 The lifecycle has ten phases. The first begins during capture, before award; the last begins six months before the contract ends. Ownership shifts as the contract matures: the CDO and contract leads stand it up together, and once it's running, the contract leads (the program manager who owns the account) own it through delivery, growth, and wind-down. Each summary below links to the full phase guide.
 
-**Stand-up — the CDO and contract leads own it together.**
+**Stand-up: the CDO and contract leads own it together.**
 
 ### 0. Capture & Key-Personnel Notification (BD)
 
@@ -42,7 +42,7 @@ _Owner: contract leads and key personnel._ Before we meet the client, the team f
 
 _Owner: contract leads._ The contract leads run the client kickoff, a major milestone. Protect enough runway from award for them to arrive prepared. **[Full guide →](phases/5-client-kickoff.md)**
 
-**Run and wind-down — the contract leads own it; the program manager owns the account and drives delivery-led growth.**
+**Run and wind-down: the contract leads own it. The program manager owns the account and drives delivery-led growth.**
 
 ### 6. First 90-Day Plan
 
@@ -54,7 +54,7 @@ _Owner: the program manager, now the account owner._ Assimilate into the client'
 
 ### 8. Option Years & Recompetes
 
-_Owner: the account-owning program manager, with the CDO on contracts._ Delivery-led growth the PM owns: option years at least six months out, recompete strategy a full year out. ACF is the live example. **[Full guide →](phases/8-option-years-recompetes.md)**
+_Owner: the account-owning program manager, with the CDO on contracts._ Delivery-led growth the PM owns: option years at least six months out, recompete strategy a full year out. **[Full guide →](phases/8-option-years-recompetes.md)**
 
 ### 9. Closeout & Continuity
 
