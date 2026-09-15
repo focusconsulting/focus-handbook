@@ -1,6 +1,6 @@
 # CDO Engagement Model for Prime Contracts
 
-_How the CDO's role evolves across the lifecycle of a Focus prime contract, from pre-kickoff through closeout._
+_How the CDO's role evolves across the lifecycle of a Focus prime contract, from the pre-award key-personnel handoff through closeout. This sits underneath the full [Prime Contract Lifecycle](index.md); read that first for the end-to-end framework._
 
 **Owner:** Chief Delivery Officer (CDO)
 **Applies to:** Focus prime contracts. Initial application is ACF; this is intended as the template for future prime engagements (e.g. Alameda County).
@@ -15,19 +15,29 @@ These terms are not synonymous and should not be used interchangeably.
 
 "Substantial" effort, as referenced throughout this document, means roughly more than a sprint or two of work. Anything at or above that threshold requires CDO/contracts involvement before commitment, not just internal team scoping.
 
-//Onboarding
+## Capture: Key-Personnel Notification (Pre-Award)
+
+The CDO's involvement starts before the win, not at it. When BD names the people it intends to submit as key personnel on a bid, it checks where each of them works today, and notifies the affected program lead that the person has been submitted as KP on a pending bid.
+
+- If the person is on a Nava (or other) subcontract, notice goes to their delivery lead on that program; on a prime or JV, to the head delivery person on that contract.
+- The purpose is early transition planning, not permission. The losing program needs runway to think through impact, backfill, and restaffing while there is still time.
+- Track these notifications. They can't live only in the head of whoever wrote the proposal.
+
+This is an application of the "notify early" principle from the [Prime Contract Lifecycle](index.md#two-principles-that-run-through-the-whole-lifecycle): the moment someone is named KP, other people's plans depend on it.
 
 ## Pre-Kickoff: Notice of Award Through Contract Start
 
 This phase sits with the CDO until Focus has a dedicated program management office or practice. Once that exists, this phase transitions there.
 
+**Who owns transition planning.** The contract's delivery lead owns transition planning and runs the internal pre-kickoff. That lead should be a program manager. Focus is moving to a model where we hire dedicated PMs to run delivery on prime contracts, rather than stretching a practitioner into the role. The internal pre-kickoff is where we decide how Focus will actually work on this contract, before we sit down with the client.
+
 **BD-to-Delivery Handoff Meeting.** Triggered at notice of award. BD walks the assigned key personnel through the market research that informed the proposal, the proposal itself, assumptions made during the bid, and the staffing plan as proposed. Surface promise-vs-reality gaps here, before staffing decisions.
 
-**Staffing and Recruiting Sync.** If new hiring is needed:
+**Staffing Kickoff.** Staffing a prime is the most important thing we do here, and it's run as a formal kickoff meeting, not a hallway decision. The relevant practice lead(s) meet with the CDO (and whoever else the seat requires) to work the staffing plan, and this happens even when the intended person is already a Focus employee. Being a Focus employee is not the same as being right for the seat.
 
-- Recruiting and the relevant practice lead(s) convene to assess current bench strength against what the contract requires.
-- Job descriptions get drafted; leads have input into JDs before they're finalized.
-- A pass on evaluation criteria: are we testing for mission fit, technical capability, consulting know-how, and AI fluency, not just technical skill matching. This is worth standardizing once, rather than re-deciding it per contract.
+- **Assess the bench, decide where to hire.** Measure current bench strength against what the contract requires, and decide which seats we fill internally and which we recruit for.
+- **Evaluate everyone against the role's competencies.** Current employees and outside candidates alike are measured against what the role actually needs, testing for mission fit, technical capability, consulting know-how, and AI fluency, not just a technical skill match. Someone on a subcontract today whom we hoped to move into a KP or lead slot may, on evaluation, not meet the role. When that happens, we hire outside. This needs to be said plainly and early. (This is the role-scorecard discipline from _Scaling People_: place against the role's defined competencies, not against who is available.)
+- **Set people up to succeed.** Anyone changing roles gets a job description written for the new role and the support to carry it out. Leads have input into JDs before they're finalized. Moving people without this is the recurring mistake this whole model exists to stop.
 
 **Clearance Requirements.** [Placeholder, need specifics: what clearance level does this contract require, what's the lead time to get someone cleared, and who initiates that process, recruiting, the practice lead, or the CDO.]
 
@@ -39,7 +49,9 @@ This phase sits with the CDO until Focus has a dedicated program management offi
 
 **Contract Document Distribution.** The contract, PWS/SOW, and any special clauses get distributed to the contract leads who will be managing scope day to day, not just retained by BD and the CDO.
 
-**Tooling and Systems Access.** Confirm access to client systems (e.g. client Jira, Confluence, Figma) is provisioned, and that Focus-side systems (time tracking, invoicing setup) are configured under the correct contract code, before kickoff, not discovered in week one.
+**Tooling, Systems Access, and GFE.** Confirm access to client systems (e.g. client Jira, Confluence, Figma) is provisioned, and that Focus-side systems (time tracking, invoicing setup) are configured under the correct contract code, before kickoff, not discovered in week one. Where the contract uses government furnished equipment (GFE), confirm what's being provided, who requests it, and the lead time to receive it, so people aren't waiting on laptops or access on day one.
+
+**First-90-Day Deliverables.** Identify the deliverables the contract requires within the first 90 days of the start date, and build a concrete plan to hit them. These are often where a new prime is judged, and they can't be discovered halfway through the first month.
 
 **Compliance and Reporting Setup.** If the contract has its own performance-evaluation cycle (e.g. CPARS), invoicing cadence, or reporting requirements, that gets set up at kickoff rather than retrofitted later once already behind.
 
@@ -47,9 +59,19 @@ This phase sits with the CDO until Focus has a dedicated program management offi
 
 **Ramp-Down and Knowledge Transfer.** The outgoing team executes documentation and knowledge transfer sessions on their current contract before fully shifting to the new one, so they're not arriving at the new contract still mentally and operationally tied to the old one.
 
-**Client Kickoff.** Ownership of leading the kickoff with the new client, on whatever date is set, sits with the contract lead team, not the CDO or CEO. By kickoff, key personnel need enough context (from the BD handoff, staffing decisions, and transition work above) to run it credibly themselves.
+**Client Kickoff.** Ownership of leading the kickoff with the new client, on whatever date is set, sits with the contract lead team, not the CDO or CEO. By kickoff, key personnel need enough context (from the BD handoff, staffing decisions, and transition work above) to run it credibly themselves. This only works if there's enough lead time between notice of award and the client kickoff for the leads to get through transition and into a rhythm; protect that runway when the start date is negotiated.
+
+## Team Formation: The First Weeks After Kickoff
+
+A new team forms, storms, and norms before it performs. Rather than let that happen by accident, the contract leads and key personnel spend deliberate time on it in the first weeks, before steady-state delivery sets bad habits in place.
+
+- **How the team decides and works.** Agree explicitly on decision rights, whether that's a RACI or a DACI, and on how the team operates day to day. Team building here is an investment, not overhead.
+- **Delivery operations methodology.** The contract leads and key personnel establish the methodology for this contract deliberately rather than defaulting into one.
+- **AI and tooling, up front.** Settle the AI question early: can we use AI on this engagement, does everyone have a cloud license, is everyone comfortable using it. These conversations are far cheaper in week one than retrofitted in month three.
 
 ## Steady State: Roles on a Mature Prime Contract
+
+Most government contracts run on Scrum or SAFe, and in most cases Focus assimilates into the client's existing methodology, ceremonies, and practices rather than importing its own. Expect to work inside their cadence.
 
 As a prime contract matures past initial kickoff, the **delivery lead or program manager** for that contract transitions into an **account manager** role. They own the ongoing client relationship and account, in addition to delivery. The CDO steps back from day-to-day involvement and re-engages at defined lifecycle moments (see [Option Years and Recompetes](#contract-lifecycle-triggers-option-years-and-recompetes)).
 
@@ -104,10 +126,10 @@ Where the contract leads team has not yet been trained in contract operations or
 
 Once a contract reaches steady-state operations, the CDO's involvement is intentionally lighter (per the steady-state roles above). That changes at defined lifecycle moments, when CDO involvement should temporarily increase:
 
-- **Option year exercise window.** A defined period before the government's (or client's) option year decision point, the CDO re-engages directly with the contracting officer to confirm intent to exercise, and internally to prep the contract leads and broader team for what continuation or change looks like.
-- **Recompete window.** A defined period before a recompete deadline, the CDO re-engages with BD to shape the recompete strategy, drawing on lessons and relationship context the contract leads have accumulated during steady-state delivery.
+- **Option year exercise window: at least six months out.** Six months before the option-year decision point, the responsible leader (delivery, practice, or executive) starts checking whether the contract is on track and whether the client intends to exercise: is everything good, are we on track, is there anything to dig into. The CDO re-engages with the contracting officer to confirm intent to exercise, and internally to prep the leads and team for continuation or change.
+- **Recompete window: a full year out.** A recompete needs a strategy a year in advance. Starting a year ahead, the CDO re-engages with BD to build it, drawing on the lessons and relationship context the contract leads have accumulated during steady-state delivery. The work is client intimacy, on-site visits, and understanding agency priorities and strategy, so we can position for a sole-source continuation or, if it's competed, help shape the solicitation.
 
-[Note: specific lead times for these windows should be set per contract type. ACF's option year start is October 1, 2026; the appropriate re-engagement window ahead of that date is still to be defined.]
+ACF is the live example: we're in the second option year (option year start October 1, 2026) and the contract may recompete within a year, so recompete work starts now.
 
 ## Contract Closeout / Off-Ramp
 
@@ -115,11 +137,11 @@ This phase mirrors the kickoff phase and applies whether the contract ends on sc
 
 **Closeout Notification.** Once it's known a contract is ending (lost recompete, natural conclusion, or early termination), the CDO notifies affected contract leads and staff as early as possible, given the staffing lead times referenced elsewhere in Focus's operating model (60 days for redeployment, 90 days for reductions).
 
-**Staff Redeployment Planning.** Practice leads and the CDO identify where outgoing staff can be redeployed to other contracts or roles before the contract ends, rather than waiting until the last week.
+**Continuity Planning (roughly a six-month runway).** About six months out, practice leads and the CDO start identifying where outgoing staff can be redeployed to other contracts or roles, rather than waiting until the last week. Six months is the runway that makes continuity planning real instead of a scramble; the 60/90-day figures above are the formal-notice floor, not when the thinking should start.
 
 **Client Exit and Relationship Preservation.** The CDO manages the client-facing exit conversation, regardless of why the contract is ending, with an eye toward preserving the relationship for future business. Losing a recompete is not a reason to burn the relationship; Focus may bid again or work with the client elsewhere.
 
-**Knowledge Transfer to Incoming Party.** Per applicable contract requirements (e.g. PWS-mandated transition-out provisions), ensure all project-specific knowledge and documentation is shared with the incoming contractor or client team before Focus rolls off.
+**Knowledge Transfer and Client Continuity.** Per applicable contract requirements (e.g. PWS-mandated transition-out provisions), make sure the client can keep running after we leave: the training, SOPs, and documentation they need to operate the work. If another company is taking over, transfer knowledge to them and give them a real onboarding, the way we would want an incumbent to do for us. Do this regardless of why the contract is ending.
 
 **Asset and Access Offboarding.** Confirm Focus systems, accounts, and access tied to the contract are properly closed out (time tracking, invoicing, client system access), and that anything owed to the client (final deliverables, documentation, IP per contract terms) is delivered.
 
