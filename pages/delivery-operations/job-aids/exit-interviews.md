@@ -227,7 +227,7 @@ Use these as planning targets, adapting to the situation and any applicable proc
 - [Job Aids Overview](index.md)
 - [Coaching vs. Performance vs. Systemic Issues](coaching-performance-systemic-issues.md)
 - [Giving Effective Feedback](giving-effective-feedback.md)
-- [Onboarding](../../onboarding.md)
+- [Onboarding](../../onboarding/index.md)
 - [Management & Mentorship](../../management.md)
 - [Conduct & Ethics](../../workplace.md)
 - [Incident Response](../incident-response.md)
