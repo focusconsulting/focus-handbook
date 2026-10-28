@@ -7,8 +7,16 @@ Your guide to policies, benefits, and how we work together to deliver impactful 
 ## Getting Started
 
 - [Welcome to Focus](pages/welcome.md) — Our mission, leadership team, and what makes Focus different.
-- [Onboarding](pages/onboarding.md) — Your first 90 days — what to expect, who to meet, and how to get set up.
 - [Our Work](pages/our-work.md) — Active and past client projects across government modernization, healthcare, benefits, and more.
+
+## Onboarding
+
+- [Onboarding Overview](pages/onboarding/index.md) — How onboarding works at Focus: company, practice, and contract onboarding, and what your first 90 days look like.
+  - [Company Onboarding](pages/onboarding/company.md) — Cohort week, your first day and week, and where to find people, tools, and answers.
+  - [Practice Onboarding](pages/onboarding/practice.md) — Getting oriented in Engineering, Design, or Delivery.
+  - [Contract Onboarding](pages/onboarding/contract.md) — Getting set up on your client engagement, including Nava subcontracts and JV work.
+  - [New Hire Checklist](pages/onboarding/checklist.md) — Who does what, from the week before you start through day 90.
+  - [Onboarding Buddies](pages/onboarding/buddies.md) — What a buddy does, the check-in cadence, and do's and don'ts.
 
 ## How We Work
 
@@ -62,12 +70,6 @@ Your guide to policies, benefits, and how we work together to deliver impactful 
     - [AI Policy Addendum Template](pages/it-operations/ai-policy/addendum-template.md) — Reusable template for tightening the company policy on a specific engagement.
     - [Addendum: NJ UI](pages/it-operations/ai-policy/nj-ui.md) — Project-specific AI policy for the NJ UI engagement.
     - [Addendum: MN Paid Leave](pages/it-operations/ai-policy/mn-paid-leave.md) — Project-specific AI policy for the MN Paid Leave engagement.
-
-## People Strategy
-
-- [People Strategy](pages/people-strategy.md) — Recruiting, workforce planning, and how we grow the team.
-- [Bonus Guide](pages/bonus-guide.md) — How bonuses are calculated and distributed.
-- [Clearance Guide](pages/clearance-guide.md) — Process and expectations for employees pursuing or holding security clearances.
 
 ## State & Local Policies
 
