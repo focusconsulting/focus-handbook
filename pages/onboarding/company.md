@@ -53,6 +53,10 @@ Beyond those, join the public channels that match your interests. They're the ea
 | Interest | Channels |
 | --- | --- |
 | Off-topic | `#random` |
+| Parenting | `#parents` |
+| Pets | `#pets` |
+| Food | `#recipes-and-good-eats` |
+| Sports | `#sports` |
 | Location | `#dc` for the DC area, `#dc-outsiders` for everyone else |
 | Engineering | `#engineering`, `#temporal-engineering` |
 | AI | `#ai-working-group`, `#ai-playbooks`, `#ai-in-products`, `#ai-in-the-news`, `#random-ai`, `#local-ai` |
