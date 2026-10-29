@@ -55,8 +55,6 @@ Beyond those, join the public channels that match your interests. They're the ea
 | Off-topic | `#random` |
 | Location | `#dc` for the DC area, `#dc-outsiders` for everyone else |
 | Engineering | `#engineering`, `#temporal-engineering`, `#engineering-interviewing-working-group` |
-| Design and UX | `#ux-team` |
-| Delivery | `#delivery-community-of-practice` |
 | AI | `#ai-working-group`, `#ai-playbooks`, `#ai-in-products`, `#ai-in-the-news`, `#random-ai`, `#local-ai` |
 | Claude | `#claude-code`, `#claude-architect-exam-prep` |
 | Government contracting | `#bd-govcon-news-and-intel` |
