@@ -46,18 +46,22 @@ The People Operations session is a hands-on walkthrough of the administrative si
 
 ## Finding Your People
 
-Focus is remote-first, so most company conversation happens in Slack.
+Focus is remote-first, so most company conversation happens in Slack. You'll be added to `#general` and `#announcements` automatically, and to a Focus-internal channel for your project.
 
-| Channel | What it's for |
+Beyond those, join the public channels that match your interests. They're the easiest way to find peers outside your project.
+
+| Interest | Channels |
 | --- | --- |
-| `#general` | Company-wide conversation, and the place to ask if you're not sure where to ask |
-| `#announcements` | Company news from leadership and People Operations |
-| `#delivery-community-of-practice` | Delivery practice community |
-| `#ai-working-group`, `#ai-playbooks`, `#ai-in-the-news` | AI practice, tooling, and news |
-| `#ai-tool-approval` | Requesting approval for new AI tools (see the [AI Policy](../it-operations/ai-policy/)) |
-| `#bd-govcon-news-and-intel` | Government contracting news and business development |
+| Off-topic | `#random` |
+| Location | `#dc` for the DC area, `#dc-outsiders` for everyone else |
+| Engineering | `#engineering`, `#temporal-engineering`, `#engineering-interviewing-working-group` |
+| Design and UX | `#ux-team` |
+| Delivery | `#delivery-community-of-practice` |
+| AI | `#ai-working-group`, `#ai-playbooks`, `#ai-in-products`, `#ai-in-the-news`, `#random-ai`, `#local-ai` |
+| Claude | `#claude-code`, `#claude-architect-exam-prep` |
+| Government contracting | `#bd-govcon-news-and-intel` |
 
-You'll also be added to your practice channel and to a Focus-internal channel for your project. Your buddy can point you to other interest channels.
+Browse all public channels in Slack to find more, and ask your buddy which ones are most active.
 
 ## Where to Get Answers
 
