@@ -44,9 +44,9 @@ Managers: make a copy of this checklist for each new hire and share it with them
 
 | Task | Owner |
 | --- | --- |
-| Mission, values, and how we work | CEO |
-| Engineering, Delivery, and Design practice intros | Practice leads |
-| People Operations walkthrough: Rippling, timesheets, benefits, PTO, JV systems | People Operations |
+| Focus mission and values | CEO |
+| Intro to Engineering, Delivery, and Design at Focus | CTO, CDO, Head of Design |
+| People Operations walkthrough: Rippling, timesheets, benefits, PTO, JV systems | Business Operations Lead |
 
 ## Weeks 2–4
 

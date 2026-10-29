@@ -6,13 +6,13 @@ _How you get oriented to Focus as a company: cohort week, your first day and wee
 
 Focus runs company onboarding sessions during the **second week of every month**. Everyone who started since the last cohort attends together, so you meet the other new hires along with leadership.
 
-| Day | Session | Led by |
-| --- | --- | --- |
-| Monday | Focus mission, values, and how we work | CEO |
-| Tuesday | Intro to the Engineering practice | Engineering practice lead |
-| Wednesday | Intro to the Delivery practice | Delivery practice lead |
-| Thursday | People Operations walkthrough | Meg Greenberg, People Operations |
-| Friday | Intro to the Design practice | Design practice lead |
+| Session | Led by |
+| --- | --- |
+| Focus mission and values | CEO |
+| Intro to Engineering at Focus | CTO |
+| Intro to Delivery at Focus | CDO |
+| Intro to Design at Focus | Head of Design |
+| People Operations walkthrough | Business Operations Lead |
 
 Sessions are live so you can ask questions and get to know your cohort. If you can't attend one, ask your buddy for the recording.
 
@@ -20,7 +20,7 @@ You'll get calendar invites through the Focus onboarding calendar. If you start 
 
 ### The People Operations Session
 
-The Thursday session is a hands-on walkthrough of the administrative side of working at Focus:
+The People Operations session is a hands-on walkthrough of the administrative side of working at Focus:
 
 - **Rippling:** your profile, pay stubs, documents, and where to update personal information
 - **Timesheets:** how and when to record time, and how Focus timekeeping relates to any contract-specific timekeeping (see [Invoicing & Timekeeping](../invoicing.md))
